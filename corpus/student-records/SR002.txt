@@ -1,0 +1,138 @@
+Student Record ID: SR002
+Roll Number: 2520000002
+Name: Manish Sinha
+Department: Computer Science and Engineering
+Program: B.Tech
+Year: 2
+Section: C
+Academic Status: Active
+
+Email: student002@example.edu
+Location: Warangal, Telangana
+
+Skills: JavaScript, User Research, Problem Solving, Python, Software Engineering, Image Processing, Deep Learning, CSS
+Programming Languages: JavaScript, C++, SQL, C
+Technical Interests: Technology Research, Information Retrieval, Human Computer Interaction, Software Development, Problem Solving
+Academic Interests: Operating Systems, Machine Learning, Distributed Systems, Software Engineering, Cloud Computing
+Research Interests: Pattern Matching, Algorithm Optimization, Intelligent Systems, Search Performance Analysis
+
+Project 1: Document Image Processing Tool
+
+Project Description:
+The Document Image Processing Tool is an academic prototype focused on computer vision. It organizes relevant information, processes structured records, and provides search or retrieval capabilities for common user queries. The project demonstrates practical application of programming, data structures, algorithms, validation, and modular software design.
+
+Project Objectives:
+The objective of the project is to build a practical academic solution that reduces manual effort,
+improves information organization, and demonstrates the application of data structures, algorithms,
+and software engineering concepts to a real information-processing problem.
+
+Project Role:
+The student contributed to data organization, implementation, testing, documentation, and search or
+retrieval functionality. The project included sample-data testing, validation, debugging, and analysis
+of different user query scenarios.
+
+Technologies Used:
+Object-Oriented Programming, Deep Learning, Text Processing, Python, Software Engineering, Java, JavaScript
+
+Project Outcome:
+The prototype demonstrated how structured data, appropriate data structures, and algorithmic techniques
+can be combined to build a practical software solution. The system was evaluated using multiple sample
+records and different search or retrieval scenarios.
+
+Project 2: Student Portal UX Prototype
+
+Project Description:
+The Student Portal UX Prototype is a related academic prototype focused on human computer interaction. It demonstrates
+structured record processing, modular implementation, testing, and retrieval of relevant information.
+The project emphasizes clear data representation and practical problem solving.
+
+Project Role:
+The student participated in implementation, testing, documentation, debugging, and performance analysis.
+The work involved organizing project data and developing reliable processing and retrieval logic.
+
+Current Project: Intelligent Student Record Search System
+
+Project Description:
+The Intelligent Student Record Search System is a Data Structures and Algorithms project designed to search and retrieve information from a collection of student profile documents. Instead of restricting search to only a roll number or name, the system treats the complete student profile as searchable text. Each document contains academic details, skills, project descriptions, certifications, interests, achievements, and career information. These documents form the student-record corpus used for pattern and string-matching experiments.
+
+Problem Context:
+Educational institutions maintain large collections of student information distributed across academic
+records, skills, projects, certifications, achievements, and interests. As the number of student records
+increases, manually locating relevant information becomes time-consuming. The project demonstrates how
+string-matching algorithms can support efficient text-based retrieval across a student record corpus.
+
+Search Problem:
+Given a search pattern P and a collection of student record documents, the system searches the text of
+each document to determine whether P occurs within the student profile.
+
+Example Search Patterns:
+Java
+Python
+Data Structures
+Machine Learning
+Artificial Intelligence
+Information Retrieval
+Cyber Security
+Cloud Computing
+Software Engineering
+Pattern Matching
+Database Systems
+Project Management
+
+KMP Implementation:
+The Knuth-Morris-Pratt algorithm preprocesses the search pattern using the Longest Proper Prefix which
+is also Suffix (LPS) array. The LPS information allows the search procedure to avoid unnecessary
+comparisons after a mismatch.
+
+Rabin-Karp Implementation:
+The Rabin-Karp algorithm uses a rolling hash to compare the search pattern with windows of text.
+Candidate matches are identified through hash values and can be verified character by character.
+
+Corpus-Based Searching:
+Each TXT document represents one student profile. The corpus contains multiple structured fields and
+descriptive paragraphs so that pattern matching is evaluated on meaningful text rather than a single
+hard-coded string.
+
+Algorithm Comparison:
+The same query can be processed using KMP and Rabin-Karp. The system verifies that both algorithms
+identify the same matching documents and can record execution time and operation counts for comparison.
+
+Expected Outcome:
+The expected outcome is a Java-based search engine capable of scanning the student-record corpus and
+identifying relevant documents for a given search pattern. The implementation provides a practical
+demonstration of advanced string-matching concepts and creates a foundation for future extensions such
+as fuzzy search, autocomplete, indexing, and ranking.
+
+Certifications:
+Java Programming, Data Structures and Algorithms, Git and Version Control
+
+Workshops:
+Data Structures and Algorithms Workshop
+Java Development Workshop
+Machine Learning Workshop
+
+Achievements:
+Hackathon Participant, Coding Contest Participant, Inter-College Coding Event Participant
+
+Extracurricular Activities:
+Technical Community Member, Hackathon Participant, Project Expo Volunteer
+
+Career Interests:
+Search Systems, Information Retrieval, Backend Development, Computer Vision
+
+Career Goal:
+To develop strong expertise in software engineering, algorithms, scalable applications, and intelligent
+information retrieval systems and to contribute to practical technology solutions.
+
+Languages Known:
+English, Hindi, Telugu
+
+Personal Interests:
+Information Retrieval, Competitive Programming, Open Source Software, Problem Solving, Search Systems
+
+Profile Summary:
+Manish Sinha is a 2-year Computer Science and Engineering student interested in computer vision,
+algorithms, and practical software development. The student has academic exposure to
+JavaScript, User Research, Problem Solving, Python, Software Engineering and has worked on projects involving structured data, text processing,
+search, and information retrieval. This profile is synthetic sample data created for testing the
+Intelligent Student Record Search System and its pattern-matching algorithms.

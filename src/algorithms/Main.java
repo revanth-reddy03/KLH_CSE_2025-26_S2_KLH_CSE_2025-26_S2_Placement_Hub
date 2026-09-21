@@ -95,38 +95,50 @@ public class Main {
         System.out.println("[7] Suffix Array: Indexing Student Profile & Substring Search");
         System.out.println("--------------------------------------------------------------------------------");
         SuffixArray sa = new SuffixArray(sampleStudent.getFullText());
-        String queryTerm = "LeetCode";
+        String queryTerm = "KMP Implementation";
         boolean hasTerm = sa.contains(queryTerm);
         System.out.printf("Does %s's profile contain '%s'? %s\n", sampleStudent.getName(), queryTerm, hasTerm ? "YES" : "NO");
 
-        // 8. Bipartite Matching & Network Flow (Placement Allocation)
+        // 8. Bipartite Matching & Network Flow (Role Allocation)
         System.out.println("\n--------------------------------------------------------------------------------");
-        System.out.println("[8] Bipartite Matching & Network Flow: Student-Company Placement Allocation");
+        System.out.println("[8] Bipartite Matching & Network Flow: Student-to-Role Placement Allocation");
         System.out.println("--------------------------------------------------------------------------------");
 
-        // Consider top 10 students and 5 company roles
+        // Consider top 10 students and 5 technical roles
         int nStudents = Math.min(10, records.size());
-        String[] companies = {"Google (SDE)", "Microsoft (SWE)", "Amazon (SDE-1)", "Cisco (NetDev)", "TCS (Digital)"};
-        double[] cutoffs = {8.5, 8.0, 7.8, 7.5, 6.5};
+        String[] roles = {
+            "Computer Vision Engineer",
+            "Machine Learning Researcher",
+            "Full Stack Engineer",
+            "Systems & Cloud Architect",
+            "Software Development Engineer"
+        };
+        String[] requiredSkills = {
+            "Image Processing",
+            "Machine Learning",
+            "JavaScript",
+            "Distributed Systems",
+            "Software Engineering"
+        };
 
-        boolean[][] bipartiteMatrix = new boolean[nStudents][companies.length];
+        boolean[][] bipartiteMatrix = new boolean[nStudents][roles.length];
         for (int i = 0; i < nStudents; i++) {
             CorpusLoader.StudentRecord s = records.get(i);
-            for (int j = 0; j < companies.length; j++) {
-                if (s.getCgpa() >= cutoffs[j] && s.getBacklogs() == 0) {
+            for (int j = 0; j < roles.length; j++) {
+                if (s.getFullText().contains(requiredSkills[j])) {
                     bipartiteMatrix[i][j] = true;
                 }
             }
         }
 
-        BipartiteMatching bm = new BipartiteMatching(nStudents, companies.length, bipartiteMatrix);
+        BipartiteMatching bm = new BipartiteMatching(nStudents, roles.length, bipartiteMatrix);
         int matchedCount = bm.computeMaxMatching();
-        System.out.printf("Maximum Bipartite Matching Result: %d / %d companies filled.\n", matchedCount, companies.length);
+        System.out.printf("Maximum Bipartite Matching Result: %d / %d roles filled.\n", matchedCount, roles.length);
         int[] studentAllocations = bm.getStudentMatches();
         for (int i = 0; i < nStudents; i++) {
             if (studentAllocations[i] != -1) {
-                System.out.printf("  ✓ %-18s (CGPA: %.2f) matched with -> %s\n",
-                        records.get(i).getName(), records.get(i).getCgpa(), companies[studentAllocations[i]]);
+                System.out.printf("  ✓ %-18s (Roll: %s) matched with -> %s\n",
+                        records.get(i).getName(), records.get(i).getRollNumber(), roles[studentAllocations[i]]);
             }
         }
 
@@ -134,8 +146,8 @@ public class Main {
         System.out.println("\n--------------------------------------------------------------------------------");
         System.out.println("[9] Max Flow Algorithms (Dinic, Edmonds-Karp, Ford-Fulkerson)");
         System.out.println("--------------------------------------------------------------------------------");
-        // Network: Source (0) -> Students (1..nStudents) -> Companies -> Sink
-        int totalNodes = 1 + nStudents + companies.length + 1;
+        // Network: Source (0) -> Students (1..nStudents) -> Roles -> Sink
+        int totalNodes = 1 + nStudents + roles.length + 1;
         int source = 0;
         int sink = totalNodes - 1;
         int compOffset = 1 + nStudents;
@@ -148,8 +160,8 @@ public class Main {
             capacity[source][1 + i] = 1;
             dinic.addEdge(source, 1 + i, 1);
 
-            // Student to company
-            for (int j = 0; j < companies.length; j++) {
+            // Student to role
+            for (int j = 0; j < roles.length; j++) {
                 if (bipartiteMatrix[i][j]) {
                     capacity[1 + i][compOffset + j] = 1;
                     dinic.addEdge(1 + i, compOffset + j, 1);
@@ -157,11 +169,11 @@ public class Main {
             }
         }
 
-        // Company to sink (vacancies: e.g. 2 per company)
-        int vacancyPerComp = 2;
-        for (int j = 0; j < companies.length; j++) {
-            capacity[compOffset + j][sink] = vacancyPerComp;
-            dinic.addEdge(compOffset + j, sink, vacancyPerComp);
+        // Role to sink (quota: e.g. 2 per role)
+        int quotaPerRole = 2;
+        for (int j = 0; j < roles.length; j++) {
+            capacity[compOffset + j][sink] = quotaPerRole;
+            dinic.addEdge(compOffset + j, sink, quotaPerRole);
         }
 
         int dinicFlow = dinic.computeMaxFlow(source, sink);
