@@ -1,0 +1,39 @@
+================================================================================
+STUDENT RECORD: STU1001
+================================================================================
+Candidate Name   : Siddharth Kumar
+Student ID       : STU1001
+Email            : siddharth.kumar79@university.edu
+Phone            : +91-9858140507
+Department       : Electrical and Electronics Engineering (EEE)
+CGPA             : 6.42 / 10.00
+Active Backlogs  : 0
+Aptitude Score   : 76 / 100
+Coding Score     : 76 / 100
+
+SUMMARY / PROFILE STATEMENT:
+Energetic and results-driven EEE undergraduate with solid foundation in Data Structures,
+Algorithms, and software design. Demonstrates practical expertise in Computer Networks, Microservices, Deep Learning,
+with hands-on project experience in designing modular, scalable systems.
+
+TECHNICAL SKILLS:
+Computer Networks, Microservices, Deep Learning, React, Machine Learning, JavaScript, C++
+
+ACADEMIC & TECHNICAL PROJECTS:
+1. Real-Time Stock Market Data Pipeline
+   Tech Stack  : Python, Kafka, Redis, AWS, Docker
+   Description : Created an event-driven data streaming pipeline processing over 50,000 tick updates per second with sub-millisecond Redis caching.
+2. AI-Powered Resume Screener
+   Tech Stack  : Python, Machine Learning, NLP, Flask, React, Docker
+   Description : Implemented an automated NLP resume parser scoring candidate resumes against job descriptions with 92% semantic accuracy.
+
+WORK EXPERIENCE / INTERNSHIPS:
+- Role        : Machine Learning Intern
+  Organization: DataAI Corp
+  Details     : Trained transformer-based classification models and built ETL pipelines on AWS with Docker and Airflow.
+
+CERTIFICATIONS & ACHIEVEMENTS:
+- Oracle Certified Professional: Java SE 17 Developer
+- DeepLearning.AI Machine Learning Specialization
+- Solved 152+ problems on LeetCode & Codeforces across dynamic programming, trees, and graphs.
+================================================================================

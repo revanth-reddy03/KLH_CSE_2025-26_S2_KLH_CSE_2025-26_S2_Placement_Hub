@@ -1,0 +1,39 @@
+================================================================================
+STUDENT RECORD: STU1015
+================================================================================
+Candidate Name   : Sanjay Mishra
+Student ID       : STU1015
+Email            : sanjay.mishra98@university.edu
+Phone            : +91-9821717913
+Department       : Information Technology (IT)
+CGPA             : 6.56 / 10.00
+Active Backlogs  : 0
+Aptitude Score   : 60 / 100
+Coding Score     : 63 / 100
+
+SUMMARY / PROFILE STATEMENT:
+Energetic and results-driven IT undergraduate with solid foundation in Data Structures,
+Algorithms, and software design. Demonstrates practical expertise in Linux, SQL, Computer Networks,
+with hands-on project experience in designing modular, scalable systems.
+
+TECHNICAL SKILLS:
+Linux, SQL, Computer Networks, Docker, Spring Boot
+
+ACADEMIC & TECHNICAL PROJECTS:
+1. Distributed Key-Value Store
+   Tech Stack  : C++, Distributed Systems, Computer Networks, Linux
+   Description : Engineered a fault-tolerant Raft-based distributed consensus key-value cache supporting replication and dynamic clustering.
+2. AI-Powered Resume Screener
+   Tech Stack  : Python, Machine Learning, NLP, Flask, React, Docker
+   Description : Implemented an automated NLP resume parser scoring candidate resumes against job descriptions with 92% semantic accuracy.
+
+WORK EXPERIENCE / INTERNSHIPS:
+- Role        : Machine Learning Intern
+  Organization: DataAI Corp
+  Details     : Trained transformer-based classification models and built ETL pipelines on AWS with Docker and Airflow.
+
+CERTIFICATIONS & ACHIEVEMENTS:
+- Google Cloud Associate Cloud Engineer
+- AWS Certified Solutions Architect Associate
+- Solved 237+ problems on LeetCode & Codeforces across dynamic programming, trees, and graphs.
+================================================================================

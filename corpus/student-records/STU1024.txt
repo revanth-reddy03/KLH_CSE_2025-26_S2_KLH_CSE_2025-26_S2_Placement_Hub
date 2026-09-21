@@ -1,0 +1,38 @@
+================================================================================
+STUDENT RECORD: STU1024
+================================================================================
+Candidate Name   : Tanvi Patil
+Student ID       : STU1024
+Email            : tanvi.patil42@university.edu
+Phone            : +91-9880614849
+Department       : Mechanical Engineering (MECH)
+CGPA             : 8.00 / 10.00
+Active Backlogs  : 0
+Aptitude Score   : 57 / 100
+Coding Score     : 58 / 100
+
+SUMMARY / PROFILE STATEMENT:
+Energetic and results-driven MECH undergraduate with solid foundation in Data Structures,
+Algorithms, and software design. Demonstrates practical expertise in Spring Boot, React, Microservices,
+with hands-on project experience in designing modular, scalable systems.
+
+TECHNICAL SKILLS:
+Spring Boot, React, Microservices, Node.js, Python, DBMS, REST API, Redis
+
+ACADEMIC & TECHNICAL PROJECTS:
+1. E-Commerce Microservices Platform
+   Tech Stack  : Java, Spring Boot, Docker, PostgreSQL, Kafka, REST API
+   Description : Designed and built high-throughput microservices handling user authentication, order processing, and payment gateway integration.
+2. AI-Powered Resume Screener
+   Tech Stack  : Python, Machine Learning, NLP, Flask, React, Docker
+   Description : Implemented an automated NLP resume parser scoring candidate resumes against job descriptions with 92% semantic accuracy.
+
+WORK EXPERIENCE / INTERNSHIPS:
+- Role        : Full Stack Developer Intern
+  Organization: FinTech Solutions Labs
+  Details     : Built responsive React dashboards and Spring Boot REST APIs handling financial transactions and compliance audits.
+
+CERTIFICATIONS & ACHIEVEMENTS:
+- DeepLearning.AI Machine Learning Specialization
+- Solved 304+ problems on LeetCode & Codeforces across dynamic programming, trees, and graphs.
+================================================================================

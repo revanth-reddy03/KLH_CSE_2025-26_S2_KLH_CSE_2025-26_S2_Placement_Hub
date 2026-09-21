@@ -1,0 +1,38 @@
+================================================================================
+STUDENT RECORD: STU1048
+================================================================================
+Candidate Name   : Deepika Verma
+Student ID       : STU1048
+Email            : deepika.verma59@university.edu
+Phone            : +91-9816347458
+Department       : Electronics and Communication Engineering (ECE)
+CGPA             : 9.86 / 10.00
+Active Backlogs  : 0
+Aptitude Score   : 81 / 100
+Coding Score     : 95 / 100
+
+SUMMARY / PROFILE STATEMENT:
+Energetic and results-driven ECE undergraduate with solid foundation in Data Structures,
+Algorithms, and software design. Demonstrates practical expertise in Java, Operating Systems, Redis,
+with hands-on project experience in designing modular, scalable systems.
+
+TECHNICAL SKILLS:
+Java, Operating Systems, Redis, AWS, Computer Networks, SQL, Node.js, TensorFlow
+
+ACADEMIC & TECHNICAL PROJECTS:
+1. Algorithmic Trading Bot
+   Tech Stack  : Python, Machine Learning, Deep Learning, NumPy, SQL
+   Description : Implemented quantitative backtesting framework and trend-following momentum models for high-frequency algorithmic trading.
+2. Collaborative Code Editor
+   Tech Stack  : JavaScript, Node.js, React, WebSockets, Docker
+   Description : Constructed a multi-user in-browser code editor with operational transformation, syntax highlighting, and live compilation.
+
+WORK EXPERIENCE / INTERNSHIPS:
+No prior corporate internship. Focused on open-source contributions, competitive programming,
+and academic laboratory projects.
+
+CERTIFICATIONS & ACHIEVEMENTS:
+- HackerRank 6-Star Problem Solving (DSA)
+- Certified Kubernetes Application Developer (CKAD)
+- Solved 392+ problems on LeetCode & Codeforces across dynamic programming, trees, and graphs.
+================================================================================

@@ -1,0 +1,38 @@
+================================================================================
+STUDENT RECORD: STU1055
+================================================================================
+Candidate Name   : Rakesh Singh
+Student ID       : STU1055
+Email            : rakesh.singh44@university.edu
+Phone            : +91-9876082346
+Department       : Electrical and Electronics Engineering (EEE)
+CGPA             : 7.21 / 10.00
+Active Backlogs  : 0
+Aptitude Score   : 54 / 100
+Coding Score     : 56 / 100
+
+SUMMARY / PROFILE STATEMENT:
+Energetic and results-driven EEE undergraduate with solid foundation in Data Structures,
+Algorithms, and software design. Demonstrates practical expertise in Kubernetes, JavaScript, MongoDB,
+with hands-on project experience in designing modular, scalable systems.
+
+TECHNICAL SKILLS:
+Kubernetes, JavaScript, MongoDB, Java, Redis, AWS, REST API, HTML/CSS, PostgreSQL
+
+ACADEMIC & TECHNICAL PROJECTS:
+1. Campus Placement Hub & Analytics
+   Tech Stack  : Java, DSA, SQL, HTML/CSS, DBMS, Spring Boot
+   Description : Architected a real-time placement portal implementing priority queues, student matching algorithms, and interview scheduling workflows.
+2. AI-Powered Resume Screener
+   Tech Stack  : Python, Machine Learning, NLP, Flask, React, Docker
+   Description : Implemented an automated NLP resume parser scoring candidate resumes against job descriptions with 92% semantic accuracy.
+
+WORK EXPERIENCE / INTERNSHIPS:
+- Role        : Backend Engineering Intern
+  Organization: DevCloud Networks
+  Details     : Refactored legacy database queries in PostgreSQL, designed indexing strategies, and automated CI/CD pipeline deployments.
+
+CERTIFICATIONS & ACHIEVEMENTS:
+- Meta Front-End Developer Professional Certificate
+- Solved 401+ problems on LeetCode & Codeforces across dynamic programming, trees, and graphs.
+================================================================================

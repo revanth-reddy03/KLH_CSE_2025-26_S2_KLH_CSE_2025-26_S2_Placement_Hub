@@ -1,0 +1,38 @@
+================================================================================
+STUDENT RECORD: STU1028
+================================================================================
+Candidate Name   : Sahil Bose
+Student ID       : STU1028
+Email            : sahil.bose32@university.edu
+Phone            : +91-9896969917
+Department       : Electronics and Communication Engineering (ECE)
+CGPA             : 6.20 / 10.00
+Active Backlogs  : 0
+Aptitude Score   : 76 / 100
+Coding Score     : 55 / 100
+
+SUMMARY / PROFILE STATEMENT:
+Energetic and results-driven ECE undergraduate with solid foundation in Data Structures,
+Algorithms, and software design. Demonstrates practical expertise in Data Structures, React, HTML/CSS,
+with hands-on project experience in designing modular, scalable systems.
+
+TECHNICAL SKILLS:
+Data Structures, React, HTML/CSS, DBMS, Microservices, DSA, AWS
+
+ACADEMIC & TECHNICAL PROJECTS:
+1. Distributed Key-Value Store
+   Tech Stack  : C++, Distributed Systems, Computer Networks, Linux
+   Description : Engineered a fault-tolerant Raft-based distributed consensus key-value cache supporting replication and dynamic clustering.
+2. Campus Placement Hub & Analytics
+   Tech Stack  : Java, DSA, SQL, HTML/CSS, DBMS, Spring Boot
+   Description : Architected a real-time placement portal implementing priority queues, student matching algorithms, and interview scheduling workflows.
+
+WORK EXPERIENCE / INTERNSHIPS:
+- Role        : Full Stack Developer Intern
+  Organization: FinTech Solutions Labs
+  Details     : Built responsive React dashboards and Spring Boot REST APIs handling financial transactions and compliance audits.
+
+CERTIFICATIONS & ACHIEVEMENTS:
+- Meta Front-End Developer Professional Certificate
+- Solved 401+ problems on LeetCode & Codeforces across dynamic programming, trees, and graphs.
+================================================================================

@@ -1,0 +1,37 @@
+================================================================================
+STUDENT RECORD: STU1002
+================================================================================
+Candidate Name   : Rakesh Choudhury
+Student ID       : STU1002
+Email            : rakesh.choudhury48@university.edu
+Phone            : +91-9838420302
+Department       : Computer Science and Engineering (CSE)
+CGPA             : 8.34 / 10.00
+Active Backlogs  : 0
+Aptitude Score   : 75 / 100
+Coding Score     : 52 / 100
+
+SUMMARY / PROFILE STATEMENT:
+Energetic and results-driven CSE undergraduate with solid foundation in Data Structures,
+Algorithms, and software design. Demonstrates practical expertise in System Design, Deep Learning, Data Structures,
+with hands-on project experience in designing modular, scalable systems.
+
+TECHNICAL SKILLS:
+System Design, Deep Learning, Data Structures, Node.js, HTML/CSS, C++, PostgreSQL
+
+ACADEMIC & TECHNICAL PROJECTS:
+1. Collaborative Code Editor
+   Tech Stack  : JavaScript, Node.js, React, WebSockets, Docker
+   Description : Constructed a multi-user in-browser code editor with operational transformation, syntax highlighting, and live compilation.
+2. E-Commerce Microservices Platform
+   Tech Stack  : Java, Spring Boot, Docker, PostgreSQL, Kafka, REST API
+   Description : Designed and built high-throughput microservices handling user authentication, order processing, and payment gateway integration.
+
+WORK EXPERIENCE / INTERNSHIPS:
+No prior corporate internship. Focused on open-source contributions, competitive programming,
+and academic laboratory projects.
+
+CERTIFICATIONS & ACHIEVEMENTS:
+- Certified Kubernetes Application Developer (CKAD)
+- Solved 137+ problems on LeetCode & Codeforces across dynamic programming, trees, and graphs.
+================================================================================

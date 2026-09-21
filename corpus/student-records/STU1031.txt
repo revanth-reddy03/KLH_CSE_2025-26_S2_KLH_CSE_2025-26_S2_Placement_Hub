@@ -1,0 +1,39 @@
+================================================================================
+STUDENT RECORD: STU1031
+================================================================================
+Candidate Name   : Rohit Sharma
+Student ID       : STU1031
+Email            : rohit.sharma39@university.edu
+Phone            : +91-9860271725
+Department       : Electronics and Communication Engineering (ECE)
+CGPA             : 9.01 / 10.00
+Active Backlogs  : 0
+Aptitude Score   : 80 / 100
+Coding Score     : 89 / 100
+
+SUMMARY / PROFILE STATEMENT:
+Energetic and results-driven ECE undergraduate with solid foundation in Data Structures,
+Algorithms, and software design. Demonstrates practical expertise in AWS, MongoDB, PostgreSQL,
+with hands-on project experience in designing modular, scalable systems.
+
+TECHNICAL SKILLS:
+AWS, MongoDB, PostgreSQL, Data Structures, Machine Learning, JavaScript, Git, Microservices
+
+ACADEMIC & TECHNICAL PROJECTS:
+1. Algorithmic Trading Bot
+   Tech Stack  : Python, Machine Learning, Deep Learning, NumPy, SQL
+   Description : Implemented quantitative backtesting framework and trend-following momentum models for high-frequency algorithmic trading.
+2. Collaborative Code Editor
+   Tech Stack  : JavaScript, Node.js, React, WebSockets, Docker
+   Description : Constructed a multi-user in-browser code editor with operational transformation, syntax highlighting, and live compilation.
+
+WORK EXPERIENCE / INTERNSHIPS:
+- Role        : Full Stack Developer Intern
+  Organization: FinTech Solutions Labs
+  Details     : Built responsive React dashboards and Spring Boot REST APIs handling financial transactions and compliance audits.
+
+CERTIFICATIONS & ACHIEVEMENTS:
+- Meta Front-End Developer Professional Certificate
+- Oracle Certified Professional: Java SE 17 Developer
+- Solved 373+ problems on LeetCode & Codeforces across dynamic programming, trees, and graphs.
+================================================================================

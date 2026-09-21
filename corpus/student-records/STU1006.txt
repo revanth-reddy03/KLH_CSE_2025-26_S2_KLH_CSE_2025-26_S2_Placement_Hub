@@ -1,0 +1,38 @@
+================================================================================
+STUDENT RECORD: STU1006
+================================================================================
+Candidate Name   : Sourav Sharma
+Student ID       : STU1006
+Email            : sourav.sharma38@university.edu
+Phone            : +91-9879303793
+Department       : Computer Science and Engineering (CSE)
+CGPA             : 6.51 / 10.00
+Active Backlogs  : 0
+Aptitude Score   : 72 / 100
+Coding Score     : 65 / 100
+
+SUMMARY / PROFILE STATEMENT:
+Energetic and results-driven CSE undergraduate with solid foundation in Data Structures,
+Algorithms, and software design. Demonstrates practical expertise in Git, Java, JavaScript,
+with hands-on project experience in designing modular, scalable systems.
+
+TECHNICAL SKILLS:
+Git, Java, JavaScript, PostgreSQL, Kafka
+
+ACADEMIC & TECHNICAL PROJECTS:
+1. Campus Placement Hub & Analytics
+   Tech Stack  : Java, DSA, SQL, HTML/CSS, DBMS, Spring Boot
+   Description : Architected a real-time placement portal implementing priority queues, student matching algorithms, and interview scheduling workflows.
+2. Smart IoT Healthcare Monitor
+   Tech Stack  : C++, Python, Embedded Systems, MQTT, AWS
+   Description : Developed IoT edge device streaming telemetry data (ECG, pulse, temperature) securely to AWS cloud dashboard.
+
+WORK EXPERIENCE / INTERNSHIPS:
+No prior corporate internship. Focused on open-source contributions, competitive programming,
+and academic laboratory projects.
+
+CERTIFICATIONS & ACHIEVEMENTS:
+- Certified Kubernetes Application Developer (CKAD)
+- Meta Front-End Developer Professional Certificate
+- Solved 273+ problems on LeetCode & Codeforces across dynamic programming, trees, and graphs.
+================================================================================

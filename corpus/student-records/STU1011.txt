@@ -1,0 +1,38 @@
+================================================================================
+STUDENT RECORD: STU1011
+================================================================================
+Candidate Name   : Ishita Nair
+Student ID       : STU1011
+Email            : ishita.nair13@university.edu
+Phone            : +91-9835616877
+Department       : Electronics and Communication Engineering (ECE)
+CGPA             : 8.27 / 10.00
+Active Backlogs  : 0
+Aptitude Score   : 82 / 100
+Coding Score     : 84 / 100
+
+SUMMARY / PROFILE STATEMENT:
+Energetic and results-driven ECE undergraduate with solid foundation in Data Structures,
+Algorithms, and software design. Demonstrates practical expertise in Cybersecurity, MongoDB, System Design,
+with hands-on project experience in designing modular, scalable systems.
+
+TECHNICAL SKILLS:
+Cybersecurity, MongoDB, System Design, SQL, AWS
+
+ACADEMIC & TECHNICAL PROJECTS:
+1. Smart IoT Healthcare Monitor
+   Tech Stack  : C++, Python, Embedded Systems, MQTT, AWS
+   Description : Developed IoT edge device streaming telemetry data (ECG, pulse, temperature) securely to AWS cloud dashboard.
+2. Collaborative Code Editor
+   Tech Stack  : JavaScript, Node.js, React, WebSockets, Docker
+   Description : Constructed a multi-user in-browser code editor with operational transformation, syntax highlighting, and live compilation.
+
+WORK EXPERIENCE / INTERNSHIPS:
+No prior corporate internship. Focused on open-source contributions, competitive programming,
+and academic laboratory projects.
+
+CERTIFICATIONS & ACHIEVEMENTS:
+- Certified Kubernetes Application Developer (CKAD)
+- HackerRank 6-Star Problem Solving (DSA)
+- Solved 142+ problems on LeetCode & Codeforces across dynamic programming, trees, and graphs.
+================================================================================

@@ -1,0 +1,38 @@
+================================================================================
+STUDENT RECORD: STU1033
+================================================================================
+Candidate Name   : Kiran Mishra
+Student ID       : STU1033
+Email            : kiran.mishra42@university.edu
+Phone            : +91-9868837197
+Department       : Computer Science and Engineering (CSE)
+CGPA             : 8.22 / 10.00
+Active Backlogs  : 0
+Aptitude Score   : 86 / 100
+Coding Score     : 70 / 100
+
+SUMMARY / PROFILE STATEMENT:
+Energetic and results-driven CSE undergraduate with solid foundation in Data Structures,
+Algorithms, and software design. Demonstrates practical expertise in TensorFlow, HTML/CSS, Computer Networks,
+with hands-on project experience in designing modular, scalable systems.
+
+TECHNICAL SKILLS:
+TensorFlow, HTML/CSS, Computer Networks, System Design, Microservices
+
+ACADEMIC & TECHNICAL PROJECTS:
+1. Distributed Key-Value Store
+   Tech Stack  : C++, Distributed Systems, Computer Networks, Linux
+   Description : Engineered a fault-tolerant Raft-based distributed consensus key-value cache supporting replication and dynamic clustering.
+2. Real-Time Stock Market Data Pipeline
+   Tech Stack  : Python, Kafka, Redis, AWS, Docker
+   Description : Created an event-driven data streaming pipeline processing over 50,000 tick updates per second with sub-millisecond Redis caching.
+
+WORK EXPERIENCE / INTERNSHIPS:
+- Role        : Summer Research Fellow
+  Organization: Center for Advanced Computing & Algorithms
+  Details     : Researched graph algorithms and maximum bipartite matching for resource allocation under faculty guidance; authored conference paper.
+
+CERTIFICATIONS & ACHIEVEMENTS:
+- AWS Certified Solutions Architect Associate
+- Solved 221+ problems on LeetCode & Codeforces across dynamic programming, trees, and graphs.
+================================================================================

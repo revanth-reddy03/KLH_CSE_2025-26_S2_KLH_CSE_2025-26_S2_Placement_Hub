@@ -1,0 +1,39 @@
+================================================================================
+STUDENT RECORD: STU1003
+================================================================================
+Candidate Name   : Rakesh Singh
+Student ID       : STU1003
+Email            : rakesh.singh45@university.edu
+Phone            : +91-9818823344
+Department       : Information Technology (IT)
+CGPA             : 7.87 / 10.00
+Active Backlogs  : 0
+Aptitude Score   : 84 / 100
+Coding Score     : 80 / 100
+
+SUMMARY / PROFILE STATEMENT:
+Energetic and results-driven IT undergraduate with solid foundation in Data Structures,
+Algorithms, and software design. Demonstrates practical expertise in Docker, PostgreSQL, MongoDB,
+with hands-on project experience in designing modular, scalable systems.
+
+TECHNICAL SKILLS:
+Docker, PostgreSQL, MongoDB, Spring Boot, Microservices, DBMS, Kafka, Java, C++
+
+ACADEMIC & TECHNICAL PROJECTS:
+1. AI-Powered Resume Screener
+   Tech Stack  : Python, Machine Learning, NLP, Flask, React, Docker
+   Description : Implemented an automated NLP resume parser scoring candidate resumes against job descriptions with 92% semantic accuracy.
+2. E-Commerce Microservices Platform
+   Tech Stack  : Java, Spring Boot, Docker, PostgreSQL, Kafka, REST API
+   Description : Designed and built high-throughput microservices handling user authentication, order processing, and payment gateway integration.
+
+WORK EXPERIENCE / INTERNSHIPS:
+- Role        : Backend Engineering Intern
+  Organization: DevCloud Networks
+  Details     : Refactored legacy database queries in PostgreSQL, designed indexing strategies, and automated CI/CD pipeline deployments.
+
+CERTIFICATIONS & ACHIEVEMENTS:
+- Google Cloud Associate Cloud Engineer
+- AWS Certified Solutions Architect Associate
+- Solved 446+ problems on LeetCode & Codeforces across dynamic programming, trees, and graphs.
+================================================================================

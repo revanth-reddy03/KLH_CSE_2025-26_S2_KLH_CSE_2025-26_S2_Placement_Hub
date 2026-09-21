@@ -1,0 +1,39 @@
+================================================================================
+STUDENT RECORD: STU1041
+================================================================================
+Candidate Name   : Sameer Pandey
+Student ID       : STU1041
+Email            : sameer.pandey38@university.edu
+Phone            : +91-9856855162
+Department       : Information Technology (IT)
+CGPA             : 6.96 / 10.00
+Active Backlogs  : 0
+Aptitude Score   : 76 / 100
+Coding Score     : 66 / 100
+
+SUMMARY / PROFILE STATEMENT:
+Energetic and results-driven IT undergraduate with solid foundation in Data Structures,
+Algorithms, and software design. Demonstrates practical expertise in PostgreSQL, Kubernetes, Java,
+with hands-on project experience in designing modular, scalable systems.
+
+TECHNICAL SKILLS:
+PostgreSQL, Kubernetes, Java, Git, Kafka, Redis, Operating Systems, HTML/CSS, Deep Learning
+
+ACADEMIC & TECHNICAL PROJECTS:
+1. Campus Placement Hub & Analytics
+   Tech Stack  : Java, DSA, SQL, HTML/CSS, DBMS, Spring Boot
+   Description : Architected a real-time placement portal implementing priority queues, student matching algorithms, and interview scheduling workflows.
+2. Distributed Key-Value Store
+   Tech Stack  : C++, Distributed Systems, Computer Networks, Linux
+   Description : Engineered a fault-tolerant Raft-based distributed consensus key-value cache supporting replication and dynamic clustering.
+
+WORK EXPERIENCE / INTERNSHIPS:
+- Role        : Full Stack Developer Intern
+  Organization: FinTech Solutions Labs
+  Details     : Built responsive React dashboards and Spring Boot REST APIs handling financial transactions and compliance audits.
+
+CERTIFICATIONS & ACHIEVEMENTS:
+- DeepLearning.AI Machine Learning Specialization
+- Meta Front-End Developer Professional Certificate
+- Solved 406+ problems on LeetCode & Codeforces across dynamic programming, trees, and graphs.
+================================================================================

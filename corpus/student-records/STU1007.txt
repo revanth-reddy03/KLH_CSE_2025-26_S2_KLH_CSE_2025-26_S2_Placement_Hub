@@ -1,0 +1,38 @@
+================================================================================
+STUDENT RECORD: STU1007
+================================================================================
+Candidate Name   : Tanvi Rao
+Student ID       : STU1007
+Email            : tanvi.rao42@university.edu
+Phone            : +91-9842309214
+Department       : Electrical and Electronics Engineering (EEE)
+CGPA             : 8.24 / 10.00
+Active Backlogs  : 0
+Aptitude Score   : 91 / 100
+Coding Score     : 97 / 100
+
+SUMMARY / PROFILE STATEMENT:
+Energetic and results-driven EEE undergraduate with solid foundation in Data Structures,
+Algorithms, and software design. Demonstrates practical expertise in REST API, MongoDB, JavaScript,
+with hands-on project experience in designing modular, scalable systems.
+
+TECHNICAL SKILLS:
+REST API, MongoDB, JavaScript, PostgreSQL, Kafka, Python, AWS
+
+ACADEMIC & TECHNICAL PROJECTS:
+1. Campus Placement Hub & Analytics
+   Tech Stack  : Java, DSA, SQL, HTML/CSS, DBMS, Spring Boot
+   Description : Architected a real-time placement portal implementing priority queues, student matching algorithms, and interview scheduling workflows.
+2. E-Commerce Microservices Platform
+   Tech Stack  : Java, Spring Boot, Docker, PostgreSQL, Kafka, REST API
+   Description : Designed and built high-throughput microservices handling user authentication, order processing, and payment gateway integration.
+
+WORK EXPERIENCE / INTERNSHIPS:
+No prior corporate internship. Focused on open-source contributions, competitive programming,
+and academic laboratory projects.
+
+CERTIFICATIONS & ACHIEVEMENTS:
+- Certified Kubernetes Application Developer (CKAD)
+- AWS Certified Solutions Architect Associate
+- Solved 445+ problems on LeetCode & Codeforces across dynamic programming, trees, and graphs.
+================================================================================

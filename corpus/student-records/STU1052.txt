@@ -1,0 +1,38 @@
+================================================================================
+STUDENT RECORD: STU1052
+================================================================================
+Candidate Name   : Arjun Agarwal
+Student ID       : STU1052
+Email            : arjun.agarwal39@university.edu
+Phone            : +91-9892417577
+Department       : Mechanical Engineering (MECH)
+CGPA             : 7.97 / 10.00
+Active Backlogs  : 0
+Aptitude Score   : 56 / 100
+Coding Score     : 61 / 100
+
+SUMMARY / PROFILE STATEMENT:
+Energetic and results-driven MECH undergraduate with solid foundation in Data Structures,
+Algorithms, and software design. Demonstrates practical expertise in Kubernetes, Operating Systems, Docker,
+with hands-on project experience in designing modular, scalable systems.
+
+TECHNICAL SKILLS:
+Kubernetes, Operating Systems, Docker, Node.js, DSA, C++, HTML/CSS, Spring Boot, REST API
+
+ACADEMIC & TECHNICAL PROJECTS:
+1. AI-Powered Resume Screener
+   Tech Stack  : Python, Machine Learning, NLP, Flask, React, Docker
+   Description : Implemented an automated NLP resume parser scoring candidate resumes against job descriptions with 92% semantic accuracy.
+2. Algorithmic Trading Bot
+   Tech Stack  : Python, Machine Learning, Deep Learning, NumPy, SQL
+   Description : Implemented quantitative backtesting framework and trend-following momentum models for high-frequency algorithmic trading.
+
+WORK EXPERIENCE / INTERNSHIPS:
+- Role        : Summer Research Fellow
+  Organization: Center for Advanced Computing & Algorithms
+  Details     : Researched graph algorithms and maximum bipartite matching for resource allocation under faculty guidance; authored conference paper.
+
+CERTIFICATIONS & ACHIEVEMENTS:
+- Meta Front-End Developer Professional Certificate
+- Solved 425+ problems on LeetCode & Codeforces across dynamic programming, trees, and graphs.
+================================================================================

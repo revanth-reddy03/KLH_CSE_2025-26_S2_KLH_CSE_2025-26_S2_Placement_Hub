@@ -1,0 +1,38 @@
+================================================================================
+STUDENT RECORD: STU1008
+================================================================================
+Candidate Name   : Ananya Sharma
+Student ID       : STU1008
+Email            : ananya.sharma98@university.edu
+Phone            : +91-9845699119
+Department       : Mechanical Engineering (MECH)
+CGPA             : 8.40 / 10.00
+Active Backlogs  : 2
+Aptitude Score   : 85 / 100
+Coding Score     : 73 / 100
+
+SUMMARY / PROFILE STATEMENT:
+Energetic and results-driven MECH undergraduate with solid foundation in Data Structures,
+Algorithms, and software design. Demonstrates practical expertise in Machine Learning, DBMS, REST API,
+with hands-on project experience in designing modular, scalable systems.
+
+TECHNICAL SKILLS:
+Machine Learning, DBMS, REST API, C++, SQL, Computer Networks, Microservices, HTML/CSS
+
+ACADEMIC & TECHNICAL PROJECTS:
+1. AI-Powered Resume Screener
+   Tech Stack  : Python, Machine Learning, NLP, Flask, React, Docker
+   Description : Implemented an automated NLP resume parser scoring candidate resumes against job descriptions with 92% semantic accuracy.
+2. Distributed Key-Value Store
+   Tech Stack  : C++, Distributed Systems, Computer Networks, Linux
+   Description : Engineered a fault-tolerant Raft-based distributed consensus key-value cache supporting replication and dynamic clustering.
+
+WORK EXPERIENCE / INTERNSHIPS:
+- Role        : Full Stack Developer Intern
+  Organization: FinTech Solutions Labs
+  Details     : Built responsive React dashboards and Spring Boot REST APIs handling financial transactions and compliance audits.
+
+CERTIFICATIONS & ACHIEVEMENTS:
+- Meta Front-End Developer Professional Certificate
+- Solved 200+ problems on LeetCode & Codeforces across dynamic programming, trees, and graphs.
+================================================================================

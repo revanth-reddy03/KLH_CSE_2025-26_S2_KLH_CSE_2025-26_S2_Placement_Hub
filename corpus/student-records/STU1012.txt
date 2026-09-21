@@ -1,0 +1,38 @@
+================================================================================
+STUDENT RECORD: STU1012
+================================================================================
+Candidate Name   : Pranav Sharma
+Student ID       : STU1012
+Email            : pranav.sharma55@university.edu
+Phone            : +91-9817609996
+Department       : Information Technology (IT)
+CGPA             : 8.50 / 10.00
+Active Backlogs  : 0
+Aptitude Score   : 70 / 100
+Coding Score     : 61 / 100
+
+SUMMARY / PROFILE STATEMENT:
+Energetic and results-driven IT undergraduate with solid foundation in Data Structures,
+Algorithms, and software design. Demonstrates practical expertise in AWS, Git, TensorFlow,
+with hands-on project experience in designing modular, scalable systems.
+
+TECHNICAL SKILLS:
+AWS, Git, TensorFlow, REST API, React, Kafka, Linux, Docker
+
+ACADEMIC & TECHNICAL PROJECTS:
+1. Collaborative Code Editor
+   Tech Stack  : JavaScript, Node.js, React, WebSockets, Docker
+   Description : Constructed a multi-user in-browser code editor with operational transformation, syntax highlighting, and live compilation.
+2. AI-Powered Resume Screener
+   Tech Stack  : Python, Machine Learning, NLP, Flask, React, Docker
+   Description : Implemented an automated NLP resume parser scoring candidate resumes against job descriptions with 92% semantic accuracy.
+
+WORK EXPERIENCE / INTERNSHIPS:
+No prior corporate internship. Focused on open-source contributions, competitive programming,
+and academic laboratory projects.
+
+CERTIFICATIONS & ACHIEVEMENTS:
+- HackerRank 6-Star Problem Solving (DSA)
+- Oracle Certified Professional: Java SE 17 Developer
+- Solved 125+ problems on LeetCode & Codeforces across dynamic programming, trees, and graphs.
+================================================================================
