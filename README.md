@@ -18,7 +18,6 @@ A high-performance algorithmic campus placement and recruitment search engine im
 
 ```text
 KLH_CSE_2025-26_S2_KLH_CSE_2025-26_S2_Placement_Hub/
-├── .gitignore
 ├── README.md
 ├── corpus/
 │   └── student-records/            # Corpus of 500 student records (SR001.txt ... SR500.txt)
