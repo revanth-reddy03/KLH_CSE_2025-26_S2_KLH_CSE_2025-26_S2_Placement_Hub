@@ -1,43 +1,56 @@
 # Campus Placement Hub (Java DSA Algorithms Suite)
 
-A high-performance algorithmic campus placement and recruitment engine implemented in Java. The system leverages advanced **String Matching**, **Fuzzy Search**, **Text Indexing**, and **Network Flow / Bipartite Graph Matching** algorithms to match student resumes with corporate job profiles and vacancies.
+A high-performance algorithmic campus placement and recruitment search engine implemented in Java. The system leverages advanced **String Matching**, **Fuzzy Search**, **Text Indexing**, and **Network Flow / Bipartite Graph Matching** algorithms to search and match student profile records with corporate job profiles and vacancies.
+
+---
+
+## 👥 Team Members
+
+| Roll Number | Name |
+| :---: | :--- |
+| **2520030391** | Subhash |
+| **2520030423** | Akhil Kumar |
+| **2520030424** | Revanth Reddy |
 
 ---
 
 ## 📁 Project Structure
 
 ```text
-Placement_Hub/
+KLH_CSE_2025-26_S2_KLH_CSE_2025-26_S2_Placement_Hub/
+├── .gitignore
+├── README.md
 ├── corpus/
-│   └── student-records/            # Corpus of 60+ detailed student resumes/records
-│       ├── STU1001.txt
-│       ├── STU1002.txt
-│       └── ...
-├── src/
-│   └── algorithms/                 # Core algorithms & test suite
-│       ├── .gitkeep
-│       ├── AhoCorasick.java        # Multi-pattern string searching automaton
-│       ├── AhoCorasickTest.java    # Unit tests for Aho-Corasick
-│       ├── BipartiteMatching.java  # Maximum Bipartite Matching (Kuhn's Augmenting Path)
-│       ├── BipartiteMatchingTest.java
-│       ├── CorpusLoader.java       # Parser & loader for student records corpus
-│       ├── Dinic.java              # Dinic's blocking flow max-flow algorithm
-│       ├── DinicTest.java
-│       ├── EditDistance.java       # Levenshtein distance for fuzzy search & typo tolerance
-│       ├── EditDistanceTest.java
-│       ├── EdmondsKarp.java        # Edmonds-Karp BFS max-flow algorithm
-│       ├── EdmondsKarpTest.java
-│       ├── FordFulkerson.java      # Ford-Fulkerson DFS max-flow algorithm
-│       ├── FordFulkersonTest.java
-│       ├── KMP.java                # Knuth-Morris-Pratt pattern searching
-│       ├── KMPTest.java
-│       ├── Main.java               # End-to-end integration demo & runner
-│       ├── SearchHistory.java      # Recruiter recent & popular query manager
-│       ├── SuffixArray.java        # Substring search & indexing
-│       ├── SuffixArrayTest.java
-│       ├── ZAlgorithm.java         # Linear-time pattern matching (Z-array)
-│       └── ZAlgorithmTest.java
-└── README.md
+│   └── student-records/            # Corpus of 500 student records (SR001.txt ... SR500.txt)
+│       ├── SR001.txt
+│       ├── SR002.txt               # Manish Sinha profile record
+│       ├── ...
+│       └── SR500.txt
+└── src/
+    └── algorithms/                 # Core algorithms & test suite
+        ├── .gitkeep
+        ├── AhoCorasick
+        ├── AhoCorasick.java        # Multi-pattern string searching automaton
+        ├── AhoCorasickTest.java    # Unit tests for Aho-Corasick
+        ├── BipartiteMatching.java  # Maximum Bipartite Matching (Kuhn's Augmenting Path)
+        ├── BipartiteMatchingTest.java
+        ├── CorpusLoader.java       # Parser & loader for student records corpus
+        ├── Dinic.java              # Dinic's blocking flow max-flow algorithm
+        ├── DinicTest.java
+        ├── EditDistance.java       # Levenshtein distance for fuzzy search & typo tolerance
+        ├── EditDistanceTest.java
+        ├── EdmondsKarp.java        # Edmonds-Karp BFS max-flow algorithm
+        ├── EdmondsKarpTest.java
+        ├── FordFulkerson.java      # Ford-Fulkerson DFS max-flow algorithm
+        ├── FordFulkersonTest.java
+        ├── KMP.java                # Knuth-Morris-Pratt pattern searching
+        ├── KMPTest.java
+        ├── Main.java               # End-to-end integration demo & runner
+        ├── SearchHistory.java      # Recruiter recent & popular query manager
+        ├── SuffixArray.java        # Substring search & indexing
+        ├── SuffixArrayTest.java
+        ├── ZAlgorithm.java         # Linear-time pattern matching (Z-array)
+        └── ZAlgorithmTest.java
 ```
 
 ---
@@ -48,7 +61,7 @@ Placement_Hub/
 * **Aho-Corasick (`AhoCorasick.java`)**: 
   Scans an entire student resume against a dictionary of required skills (e.g., `["Java", "Spring Boot", "Docker", "AWS", "Kafka"]`) simultaneously in $\mathcal{O}(\text{Text Length} + \text{Matches})$ time.
 * **KMP Algorithm (`KMP.java`)**: 
-  Exact keyword search (e.g., finding certifications, specific projects) in $\mathcal{O}(N + M)$ using the Longest Prefix Suffix (LPS) table.
+  Exact keyword search (e.g., finding certifications, specific projects) in $\mathcal{O}(N + M)$ using the Longest Proper Prefix which is also Suffix (LPS) table.
 * **Z-Algorithm (`ZAlgorithm.java`)**: 
   Linear-time substring search by constructing the Z-array on `Pattern + '$' + Text`.
 * **Suffix Array (`SuffixArray.java`)**: 
@@ -63,8 +76,8 @@ Placement_Hub/
   Matches eligible candidates to company vacancies using augmenting paths to maximize overall placement cardinality.
 * **Network Flow Algorithms (`FordFulkerson.java`, `EdmondsKarp.java`, `Dinic.java`)**: 
   Models multi-capacity hiring networks:
-  $$\text{Source} \xrightarrow{\text{cap } 1} \text{Students} \xrightarrow{\text{cap } 1} \text{Companies} \xrightarrow{\text{cap } V_j} \text{Sink}$$
-  where $V_j$ is the company's hiring quota.
+  $$\text{Source} \xrightarrow{\text{cap } 1} \text{Students} \xrightarrow{\text{cap } 1} \text{Roles} \xrightarrow{\text{cap } V_j} \text{Sink}$$
+  where $V_j$ is the hiring quota for that role.
 
 ---
 
