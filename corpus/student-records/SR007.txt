@@ -1,37 +1,37 @@
 Student Record ID: SR007
 Roll Number: 2520000007
-Name: Rakesh Bhat
-Department: Electrical and Electronics Engineering
+Name: Chaitanya Mukherjee
+Department: Information Technology
 Program: B.Tech
-Year: 4
-Section: D
+Year: 2
+Section: C
 Academic Status: Active
 
 Email: student007@example.edu
-Location: Bengaluru, Karnataka
+Location: Chennai, Tamil Nadu
 
-Skills: React, Deep Learning, User Research, Distributed Systems, TensorFlow, Natural Language Processing, Kubernetes
-Programming Languages: Python, JavaScript, R, Java, C
-Technical Interests: Full Stack Engineering, Human Computer Interaction, Technology Research, Information Retrieval, Cloud Architecture, Cyber Defense
-Academic Interests: Data Warehousing, Machine Learning, Software Engineering, Computer Networks
-Research Interests: Search Performance Analysis, Deep Neural Networks, Natural Language Understanding
+Skills: Distributed Systems, TensorFlow, Natural Language Processing, User Research, Linux, Node.js
+Programming Languages: JavaScript, TypeScript, SQL
+Technical Interests: Full Stack Engineering, Information Retrieval, Human Computer Interaction, High Performance Computing
+Academic Interests: Machine Learning, Software Engineering, Computer Networks, Design and Analysis of Algorithms, Cloud Computing, Compiler Design
+Research Interests: Pattern Matching, Deep Neural Networks, Information Extraction, Search Performance Analysis, Intelligent Systems
 
-Project 1: Document Image Processing Tool
+Project 1: Automated Exam Proctoring System
 
 Project Description:
-The Document Image Processing Tool is an academic prototype focused on computer vision. It organizes relevant information, processes structured records, and provides search or retrieval capabilities for common user queries. The project demonstrates practical application of programming, data structures, algorithms, validation, and modular software design.
+The Automated Exam Proctoring System is a machine learning prototype that detects face anomalies, gaze direction, and unauthorized electronic devices during remote computer-based tests.
 
 Project Objectives:
-The objective of the project is to build a practical academic solution that reduces manual effort, improves information organization, and demonstrates the application of data structures, algorithms, and software engineering concepts to a real information-processing problem.
+To develop a low-latency non-intrusive monitoring pipeline that maintains examination integrity in hybrid learning settings.
 
 Project Role:
-The student contributed to data organization, implementation, testing, documentation, and search or retrieval functionality. The project included sample-data testing, validation, debugging, and analysis of different user query scenarios.
+The student implemented face detection pipelines, integrated OpenCV video capture modules, and formulated threshold detection rules for gaze deflection.
 
 Technologies Used:
-Object-Oriented Programming, Deep Learning, Text Processing, Python, Software Engineering, Java, JavaScript
+Python, OpenCV, Deep Learning, TensorFlow, Computer Vision, Software Engineering
 
 Project Outcome:
-The prototype demonstrated how structured data, appropriate data structures, and algorithmic techniques can be combined to build a practical software solution. The system was evaluated using multiple sample records and different search or retrieval scenarios.
+Demonstrated real-time verification at 30 frames per second with minimal CPU resource utilization and 94% anomaly recall on benchmark datasets.
 
 Project 2: Student Portal UX Prototype
 
@@ -95,20 +95,20 @@ demonstration of advanced string-matching concepts and creates a foundation for 
 as fuzzy search, autocomplete, indexing, and ranking.
 
 Certifications:
-Full Stack Web Development, Python for Data Science, Git and Version Control
+Python for Data Science, Machine Learning Foundations, Git and Version Control, Database Design with SQL
 
 Workshops:
 Competitive Programming Bootcamp
 Machine Learning Workshop
 
 Achievements:
-Inter-College Coding Event Participant, Dean's Honor List Recognition
+Inter-College Coding Event Participant, Hackathon Participant, Top 10 Finalist in Regional Hackathon
 
 Extracurricular Activities:
-Robotics Club Associate, Project Expo Volunteer
+Open Source Club Contributor, Robotics Club Associate, Technical Community Member
 
 Career Interests:
-Cloud Systems Architecture, Data Platform Engineering, Search Systems, Software Engineering
+Computer Vision, Machine Learning Engineering, Backend Development
 
 Career Goal:
 To develop strong expertise in software engineering, algorithms, scalable applications, and intelligent information retrieval systems and to contribute to practical technology solutions.
@@ -120,4 +120,4 @@ Personal Interests:
 Information Retrieval, Competitive Programming, Open Source Software, Problem Solving, Search Systems
 
 Profile Summary:
-Rakesh Bhat is a 4-year Electrical and Electronics Engineering student interested in cloud systems architecture, algorithms, and practical software development. The student has academic exposure to React, Deep Learning, User Research, Distributed Systems, TensorFlow and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.
+Chaitanya Mukherjee is a 2-year Information Technology student interested in computer vision, algorithms, and practical software development. The student has academic exposure to Distributed Systems, TensorFlow, Natural Language Processing, User Research, Linux and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.

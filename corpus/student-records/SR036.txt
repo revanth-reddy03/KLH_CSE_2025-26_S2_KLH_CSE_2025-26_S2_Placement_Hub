@@ -1,45 +1,45 @@
 Student Record ID: SR036
 Roll Number: 2520000036
-Name: Varun Sharma
-Department: Electrical and Electronics Engineering
+Name: Divya Iyer
+Department: Electronics and Communication Engineering
 Program: B.Tech
 Year: 4
-Section: C
+Section: A
 Academic Status: Active
 
 Email: student036@example.edu
-Location: Pune, Maharashtra
+Location: Mumbai, Maharashtra
 
-Skills: Microservices, Git, Linux, Computer Vision, Image Processing, Docker, Machine Learning
-Programming Languages: C++, C, SQL
-Technical Interests: Cyber Defense, Technology Research, Artificial Intelligence, Full Stack Engineering
-Academic Interests: Theory of Computation, Distributed Systems, Machine Learning, Design and Analysis of Algorithms, Data Warehousing
-Research Interests: Information Extraction, Deep Neural Networks, Search Performance Analysis, Graph Neural Networks
+Skills: DevOps, Machine Learning, Docker, Software Engineering, Natural Language Processing, Computer Vision, Distributed Systems, Image Processing, PyTorch
+Programming Languages: R, JavaScript, C++, Java
+Technical Interests: Problem Solving, Human Computer Interaction, High Performance Computing, Artificial Intelligence
+Academic Interests: Software Engineering, Database Management Systems, Theory of Computation, Cloud Computing, Computer Networks, Operating Systems
+Research Interests: Search Performance Analysis, Graph Neural Networks, Deep Neural Networks, Intelligent Systems
 
-Project 1: Campus Placement Hub Portal
+Project 1: Student Portal UX Prototype
 
 Project Description:
-The Campus Placement Hub Portal is a centralized recruitment management platform enabling automated resume screening, eligibility filtering, and interview round management.
+The Student Portal UX Prototype is a related academic prototype focused on human computer interaction. It demonstrates structured record processing, modular implementation, testing, and retrieval of relevant information. The project emphasizes clear data representation and practical problem solving.
 
 Project Objectives:
-To replace paper-based placement tracking with an algorithmic, search-enabled digital platform that scales across thousands of students and hundreds of recruiters.
+The objective of the project is to build an interactive and responsive academic user interface that streamlines student access to courses, notices, grades, and academic advising.
 
 Project Role:
-The student engineered core matching algorithms, structured profile data models, and built fast substring search endpoints for recruiter queries.
+The student participated in implementation, testing, documentation, debugging, and performance analysis. The work involved organizing project data and developing reliable processing and retrieval logic.
 
 Technologies Used:
-Java, Spring Boot, SQL, Database Systems, Software Engineering, Algorithms
+JavaScript, HTML, CSS, React, User Research, Software Engineering
 
 Project Outcome:
-Processed student records seamlessly, reduced recruiter shortlisting turnaround from days to minutes, and provided clear audit logs of all hiring decisions.
+The prototype enhanced usability metrics, demonstrated efficient client-side state caching, and validated responsive interface design principles across multiple viewport dimensions.
 
-Project 2: Document Image Processing Tool
+Project 2: Distributed Cache & Query Engine
 
 Project Description:
-The Document Image Processing Tool is an academic prototype focused on computer vision. It organizes relevant information, processes structured records, and provides search or retrieval capabilities for common user queries. The project demonstrates practical application of programming, data structures, algorithms, validation, and modular software design.
+The Distributed Cache & Query Engine is a high-concurrency storage prototype that partitions key-value entries across nodes using consistent hashing and replication.
 
 Project Role:
-The student contributed to data organization, implementation, testing, documentation, and search or retrieval functionality. The project included sample-data testing, validation, debugging, and analysis of different user query scenarios.
+The student developed hash-ring partitioning logic, implemented gossip-based node failure detection, and designed automated failover mechanisms.
 
 Current Project: Intelligent Student Record Search System
 
@@ -95,21 +95,20 @@ demonstration of advanced string-matching concepts and creates a foundation for 
 as fuzzy search, autocomplete, indexing, and ranking.
 
 Certifications:
-Python for Data Science, Data Structures and Algorithms
+Full Stack Web Development, Data Structures and Algorithms, Cloud Computing Associate, Python for Data Science
 
 Workshops:
-Cloud Computing and DevOps Workshop
 Computer Vision and Image Processing Seminar
-Machine Learning Workshop
+Competitive Programming Bootcamp
 
 Achievements:
-Top 10 Finalist in Regional Hackathon, Codeforces Active Contender
+Coding Contest Participant, Top 10 Finalist in Regional Hackathon
 
 Extracurricular Activities:
-Hackathon Participant, Coding Club Coordinator
+Open Source Club Contributor, Technical Community Member, Robotics Club Associate
 
 Career Interests:
-Search Systems, Data Platform Engineering, Software Engineering, Machine Learning Engineering, Information Retrieval
+Search Systems, Cloud Systems Architecture, Machine Learning Engineering
 
 Career Goal:
 To develop strong expertise in software engineering, algorithms, scalable applications, and intelligent information retrieval systems and to contribute to practical technology solutions.
@@ -121,4 +120,4 @@ Personal Interests:
 Information Retrieval, Competitive Programming, Open Source Software, Problem Solving, Search Systems
 
 Profile Summary:
-Varun Sharma is a 4-year Electrical and Electronics Engineering student interested in search systems, algorithms, and practical software development. The student has academic exposure to Microservices, Git, Linux, Computer Vision, Image Processing and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.
+Divya Iyer is a 4-year Electronics and Communication Engineering student interested in search systems, algorithms, and practical software development. The student has academic exposure to DevOps, Machine Learning, Docker, Software Engineering, Natural Language Processing and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.

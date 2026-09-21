@@ -1,45 +1,45 @@
 Student Record ID: SR056
 Roll Number: 2520000056
-Name: Sanjay Bose
-Department: Computer Science and Engineering
+Name: Nikhil Iyer
+Department: Information Technology
 Program: B.Tech
-Year: 4
+Year: 2
 Section: A
 Academic Status: Active
 
 Email: student056@example.edu
-Location: Pune, Maharashtra
+Location: Kolkata, West Bengal
 
-Skills: Linux, Docker, Natural Language Processing, PyTorch, User Research, Data Structures, Kubernetes, Deep Learning, Cyber Security, Python
-Programming Languages: C, Java, JavaScript, Kotlin, SQL
-Technical Interests: Information Retrieval, Cyber Defense, Computer Vision, Software Development, Full Stack Engineering
-Academic Interests: Data Warehousing, Database Management Systems, Computer Networks, Distributed Systems, Cloud Computing, Machine Learning
-Research Interests: Search Performance Analysis, Natural Language Understanding, Pattern Matching
+Skills: Natural Language Processing, HTML, Database Systems, Git, Image Processing, Node.js, React, DevOps
+Programming Languages: Java, R, C++, TypeScript, C
+Technical Interests: Problem Solving, Human Computer Interaction, High Performance Computing, Software Development
+Academic Interests: Database Management Systems, Software Engineering, Computer Networks, Compiler Design
+Research Interests: Deep Neural Networks, Graph Neural Networks, Search Performance Analysis
 
-Project 1: Campus Placement Hub Portal
+Project 1: Distributed Cache & Query Engine
+
+Project Description:
+The Distributed Cache & Query Engine is a high-concurrency storage prototype that partitions key-value entries across nodes using consistent hashing and replication.
+
+Project Objectives:
+To design an elastic in-memory database component capable of handling high-throughput read queries with fault tolerance.
+
+Project Role:
+The student developed hash-ring partitioning logic, implemented gossip-based node failure detection, and designed automated failover mechanisms.
+
+Technologies Used:
+Java, Distributed Systems, Computer Networks, Data Structures, Multi-Threading
+
+Project Outcome:
+Achieved sub-millisecond retrieval latencies for hot keys and verified zero data loss during simulated cluster partition events.
+
+Project 2: Campus Placement Hub Portal
 
 Project Description:
 The Campus Placement Hub Portal is a centralized recruitment management platform enabling automated resume screening, eligibility filtering, and interview round management.
 
-Project Objectives:
-To replace paper-based placement tracking with an algorithmic, search-enabled digital platform that scales across thousands of students and hundreds of recruiters.
-
 Project Role:
 The student engineered core matching algorithms, structured profile data models, and built fast substring search endpoints for recruiter queries.
-
-Technologies Used:
-Java, Spring Boot, SQL, Database Systems, Software Engineering, Algorithms
-
-Project Outcome:
-Processed student records seamlessly, reduced recruiter shortlisting turnaround from days to minutes, and provided clear audit logs of all hiring decisions.
-
-Project 2: Automated Exam Proctoring System
-
-Project Description:
-The Automated Exam Proctoring System is a machine learning prototype that detects face anomalies, gaze direction, and unauthorized electronic devices during remote computer-based tests.
-
-Project Role:
-The student implemented face detection pipelines, integrated OpenCV video capture modules, and formulated threshold detection rules for gaze deflection.
 
 Current Project: Intelligent Student Record Search System
 
@@ -95,21 +95,21 @@ demonstration of advanced string-matching concepts and creates a foundation for 
 as fuzzy search, autocomplete, indexing, and ranking.
 
 Certifications:
-Cloud Computing Associate, Git and Version Control, Database Design with SQL, Python for Data Science
+Data Structures and Algorithms, Cyber Security Essentials
 
 Workshops:
-Machine Learning Workshop
-Computer Vision and Image Processing Seminar
 Competitive Programming Bootcamp
+Machine Learning Workshop
+Cloud Computing and DevOps Workshop
 
 Achievements:
-Coding Contest Participant, Dean's Honor List Recognition
+Inter-College Coding Event Participant, Top 10 Finalist in Regional Hackathon, Hackathon Participant
 
 Extracurricular Activities:
-Project Expo Volunteer, Hackathon Participant
+Robotics Club Associate, Coding Club Coordinator
 
 Career Interests:
-Backend Development, Information Retrieval, Data Platform Engineering, Software Engineering, Cloud Systems Architecture
+Cloud Systems Architecture, Data Platform Engineering, Search Systems, Machine Learning Engineering, Computer Vision
 
 Career Goal:
 To develop strong expertise in software engineering, algorithms, scalable applications, and intelligent information retrieval systems and to contribute to practical technology solutions.
@@ -121,4 +121,4 @@ Personal Interests:
 Information Retrieval, Competitive Programming, Open Source Software, Problem Solving, Search Systems
 
 Profile Summary:
-Sanjay Bose is a 4-year Computer Science and Engineering student interested in backend development, algorithms, and practical software development. The student has academic exposure to Linux, Docker, Natural Language Processing, PyTorch, User Research and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.
+Nikhil Iyer is a 2-year Information Technology student interested in cloud systems architecture, algorithms, and practical software development. The student has academic exposure to Natural Language Processing, HTML, Database Systems, Git, Image Processing and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.

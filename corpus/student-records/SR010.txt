@@ -1,45 +1,45 @@
 Student Record ID: SR010
 Roll Number: 2520000010
-Name: Yukta Iyer
-Department: Electronics and Communication Engineering
+Name: Kavya Bose
+Department: Information Technology
 Program: B.Tech
 Year: 4
-Section: D
+Section: C
 Academic Status: Active
 
 Email: student010@example.edu
-Location: Delhi, NCR
+Location: Warangal, Telangana
 
-Skills: JavaScript, Python, HTML, Image Processing, Distributed Systems, Kubernetes, User Research, Linux
-Programming Languages: Go, Python, R, C, Java
-Technical Interests: Information Retrieval, Cloud Architecture, Software Development, Problem Solving, Technology Research, Artificial Intelligence
-Academic Interests: Operating Systems, Theory of Computation, Data Warehousing, Software Engineering, Distributed Systems
-Research Interests: Algorithm Optimization, Graph Neural Networks, Intelligent Systems, Deep Neural Networks
+Skills: Database Systems, Cyber Security, Docker, TensorFlow, Node.js, Linux
+Programming Languages: R, C++, Go, Java, Kotlin
+Technical Interests: Technology Research, Cloud Architecture, Computer Vision, Software Development, Human Computer Interaction
+Academic Interests: Machine Learning, Database Management Systems, Data Warehousing, Design and Analysis of Algorithms, Theory of Computation
+Research Interests: Deep Neural Networks, Graph Neural Networks, Search Performance Analysis, Intelligent Systems
 
-Project 1: Automated Exam Proctoring System
+Project 1: Distributed Cache & Query Engine
+
+Project Description:
+The Distributed Cache & Query Engine is a high-concurrency storage prototype that partitions key-value entries across nodes using consistent hashing and replication.
+
+Project Objectives:
+To design an elastic in-memory database component capable of handling high-throughput read queries with fault tolerance.
+
+Project Role:
+The student developed hash-ring partitioning logic, implemented gossip-based node failure detection, and designed automated failover mechanisms.
+
+Technologies Used:
+Java, Distributed Systems, Computer Networks, Data Structures, Multi-Threading
+
+Project Outcome:
+Achieved sub-millisecond retrieval latencies for hot keys and verified zero data loss during simulated cluster partition events.
+
+Project 2: Automated Exam Proctoring System
 
 Project Description:
 The Automated Exam Proctoring System is a machine learning prototype that detects face anomalies, gaze direction, and unauthorized electronic devices during remote computer-based tests.
 
-Project Objectives:
-To develop a low-latency non-intrusive monitoring pipeline that maintains examination integrity in hybrid learning settings.
-
 Project Role:
 The student implemented face detection pipelines, integrated OpenCV video capture modules, and formulated threshold detection rules for gaze deflection.
-
-Technologies Used:
-Python, OpenCV, Deep Learning, TensorFlow, Computer Vision, Software Engineering
-
-Project Outcome:
-Demonstrated real-time verification at 30 frames per second with minimal CPU resource utilization and 94% anomaly recall on benchmark datasets.
-
-Project 2: Document Image Processing Tool
-
-Project Description:
-The Document Image Processing Tool is an academic prototype focused on computer vision. It organizes relevant information, processes structured records, and provides search or retrieval capabilities for common user queries. The project demonstrates practical application of programming, data structures, algorithms, validation, and modular software design.
-
-Project Role:
-The student contributed to data organization, implementation, testing, documentation, and search or retrieval functionality. The project included sample-data testing, validation, debugging, and analysis of different user query scenarios.
 
 Current Project: Intelligent Student Record Search System
 
@@ -95,21 +95,21 @@ demonstration of advanced string-matching concepts and creates a foundation for 
 as fuzzy search, autocomplete, indexing, and ranking.
 
 Certifications:
-Cloud Computing Associate, Full Stack Web Development, Python for Data Science, Machine Learning Foundations
+Git and Version Control, Machine Learning Foundations, Database Design with SQL, Python for Data Science
 
 Workshops:
-Cloud Computing and DevOps Workshop
-Machine Learning Workshop
+Competitive Programming Bootcamp
 Java Development Workshop
+Machine Learning Workshop
 
 Achievements:
-Dean's Honor List Recognition, Codeforces Active Contender
+Top 10 Finalist in Regional Hackathon, Hackathon Participant, Inter-College Coding Event Participant
 
 Extracurricular Activities:
-Open Source Club Contributor, Robotics Club Associate
+Hackathon Participant, Coding Club Coordinator, Project Expo Volunteer
 
 Career Interests:
-Data Platform Engineering, Machine Learning Engineering, Search Systems, Backend Development
+Software Engineering, Computer Vision, Cloud Systems Architecture, Information Retrieval
 
 Career Goal:
 To develop strong expertise in software engineering, algorithms, scalable applications, and intelligent information retrieval systems and to contribute to practical technology solutions.
@@ -121,4 +121,4 @@ Personal Interests:
 Information Retrieval, Competitive Programming, Open Source Software, Problem Solving, Search Systems
 
 Profile Summary:
-Yukta Iyer is a 4-year Electronics and Communication Engineering student interested in data platform engineering, algorithms, and practical software development. The student has academic exposure to JavaScript, Python, HTML, Image Processing, Distributed Systems and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.
+Kavya Bose is a 4-year Information Technology student interested in software engineering, algorithms, and practical software development. The student has academic exposure to Database Systems, Cyber Security, Docker, TensorFlow, Node.js and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.

@@ -1,37 +1,37 @@
 Student Record ID: SR047
 Roll Number: 2520000047
-Name: Sneha Mishra
-Department: Computer Science and Engineering
+Name: Akhil Bose
+Department: Electrical and Electronics Engineering
 Program: B.Tech
-Year: 2
-Section: B
+Year: 4
+Section: D
 Academic Status: Active
 
 Email: student047@example.edu
-Location: Delhi, NCR
+Location: Pune, Maharashtra
 
-Skills: Algorithms, Deep Learning, Node.js, React, JavaScript, Linux, Microservices
-Programming Languages: C++, TypeScript, C, Python, Java
-Technical Interests: Software Development, Cloud Architecture, Computer Vision, Artificial Intelligence, High Performance Computing, Human Computer Interaction
-Academic Interests: Compiler Design, Theory of Computation, Database Management Systems, Cloud Computing, Distributed Systems
-Research Interests: Information Extraction, Search Performance Analysis, Pattern Matching, Natural Language Understanding
+Skills: Deep Learning, Node.js, CSS, Cloud Computing, Distributed Systems, Kubernetes, Algorithms
+Programming Languages: Python, Java, TypeScript, Kotlin, Go
+Technical Interests: Cyber Defense, Computer Vision, Human Computer Interaction, Artificial Intelligence, Information Retrieval, Cloud Architecture
+Academic Interests: Theory of Computation, Compiler Design, Distributed Systems, Operating Systems, Cloud Computing, Data Warehousing
+Research Interests: Pattern Matching, Natural Language Understanding, Information Extraction
 
-Project 1: Automated Exam Proctoring System
+Project 1: Distributed Cache & Query Engine
 
 Project Description:
-The Automated Exam Proctoring System is a machine learning prototype that detects face anomalies, gaze direction, and unauthorized electronic devices during remote computer-based tests.
+The Distributed Cache & Query Engine is a high-concurrency storage prototype that partitions key-value entries across nodes using consistent hashing and replication.
 
 Project Objectives:
-To develop a low-latency non-intrusive monitoring pipeline that maintains examination integrity in hybrid learning settings.
+To design an elastic in-memory database component capable of handling high-throughput read queries with fault tolerance.
 
 Project Role:
-The student implemented face detection pipelines, integrated OpenCV video capture modules, and formulated threshold detection rules for gaze deflection.
+The student developed hash-ring partitioning logic, implemented gossip-based node failure detection, and designed automated failover mechanisms.
 
 Technologies Used:
-Python, OpenCV, Deep Learning, TensorFlow, Computer Vision, Software Engineering
+Java, Distributed Systems, Computer Networks, Data Structures, Multi-Threading
 
 Project Outcome:
-Demonstrated real-time verification at 30 frames per second with minimal CPU resource utilization and 94% anomaly recall on benchmark datasets.
+Achieved sub-millisecond retrieval latencies for hot keys and verified zero data loss during simulated cluster partition events.
 
 Project 2: Student Portal UX Prototype
 
@@ -95,20 +95,20 @@ demonstration of advanced string-matching concepts and creates a foundation for 
 as fuzzy search, autocomplete, indexing, and ranking.
 
 Certifications:
-Python for Data Science, Cyber Security Essentials, Java Programming
+Machine Learning Foundations, Data Structures and Algorithms, Python for Data Science, Database Design with SQL
 
 Workshops:
-Competitive Programming Bootcamp
 Java Development Workshop
+Computer Vision and Image Processing Seminar
 
 Achievements:
-Inter-College Coding Event Participant, Top 10 Finalist in Regional Hackathon
+Inter-College Coding Event Participant, Hackathon Participant, Dean's Honor List Recognition
 
 Extracurricular Activities:
-Project Expo Volunteer, Hackathon Participant, Open Source Club Contributor
+Technical Community Member, Robotics Club Associate, Coding Club Coordinator
 
 Career Interests:
-Computer Vision, Software Engineering, Machine Learning Engineering, Information Retrieval
+Search Systems, Machine Learning Engineering, Cloud Systems Architecture
 
 Career Goal:
 To develop strong expertise in software engineering, algorithms, scalable applications, and intelligent information retrieval systems and to contribute to practical technology solutions.
@@ -120,4 +120,4 @@ Personal Interests:
 Information Retrieval, Competitive Programming, Open Source Software, Problem Solving, Search Systems
 
 Profile Summary:
-Sneha Mishra is a 2-year Computer Science and Engineering student interested in computer vision, algorithms, and practical software development. The student has academic exposure to Algorithms, Deep Learning, Node.js, React, JavaScript and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.
+Akhil Bose is a 4-year Electrical and Electronics Engineering student interested in search systems, algorithms, and practical software development. The student has academic exposure to Deep Learning, Node.js, CSS, Cloud Computing, Distributed Systems and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.

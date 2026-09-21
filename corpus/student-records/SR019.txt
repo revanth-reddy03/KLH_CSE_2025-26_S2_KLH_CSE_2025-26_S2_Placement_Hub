@@ -1,45 +1,45 @@
 Student Record ID: SR019
 Roll Number: 2520000019
-Name: Ruchika Nair
+Name: Siddharth Pillai
 Department: Artificial Intelligence and Data Science
 Program: B.Tech
-Year: 4
-Section: A
+Year: 3
+Section: D
 Academic Status: Active
 
 Email: student019@example.edu
-Location: Mumbai, Maharashtra
+Location: Chennai, Tamil Nadu
 
-Skills: Node.js, HTML, Git, Python, Cloud Computing, Machine Learning
-Programming Languages: R, TypeScript, Go
-Technical Interests: Software Development, Full Stack Engineering, Artificial Intelligence, Cyber Defense
-Academic Interests: Compiler Design, Operating Systems, Software Engineering, Cloud Computing, Design and Analysis of Algorithms, Machine Learning
-Research Interests: Information Extraction, Graph Neural Networks, Search Performance Analysis, Pattern Matching
+Skills: Natural Language Processing, Software Engineering, Cloud Computing, Deep Learning, Database Systems, Machine Learning, Linux, Problem Solving, HTML
+Programming Languages: Python, R, Java, Go
+Technical Interests: Problem Solving, Computer Vision, Cyber Defense, Human Computer Interaction
+Academic Interests: Theory of Computation, Compiler Design, Database Management Systems, Design and Analysis of Algorithms, Cloud Computing
+Research Interests: Natural Language Understanding, Search Performance Analysis, Intelligent Systems, Algorithm Optimization, Deep Neural Networks
 
-Project 1: Document Image Processing Tool
+Project 1: Campus Placement Hub Portal
 
 Project Description:
-The Document Image Processing Tool is an academic prototype focused on computer vision. It organizes relevant information, processes structured records, and provides search or retrieval capabilities for common user queries. The project demonstrates practical application of programming, data structures, algorithms, validation, and modular software design.
+The Campus Placement Hub Portal is a centralized recruitment management platform enabling automated resume screening, eligibility filtering, and interview round management.
 
 Project Objectives:
-The objective of the project is to build a practical academic solution that reduces manual effort, improves information organization, and demonstrates the application of data structures, algorithms, and software engineering concepts to a real information-processing problem.
+To replace paper-based placement tracking with an algorithmic, search-enabled digital platform that scales across thousands of students and hundreds of recruiters.
 
 Project Role:
-The student contributed to data organization, implementation, testing, documentation, and search or retrieval functionality. The project included sample-data testing, validation, debugging, and analysis of different user query scenarios.
+The student engineered core matching algorithms, structured profile data models, and built fast substring search endpoints for recruiter queries.
 
 Technologies Used:
-Object-Oriented Programming, Deep Learning, Text Processing, Python, Software Engineering, Java, JavaScript
+Java, Spring Boot, SQL, Database Systems, Software Engineering, Algorithms
 
 Project Outcome:
-The prototype demonstrated how structured data, appropriate data structures, and algorithmic techniques can be combined to build a practical software solution. The system was evaluated using multiple sample records and different search or retrieval scenarios.
+Processed student records seamlessly, reduced recruiter shortlisting turnaround from days to minutes, and provided clear audit logs of all hiring decisions.
 
-Project 2: Automated Exam Proctoring System
+Project 2: Distributed Cache & Query Engine
 
 Project Description:
-The Automated Exam Proctoring System is a machine learning prototype that detects face anomalies, gaze direction, and unauthorized electronic devices during remote computer-based tests.
+The Distributed Cache & Query Engine is a high-concurrency storage prototype that partitions key-value entries across nodes using consistent hashing and replication.
 
 Project Role:
-The student implemented face detection pipelines, integrated OpenCV video capture modules, and formulated threshold detection rules for gaze deflection.
+The student developed hash-ring partitioning logic, implemented gossip-based node failure detection, and designed automated failover mechanisms.
 
 Current Project: Intelligent Student Record Search System
 
@@ -95,21 +95,21 @@ demonstration of advanced string-matching concepts and creates a foundation for 
 as fuzzy search, autocomplete, indexing, and ranking.
 
 Certifications:
-Git and Version Control, Cloud Computing Associate, Database Design with SQL, Java Programming
+Cyber Security Essentials, Java Programming
 
 Workshops:
-Data Structures and Algorithms Workshop
-Java Development Workshop
 Competitive Programming Bootcamp
+Cloud Computing and DevOps Workshop
+Computer Vision and Image Processing Seminar
 
 Achievements:
-Hackathon Participant, Coding Contest Participant, Dean's Honor List Recognition
+Codeforces Active Contender, Coding Contest Participant, Dean's Honor List Recognition
 
 Extracurricular Activities:
-Open Source Club Contributor, Project Expo Volunteer, Coding Club Coordinator
+Hackathon Participant, Open Source Club Contributor
 
 Career Interests:
-Software Engineering, Information Retrieval, Computer Vision, Machine Learning Engineering
+Cloud Systems Architecture, Data Platform Engineering, Search Systems, Computer Vision, Software Engineering
 
 Career Goal:
 To develop strong expertise in software engineering, algorithms, scalable applications, and intelligent information retrieval systems and to contribute to practical technology solutions.
@@ -121,4 +121,4 @@ Personal Interests:
 Information Retrieval, Competitive Programming, Open Source Software, Problem Solving, Search Systems
 
 Profile Summary:
-Ruchika Nair is a 4-year Artificial Intelligence and Data Science student interested in software engineering, algorithms, and practical software development. The student has academic exposure to Node.js, HTML, Git, Python, Cloud Computing and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.
+Siddharth Pillai is a 3-year Artificial Intelligence and Data Science student interested in cloud systems architecture, algorithms, and practical software development. The student has academic exposure to Natural Language Processing, Software Engineering, Cloud Computing, Deep Learning, Database Systems and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.

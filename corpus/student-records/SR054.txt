@@ -1,20 +1,20 @@
 Student Record ID: SR054
 Roll Number: 2520000054
-Name: Sunil Verma
-Department: Information Technology
+Name: Dev Singh
+Department: Electrical and Electronics Engineering
 Program: B.Tech
-Year: 4
-Section: B
+Year: 2
+Section: C
 Academic Status: Active
 
 Email: student054@example.edu
-Location: Delhi, NCR
+Location: Visakhapatnam, Andhra Pradesh
 
-Skills: Natural Language Processing, Image Processing, Node.js, Git, Cyber Security, Data Structures, CSS
-Programming Languages: SQL, Kotlin, Go, C
-Technical Interests: High Performance Computing, Software Development, Cyber Defense, Cloud Architecture
-Academic Interests: Operating Systems, Software Engineering, Data Warehousing, Cloud Computing, Computer Networks
-Research Interests: Algorithm Optimization, Deep Neural Networks, Pattern Matching, Natural Language Understanding, Information Extraction
+Skills: Data Structures, Python, HTML, DevOps, Algorithms, Machine Learning, Computer Vision
+Programming Languages: Kotlin, Go, R, Java
+Technical Interests: Artificial Intelligence, Computer Vision, Cyber Defense, Human Computer Interaction
+Academic Interests: Cloud Computing, Data Warehousing, Machine Learning, Distributed Systems, Compiler Design, Operating Systems
+Research Interests: Deep Neural Networks, Pattern Matching, Algorithm Optimization
 
 Project 1: Automated Exam Proctoring System
 
@@ -33,13 +33,13 @@ Python, OpenCV, Deep Learning, TensorFlow, Computer Vision, Software Engineering
 Project Outcome:
 Demonstrated real-time verification at 30 frames per second with minimal CPU resource utilization and 94% anomaly recall on benchmark datasets.
 
-Project 2: Distributed Cache & Query Engine
+Project 2: Student Portal UX Prototype
 
 Project Description:
-The Distributed Cache & Query Engine is a high-concurrency storage prototype that partitions key-value entries across nodes using consistent hashing and replication.
+The Student Portal UX Prototype is a related academic prototype focused on human computer interaction. It demonstrates structured record processing, modular implementation, testing, and retrieval of relevant information. The project emphasizes clear data representation and practical problem solving.
 
 Project Role:
-The student developed hash-ring partitioning logic, implemented gossip-based node failure detection, and designed automated failover mechanisms.
+The student participated in implementation, testing, documentation, debugging, and performance analysis. The work involved organizing project data and developing reliable processing and retrieval logic.
 
 Current Project: Intelligent Student Record Search System
 
@@ -95,21 +95,21 @@ demonstration of advanced string-matching concepts and creates a foundation for 
 as fuzzy search, autocomplete, indexing, and ranking.
 
 Certifications:
-Database Design with SQL, Data Structures and Algorithms
+Cyber Security Essentials, Full Stack Web Development, Cloud Computing Associate, Data Structures and Algorithms
 
 Workshops:
-Competitive Programming Bootcamp
 Cloud Computing and DevOps Workshop
-Machine Learning Workshop
+Java Development Workshop
+Competitive Programming Bootcamp
 
 Achievements:
-Top 10 Finalist in Regional Hackathon, Dean's Honor List Recognition, Hackathon Participant
+Top 10 Finalist in Regional Hackathon, Coding Contest Participant
 
 Extracurricular Activities:
-Project Expo Volunteer, Coding Club Coordinator, Hackathon Participant
+Project Expo Volunteer, Hackathon Participant, Open Source Club Contributor
 
 Career Interests:
-Machine Learning Engineering, Software Engineering, Data Platform Engineering, Search Systems, Information Retrieval
+Software Engineering, Machine Learning Engineering, Search Systems, Backend Development
 
 Career Goal:
 To develop strong expertise in software engineering, algorithms, scalable applications, and intelligent information retrieval systems and to contribute to practical technology solutions.
@@ -121,4 +121,4 @@ Personal Interests:
 Information Retrieval, Competitive Programming, Open Source Software, Problem Solving, Search Systems
 
 Profile Summary:
-Sunil Verma is a 4-year Information Technology student interested in machine learning engineering, algorithms, and practical software development. The student has academic exposure to Natural Language Processing, Image Processing, Node.js, Git, Cyber Security and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.
+Dev Singh is a 2-year Electrical and Electronics Engineering student interested in software engineering, algorithms, and practical software development. The student has academic exposure to Data Structures, Python, HTML, DevOps, Algorithms and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.

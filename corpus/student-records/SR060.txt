@@ -1,45 +1,45 @@
 Student Record ID: SR060
 Roll Number: 2520000060
-Name: Aarav Iyer
+Name: Soham Dubey
 Department: Information Technology
 Program: B.Tech
 Year: 2
-Section: A
+Section: B
 Academic Status: Active
 
 Email: student060@example.edu
-Location: Vijayawada, Andhra Pradesh
+Location: Hyderabad, Telangana
 
-Skills: React, Computer Vision, Microservices, Machine Learning, Cyber Security, TensorFlow, Cloud Computing, Problem Solving, Natural Language Processing, Database Systems
-Programming Languages: SQL, Java, C++, Kotlin, JavaScript
-Technical Interests: Software Development, Human Computer Interaction, Full Stack Engineering, Artificial Intelligence, Computer Vision, Problem Solving
-Academic Interests: Design and Analysis of Algorithms, Machine Learning, Cloud Computing, Computer Networks, Database Management Systems, Data Warehousing
-Research Interests: Search Performance Analysis, Pattern Matching, Information Extraction
+Skills: Python, Data Structures, Database Systems, Kubernetes, User Research, React, DevOps, Image Processing, Git
+Programming Languages: SQL, JavaScript, Kotlin
+Technical Interests: Artificial Intelligence, Full Stack Engineering, High Performance Computing, Problem Solving, Information Retrieval
+Academic Interests: Distributed Systems, Cloud Computing, Machine Learning, Operating Systems, Design and Analysis of Algorithms
+Research Interests: Deep Neural Networks, Information Extraction, Pattern Matching, Intelligent Systems
 
-Project 1: Document Image Processing Tool
-
-Project Description:
-The Document Image Processing Tool is an academic prototype focused on computer vision. It organizes relevant information, processes structured records, and provides search or retrieval capabilities for common user queries. The project demonstrates practical application of programming, data structures, algorithms, validation, and modular software design.
-
-Project Objectives:
-The objective of the project is to build a practical academic solution that reduces manual effort, improves information organization, and demonstrates the application of data structures, algorithms, and software engineering concepts to a real information-processing problem.
-
-Project Role:
-The student contributed to data organization, implementation, testing, documentation, and search or retrieval functionality. The project included sample-data testing, validation, debugging, and analysis of different user query scenarios.
-
-Technologies Used:
-Object-Oriented Programming, Deep Learning, Text Processing, Python, Software Engineering, Java, JavaScript
-
-Project Outcome:
-The prototype demonstrated how structured data, appropriate data structures, and algorithmic techniques can be combined to build a practical software solution. The system was evaluated using multiple sample records and different search or retrieval scenarios.
-
-Project 2: Campus Placement Hub Portal
+Project 1: Campus Placement Hub Portal
 
 Project Description:
 The Campus Placement Hub Portal is a centralized recruitment management platform enabling automated resume screening, eligibility filtering, and interview round management.
 
+Project Objectives:
+To replace paper-based placement tracking with an algorithmic, search-enabled digital platform that scales across thousands of students and hundreds of recruiters.
+
 Project Role:
 The student engineered core matching algorithms, structured profile data models, and built fast substring search endpoints for recruiter queries.
+
+Technologies Used:
+Java, Spring Boot, SQL, Database Systems, Software Engineering, Algorithms
+
+Project Outcome:
+Processed student records seamlessly, reduced recruiter shortlisting turnaround from days to minutes, and provided clear audit logs of all hiring decisions.
+
+Project 2: Document Image Processing Tool
+
+Project Description:
+The Document Image Processing Tool is an academic prototype focused on computer vision. It organizes relevant information, processes structured records, and provides search or retrieval capabilities for common user queries. The project demonstrates practical application of programming, data structures, algorithms, validation, and modular software design.
+
+Project Role:
+The student contributed to data organization, implementation, testing, documentation, and search or retrieval functionality. The project included sample-data testing, validation, debugging, and analysis of different user query scenarios.
 
 Current Project: Intelligent Student Record Search System
 
@@ -95,20 +95,21 @@ demonstration of advanced string-matching concepts and creates a foundation for 
 as fuzzy search, autocomplete, indexing, and ranking.
 
 Certifications:
-Java Programming, Cloud Computing Associate, Python for Data Science, Cyber Security Essentials
+Database Design with SQL, Python for Data Science, Java Programming
 
 Workshops:
-Data Structures and Algorithms Workshop
-Competitive Programming Bootcamp
+Computer Vision and Image Processing Seminar
+Java Development Workshop
+Machine Learning Workshop
 
 Achievements:
-Codeforces Active Contender, Hackathon Participant
+Inter-College Coding Event Participant, Hackathon Participant
 
 Extracurricular Activities:
-Coding Club Coordinator, Project Expo Volunteer
+Hackathon Participant, Open Source Club Contributor
 
 Career Interests:
-Machine Learning Engineering, Information Retrieval, Backend Development, Data Platform Engineering, Cloud Systems Architecture
+Search Systems, Data Platform Engineering, Software Engineering
 
 Career Goal:
 To develop strong expertise in software engineering, algorithms, scalable applications, and intelligent information retrieval systems and to contribute to practical technology solutions.
@@ -120,4 +121,4 @@ Personal Interests:
 Information Retrieval, Competitive Programming, Open Source Software, Problem Solving, Search Systems
 
 Profile Summary:
-Aarav Iyer is a 2-year Information Technology student interested in machine learning engineering, algorithms, and practical software development. The student has academic exposure to React, Computer Vision, Microservices, Machine Learning, Cyber Security and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.
+Soham Dubey is a 2-year Information Technology student interested in search systems, algorithms, and practical software development. The student has academic exposure to Python, Data Structures, Database Systems, Kubernetes, User Research and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.

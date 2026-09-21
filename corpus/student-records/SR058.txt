@@ -1,20 +1,20 @@
 Student Record ID: SR058
 Roll Number: 2520000058
-Name: Kiran Sharma
-Department: Electronics and Communication Engineering
+Name: Aniket Sinha
+Department: Computer Science and Engineering
 Program: B.Tech
 Year: 4
-Section: B
+Section: C
 Academic Status: Active
 
 Email: student058@example.edu
-Location: Warangal, Telangana
+Location: Hyderabad, Telangana
 
-Skills: Computer Vision, React, TensorFlow, Microservices, CSS, Cyber Security, Git, Problem Solving, Python
-Programming Languages: C, TypeScript, C++
-Technical Interests: High Performance Computing, Software Development, Full Stack Engineering, Cyber Defense
-Academic Interests: Operating Systems, Database Management Systems, Machine Learning, Computer Networks
-Research Interests: Intelligent Systems, Search Performance Analysis, Pattern Matching, Algorithm Optimization, Natural Language Understanding
+Skills: Microservices, Software Engineering, Algorithms, Problem Solving, CSS, Cloud Computing, PyTorch, Python, Computer Vision
+Programming Languages: Python, Java, SQL, C
+Technical Interests: Computer Vision, Human Computer Interaction, Information Retrieval, Technology Research
+Academic Interests: Design and Analysis of Algorithms, Distributed Systems, Compiler Design, Database Management Systems, Theory of Computation, Machine Learning
+Research Interests: Intelligent Systems, Search Performance Analysis, Deep Neural Networks, Natural Language Understanding, Algorithm Optimization
 
 Project 1: Document Image Processing Tool
 
@@ -95,21 +95,21 @@ demonstration of advanced string-matching concepts and creates a foundation for 
 as fuzzy search, autocomplete, indexing, and ranking.
 
 Certifications:
-Python for Data Science, Full Stack Web Development
+Data Structures and Algorithms, Cyber Security Essentials
 
 Workshops:
-Java Development Workshop
 Cloud Computing and DevOps Workshop
-Competitive Programming Bootcamp
+Machine Learning Workshop
+Java Development Workshop
 
 Achievements:
-Hackathon Participant, Top 10 Finalist in Regional Hackathon
+Inter-College Coding Event Participant, Hackathon Participant
 
 Extracurricular Activities:
-Open Source Club Contributor, Hackathon Participant
+Open Source Club Contributor, Robotics Club Associate
 
 Career Interests:
-Cloud Systems Architecture, Software Engineering, Information Retrieval, Data Platform Engineering
+Machine Learning Engineering, Data Platform Engineering, Cloud Systems Architecture, Search Systems, Backend Development
 
 Career Goal:
 To develop strong expertise in software engineering, algorithms, scalable applications, and intelligent information retrieval systems and to contribute to practical technology solutions.
@@ -121,4 +121,4 @@ Personal Interests:
 Information Retrieval, Competitive Programming, Open Source Software, Problem Solving, Search Systems
 
 Profile Summary:
-Kiran Sharma is a 4-year Electronics and Communication Engineering student interested in cloud systems architecture, algorithms, and practical software development. The student has academic exposure to Computer Vision, React, TensorFlow, Microservices, CSS and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.
+Aniket Sinha is a 4-year Computer Science and Engineering student interested in machine learning engineering, algorithms, and practical software development. The student has academic exposure to Microservices, Software Engineering, Algorithms, Problem Solving, CSS and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.

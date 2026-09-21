@@ -1,45 +1,45 @@
 Student Record ID: SR032
 Roll Number: 2520000032
-Name: Bhavya Patil
-Department: Information Technology
+Name: Sandhya Iyer
+Department: Artificial Intelligence and Data Science
 Program: B.Tech
 Year: 3
-Section: D
+Section: A
 Academic Status: Active
 
 Email: student032@example.edu
-Location: Delhi, NCR
+Location: Hyderabad, Telangana
 
-Skills: Linux, Cyber Security, Problem Solving, CSS, Data Structures, Docker, JavaScript
-Programming Languages: JavaScript, Go, Python, C++
-Technical Interests: Information Retrieval, Artificial Intelligence, Software Development, Technology Research, Human Computer Interaction
-Academic Interests: Design and Analysis of Algorithms, Database Management Systems, Distributed Systems, Theory of Computation
-Research Interests: Deep Neural Networks, Natural Language Understanding, Search Performance Analysis
+Skills: HTML, Deep Learning, Software Engineering, Natural Language Processing, TensorFlow, Database Systems
+Programming Languages: Go, C++, Java, R, SQL
+Technical Interests: Technology Research, Software Development, Cloud Architecture, Cyber Defense
+Academic Interests: Machine Learning, Compiler Design, Theory of Computation, Operating Systems
+Research Interests: Search Performance Analysis, Graph Neural Networks, Algorithm Optimization, Intelligent Systems, Information Extraction
 
-Project 1: Student Portal UX Prototype
+Project 1: Document Image Processing Tool
 
 Project Description:
-The Student Portal UX Prototype is a related academic prototype focused on human computer interaction. It demonstrates structured record processing, modular implementation, testing, and retrieval of relevant information. The project emphasizes clear data representation and practical problem solving.
+The Document Image Processing Tool is an academic prototype focused on computer vision. It organizes relevant information, processes structured records, and provides search or retrieval capabilities for common user queries. The project demonstrates practical application of programming, data structures, algorithms, validation, and modular software design.
 
 Project Objectives:
-The objective of the project is to build an interactive and responsive academic user interface that streamlines student access to courses, notices, grades, and academic advising.
+The objective of the project is to build a practical academic solution that reduces manual effort, improves information organization, and demonstrates the application of data structures, algorithms, and software engineering concepts to a real information-processing problem.
 
 Project Role:
-The student participated in implementation, testing, documentation, debugging, and performance analysis. The work involved organizing project data and developing reliable processing and retrieval logic.
+The student contributed to data organization, implementation, testing, documentation, and search or retrieval functionality. The project included sample-data testing, validation, debugging, and analysis of different user query scenarios.
 
 Technologies Used:
-JavaScript, HTML, CSS, React, User Research, Software Engineering
+Object-Oriented Programming, Deep Learning, Text Processing, Python, Software Engineering, Java, JavaScript
 
 Project Outcome:
-The prototype enhanced usability metrics, demonstrated efficient client-side state caching, and validated responsive interface design principles across multiple viewport dimensions.
+The prototype demonstrated how structured data, appropriate data structures, and algorithmic techniques can be combined to build a practical software solution. The system was evaluated using multiple sample records and different search or retrieval scenarios.
 
-Project 2: Campus Placement Hub Portal
+Project 2: Distributed Cache & Query Engine
 
 Project Description:
-The Campus Placement Hub Portal is a centralized recruitment management platform enabling automated resume screening, eligibility filtering, and interview round management.
+The Distributed Cache & Query Engine is a high-concurrency storage prototype that partitions key-value entries across nodes using consistent hashing and replication.
 
 Project Role:
-The student engineered core matching algorithms, structured profile data models, and built fast substring search endpoints for recruiter queries.
+The student developed hash-ring partitioning logic, implemented gossip-based node failure detection, and designed automated failover mechanisms.
 
 Current Project: Intelligent Student Record Search System
 
@@ -95,21 +95,20 @@ demonstration of advanced string-matching concepts and creates a foundation for 
 as fuzzy search, autocomplete, indexing, and ranking.
 
 Certifications:
-Java Programming, Data Structures and Algorithms, Full Stack Web Development
+Cyber Security Essentials, Git and Version Control
 
 Workshops:
-Java Development Workshop
-Competitive Programming Bootcamp
-Cloud Computing and DevOps Workshop
+Computer Vision and Image Processing Seminar
+Machine Learning Workshop
 
 Achievements:
-Inter-College Coding Event Participant, Coding Contest Participant
+Top 10 Finalist in Regional Hackathon, Codeforces Active Contender
 
 Extracurricular Activities:
-Technical Community Member, Robotics Club Associate, Hackathon Participant
+Coding Club Coordinator, Robotics Club Associate
 
 Career Interests:
-Software Engineering, Search Systems, Data Platform Engineering, Computer Vision
+Data Platform Engineering, Backend Development, Software Engineering
 
 Career Goal:
 To develop strong expertise in software engineering, algorithms, scalable applications, and intelligent information retrieval systems and to contribute to practical technology solutions.
@@ -121,4 +120,4 @@ Personal Interests:
 Information Retrieval, Competitive Programming, Open Source Software, Problem Solving, Search Systems
 
 Profile Summary:
-Bhavya Patil is a 3-year Information Technology student interested in software engineering, algorithms, and practical software development. The student has academic exposure to Linux, Cyber Security, Problem Solving, CSS, Data Structures and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.
+Sandhya Iyer is a 3-year Artificial Intelligence and Data Science student interested in data platform engineering, algorithms, and practical software development. The student has academic exposure to HTML, Deep Learning, Software Engineering, Natural Language Processing, TensorFlow and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.

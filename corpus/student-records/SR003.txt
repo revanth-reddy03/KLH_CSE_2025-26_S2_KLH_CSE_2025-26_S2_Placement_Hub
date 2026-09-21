@@ -1,45 +1,45 @@
 Student Record ID: SR003
 Roll Number: 2520000003
-Name: Venkatesh Joshi
-Department: Electrical and Electronics Engineering
+Name: Vikas Kulkarni
+Department: Computer Science and Engineering
 Program: B.Tech
 Year: 2
-Section: A
+Section: B
 Academic Status: Active
 
 Email: student003@example.edu
-Location: Warangal, Telangana
+Location: Pune, Maharashtra
 
-Skills: PyTorch, React, Problem Solving, CSS, Python, Cloud Computing, HTML
-Programming Languages: Python, SQL, Kotlin, R
-Technical Interests: Computer Vision, Problem Solving, Information Retrieval, Human Computer Interaction
-Academic Interests: Software Engineering, Distributed Systems, Compiler Design, Computer Networks, Data Warehousing, Database Management Systems
-Research Interests: Search Performance Analysis, Graph Neural Networks, Intelligent Systems, Pattern Matching, Algorithm Optimization
+Skills: Git, CSS, Python, Cloud Computing, HTML, Data Structures
+Programming Languages: Python, SQL, Kotlin, R, C++
+Technical Interests: Problem Solving, Information Retrieval, Human Computer Interaction, Software Development, High Performance Computing, Cyber Defense
+Academic Interests: Cloud Computing, Theory of Computation, Software Engineering, Database Management Systems, Computer Networks
+Research Interests: Search Performance Analysis, Natural Language Understanding, Pattern Matching
 
-Project 1: Document Image Processing Tool
+Project 1: Automated Exam Proctoring System
 
 Project Description:
-The Document Image Processing Tool is an academic prototype focused on computer vision. It organizes relevant information, processes structured records, and provides search or retrieval capabilities for common user queries. The project demonstrates practical application of programming, data structures, algorithms, validation, and modular software design.
+The Automated Exam Proctoring System is a machine learning prototype that detects face anomalies, gaze direction, and unauthorized electronic devices during remote computer-based tests.
 
 Project Objectives:
-The objective of the project is to build a practical academic solution that reduces manual effort, improves information organization, and demonstrates the application of data structures, algorithms, and software engineering concepts to a real information-processing problem.
+To develop a low-latency non-intrusive monitoring pipeline that maintains examination integrity in hybrid learning settings.
 
 Project Role:
-The student contributed to data organization, implementation, testing, documentation, and search or retrieval functionality. The project included sample-data testing, validation, debugging, and analysis of different user query scenarios.
+The student implemented face detection pipelines, integrated OpenCV video capture modules, and formulated threshold detection rules for gaze deflection.
 
 Technologies Used:
-Object-Oriented Programming, Deep Learning, Text Processing, Python, Software Engineering, Java, JavaScript
+Python, OpenCV, Deep Learning, TensorFlow, Computer Vision, Software Engineering
 
 Project Outcome:
-The prototype demonstrated how structured data, appropriate data structures, and algorithmic techniques can be combined to build a practical software solution. The system was evaluated using multiple sample records and different search or retrieval scenarios.
+Demonstrated real-time verification at 30 frames per second with minimal CPU resource utilization and 94% anomaly recall on benchmark datasets.
 
-Project 2: Distributed Cache & Query Engine
+Project 2: Campus Placement Hub Portal
 
 Project Description:
-The Distributed Cache & Query Engine is a high-concurrency storage prototype that partitions key-value entries across nodes using consistent hashing and replication.
+The Campus Placement Hub Portal is a centralized recruitment management platform enabling automated resume screening, eligibility filtering, and interview round management.
 
 Project Role:
-The student developed hash-ring partitioning logic, implemented gossip-based node failure detection, and designed automated failover mechanisms.
+The student engineered core matching algorithms, structured profile data models, and built fast substring search endpoints for recruiter queries.
 
 Current Project: Intelligent Student Record Search System
 
@@ -95,7 +95,7 @@ demonstration of advanced string-matching concepts and creates a foundation for 
 as fuzzy search, autocomplete, indexing, and ranking.
 
 Certifications:
-Cloud Computing Associate, Data Structures and Algorithms, Database Design with SQL
+Data Structures and Algorithms, Machine Learning Foundations, Cloud Computing Associate
 
 Workshops:
 Java Development Workshop
@@ -121,4 +121,4 @@ Personal Interests:
 Information Retrieval, Competitive Programming, Open Source Software, Problem Solving, Search Systems
 
 Profile Summary:
-Venkatesh Joshi is a 2-year Electrical and Electronics Engineering student interested in machine learning engineering, algorithms, and practical software development. The student has academic exposure to PyTorch, React, Problem Solving, CSS, Python and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.
+Vikas Kulkarni is a 2-year Computer Science and Engineering student interested in machine learning engineering, algorithms, and practical software development. The student has academic exposure to Git, CSS, Python, Cloud Computing, HTML and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.

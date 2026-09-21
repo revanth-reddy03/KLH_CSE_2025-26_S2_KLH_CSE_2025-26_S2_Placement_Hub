@@ -1,45 +1,45 @@
 Student Record ID: SR057
 Roll Number: 2520000057
-Name: Yash Agarwal
-Department: Artificial Intelligence and Data Science
+Name: Rakesh Dubey
+Department: Information Technology
 Program: B.Tech
 Year: 3
-Section: B
+Section: C
 Academic Status: Active
 
 Email: student057@example.edu
-Location: Pune, Maharashtra
+Location: Visakhapatnam, Andhra Pradesh
 
-Skills: Cloud Computing, Data Structures, Problem Solving, Computer Vision, Kubernetes, Git, Machine Learning, HTML, Docker
-Programming Languages: TypeScript, Python, JavaScript, Go
-Technical Interests: Information Retrieval, Cyber Defense, Artificial Intelligence, Computer Vision, Cloud Architecture, Problem Solving
-Academic Interests: Software Engineering, Computer Networks, Design and Analysis of Algorithms, Compiler Design, Distributed Systems
-Research Interests: Deep Neural Networks, Intelligent Systems, Information Extraction, Graph Neural Networks
+Skills: Node.js, Natural Language Processing, Distributed Systems, Software Engineering, Kubernetes, Algorithms, Git, User Research
+Programming Languages: C++, TypeScript, JavaScript
+Technical Interests: Human Computer Interaction, Cyber Defense, High Performance Computing, Technology Research
+Academic Interests: Software Engineering, Distributed Systems, Cloud Computing, Data Warehousing, Computer Networks
+Research Interests: Algorithm Optimization, Graph Neural Networks, Intelligent Systems, Natural Language Understanding
 
-Project 1: Student Portal UX Prototype
+Project 1: Document Image Processing Tool
 
 Project Description:
-The Student Portal UX Prototype is a related academic prototype focused on human computer interaction. It demonstrates structured record processing, modular implementation, testing, and retrieval of relevant information. The project emphasizes clear data representation and practical problem solving.
+The Document Image Processing Tool is an academic prototype focused on computer vision. It organizes relevant information, processes structured records, and provides search or retrieval capabilities for common user queries. The project demonstrates practical application of programming, data structures, algorithms, validation, and modular software design.
 
 Project Objectives:
-The objective of the project is to build an interactive and responsive academic user interface that streamlines student access to courses, notices, grades, and academic advising.
+The objective of the project is to build a practical academic solution that reduces manual effort, improves information organization, and demonstrates the application of data structures, algorithms, and software engineering concepts to a real information-processing problem.
 
 Project Role:
-The student participated in implementation, testing, documentation, debugging, and performance analysis. The work involved organizing project data and developing reliable processing and retrieval logic.
+The student contributed to data organization, implementation, testing, documentation, and search or retrieval functionality. The project included sample-data testing, validation, debugging, and analysis of different user query scenarios.
 
 Technologies Used:
-JavaScript, HTML, CSS, React, User Research, Software Engineering
+Object-Oriented Programming, Deep Learning, Text Processing, Python, Software Engineering, Java, JavaScript
 
 Project Outcome:
-The prototype enhanced usability metrics, demonstrated efficient client-side state caching, and validated responsive interface design principles across multiple viewport dimensions.
+The prototype demonstrated how structured data, appropriate data structures, and algorithmic techniques can be combined to build a practical software solution. The system was evaluated using multiple sample records and different search or retrieval scenarios.
 
-Project 2: Campus Placement Hub Portal
+Project 2: Distributed Cache & Query Engine
 
 Project Description:
-The Campus Placement Hub Portal is a centralized recruitment management platform enabling automated resume screening, eligibility filtering, and interview round management.
+The Distributed Cache & Query Engine is a high-concurrency storage prototype that partitions key-value entries across nodes using consistent hashing and replication.
 
 Project Role:
-The student engineered core matching algorithms, structured profile data models, and built fast substring search endpoints for recruiter queries.
+The student developed hash-ring partitioning logic, implemented gossip-based node failure detection, and designed automated failover mechanisms.
 
 Current Project: Intelligent Student Record Search System
 
@@ -95,21 +95,21 @@ demonstration of advanced string-matching concepts and creates a foundation for 
 as fuzzy search, autocomplete, indexing, and ranking.
 
 Certifications:
-Java Programming, Full Stack Web Development, Database Design with SQL
+Git and Version Control, Java Programming, Machine Learning Foundations, Python for Data Science
 
 Workshops:
-Data Structures and Algorithms Workshop
 Competitive Programming Bootcamp
 Java Development Workshop
+Cloud Computing and DevOps Workshop
 
 Achievements:
-Dean's Honor List Recognition, Hackathon Participant, Codeforces Active Contender
+Codeforces Active Contender, Hackathon Participant
 
 Extracurricular Activities:
-Robotics Club Associate, Hackathon Participant
+Hackathon Participant, Coding Club Coordinator
 
 Career Interests:
-Machine Learning Engineering, Information Retrieval, Backend Development, Search Systems, Cloud Systems Architecture
+Backend Development, Machine Learning Engineering, Information Retrieval
 
 Career Goal:
 To develop strong expertise in software engineering, algorithms, scalable applications, and intelligent information retrieval systems and to contribute to practical technology solutions.
@@ -121,4 +121,4 @@ Personal Interests:
 Information Retrieval, Competitive Programming, Open Source Software, Problem Solving, Search Systems
 
 Profile Summary:
-Yash Agarwal is a 3-year Artificial Intelligence and Data Science student interested in machine learning engineering, algorithms, and practical software development. The student has academic exposure to Cloud Computing, Data Structures, Problem Solving, Computer Vision, Kubernetes and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.
+Rakesh Dubey is a 3-year Information Technology student interested in backend development, algorithms, and practical software development. The student has academic exposure to Node.js, Natural Language Processing, Distributed Systems, Software Engineering, Kubernetes and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.

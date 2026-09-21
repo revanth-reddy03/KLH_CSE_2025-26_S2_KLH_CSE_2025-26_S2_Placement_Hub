@@ -1,20 +1,20 @@
 Student Record ID: SR014
 Roll Number: 2520000014
-Name: Soham Patel
-Department: Information Technology
+Name: Ruchika Singh
+Department: Electronics and Communication Engineering
 Program: B.Tech
-Year: 2
-Section: D
+Year: 4
+Section: A
 Academic Status: Active
 
 Email: student014@example.edu
-Location: Hyderabad, Telangana
+Location: Kolkata, West Bengal
 
-Skills: Deep Learning, Data Structures, Microservices, HTML, Docker, Image Processing, Database Systems, DevOps, Python, Kubernetes
-Programming Languages: C++, JavaScript, Java, TypeScript
-Technical Interests: Cloud Architecture, Computer Vision, Software Development, Information Retrieval, Problem Solving, Artificial Intelligence
-Academic Interests: Software Engineering, Machine Learning, Cloud Computing, Data Warehousing, Computer Networks, Theory of Computation
-Research Interests: Graph Neural Networks, Deep Neural Networks, Search Performance Analysis
+Skills: Docker, Natural Language Processing, Cyber Security, DevOps, Git, Problem Solving
+Programming Languages: Python, JavaScript, Go, TypeScript, C
+Technical Interests: Cloud Architecture, Artificial Intelligence, Cyber Defense, Human Computer Interaction
+Academic Interests: Distributed Systems, Theory of Computation, Cloud Computing, Compiler Design, Software Engineering
+Research Interests: Deep Neural Networks, Intelligent Systems, Algorithm Optimization, Pattern Matching
 
 Project 1: Automated Exam Proctoring System
 
@@ -33,13 +33,13 @@ Python, OpenCV, Deep Learning, TensorFlow, Computer Vision, Software Engineering
 Project Outcome:
 Demonstrated real-time verification at 30 frames per second with minimal CPU resource utilization and 94% anomaly recall on benchmark datasets.
 
-Project 2: Document Image Processing Tool
+Project 2: Campus Placement Hub Portal
 
 Project Description:
-The Document Image Processing Tool is an academic prototype focused on computer vision. It organizes relevant information, processes structured records, and provides search or retrieval capabilities for common user queries. The project demonstrates practical application of programming, data structures, algorithms, validation, and modular software design.
+The Campus Placement Hub Portal is a centralized recruitment management platform enabling automated resume screening, eligibility filtering, and interview round management.
 
 Project Role:
-The student contributed to data organization, implementation, testing, documentation, and search or retrieval functionality. The project included sample-data testing, validation, debugging, and analysis of different user query scenarios.
+The student engineered core matching algorithms, structured profile data models, and built fast substring search endpoints for recruiter queries.
 
 Current Project: Intelligent Student Record Search System
 
@@ -95,7 +95,7 @@ demonstration of advanced string-matching concepts and creates a foundation for 
 as fuzzy search, autocomplete, indexing, and ranking.
 
 Certifications:
-Python for Data Science, Java Programming, Cyber Security Essentials, Machine Learning Foundations
+Database Design with SQL, Cyber Security Essentials
 
 Workshops:
 Data Structures and Algorithms Workshop
@@ -103,13 +103,13 @@ Cloud Computing and DevOps Workshop
 Machine Learning Workshop
 
 Achievements:
-Codeforces Active Contender, Coding Contest Participant, Dean's Honor List Recognition
+Dean's Honor List Recognition, Coding Contest Participant
 
 Extracurricular Activities:
-Robotics Club Associate, Open Source Club Contributor
+Project Expo Volunteer, Robotics Club Associate, Open Source Club Contributor
 
 Career Interests:
-Machine Learning Engineering, Software Engineering, Data Platform Engineering, Computer Vision, Cloud Systems Architecture
+Machine Learning Engineering, Software Engineering, Search Systems, Data Platform Engineering, Information Retrieval
 
 Career Goal:
 To develop strong expertise in software engineering, algorithms, scalable applications, and intelligent information retrieval systems and to contribute to practical technology solutions.
@@ -121,4 +121,4 @@ Personal Interests:
 Information Retrieval, Competitive Programming, Open Source Software, Problem Solving, Search Systems
 
 Profile Summary:
-Soham Patel is a 2-year Information Technology student interested in machine learning engineering, algorithms, and practical software development. The student has academic exposure to Deep Learning, Data Structures, Microservices, HTML, Docker and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.
+Ruchika Singh is a 4-year Electronics and Communication Engineering student interested in machine learning engineering, algorithms, and practical software development. The student has academic exposure to Docker, Natural Language Processing, Cyber Security, DevOps, Git and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.

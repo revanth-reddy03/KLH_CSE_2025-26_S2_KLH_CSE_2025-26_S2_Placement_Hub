@@ -1,20 +1,20 @@
 Student Record ID: SR018
 Roll Number: 2520000018
-Name: Rakesh Verma
-Department: Electrical and Electronics Engineering
+Name: Suresh Pandey
+Department: Computer Science and Engineering
 Program: B.Tech
 Year: 2
-Section: B
+Section: C
 Academic Status: Active
 
 Email: student018@example.edu
-Location: Pune, Maharashtra
+Location: Vijayawada, Andhra Pradesh
 
-Skills: Problem Solving, User Research, Image Processing, React, Database Systems, Distributed Systems, PyTorch
-Programming Languages: C++, TypeScript, Java, Python
-Technical Interests: Problem Solving, Full Stack Engineering, High Performance Computing, Cyber Defense, Software Development
-Academic Interests: Data Warehousing, Operating Systems, Computer Networks, Database Management Systems
-Research Interests: Deep Neural Networks, Pattern Matching, Natural Language Understanding, Algorithm Optimization, Graph Neural Networks
+Skills: React, DevOps, Cloud Computing, PyTorch, Natural Language Processing, User Research, Data Structures, Problem Solving, Node.js
+Programming Languages: Python, C++, Go, TypeScript
+Technical Interests: Technology Research, Full Stack Engineering, Cyber Defense, Cloud Architecture, Computer Vision, Information Retrieval
+Academic Interests: Database Management Systems, Data Warehousing, Compiler Design, Theory of Computation, Computer Networks, Operating Systems
+Research Interests: Deep Neural Networks, Information Extraction, Algorithm Optimization
 
 Project 1: Automated Exam Proctoring System
 
@@ -33,13 +33,13 @@ Python, OpenCV, Deep Learning, TensorFlow, Computer Vision, Software Engineering
 Project Outcome:
 Demonstrated real-time verification at 30 frames per second with minimal CPU resource utilization and 94% anomaly recall on benchmark datasets.
 
-Project 2: Document Image Processing Tool
+Project 2: Campus Placement Hub Portal
 
 Project Description:
-The Document Image Processing Tool is an academic prototype focused on computer vision. It organizes relevant information, processes structured records, and provides search or retrieval capabilities for common user queries. The project demonstrates practical application of programming, data structures, algorithms, validation, and modular software design.
+The Campus Placement Hub Portal is a centralized recruitment management platform enabling automated resume screening, eligibility filtering, and interview round management.
 
 Project Role:
-The student contributed to data organization, implementation, testing, documentation, and search or retrieval functionality. The project included sample-data testing, validation, debugging, and analysis of different user query scenarios.
+The student engineered core matching algorithms, structured profile data models, and built fast substring search endpoints for recruiter queries.
 
 Current Project: Intelligent Student Record Search System
 
@@ -95,21 +95,20 @@ demonstration of advanced string-matching concepts and creates a foundation for 
 as fuzzy search, autocomplete, indexing, and ranking.
 
 Certifications:
-Database Design with SQL, Full Stack Web Development
+Database Design with SQL, Data Structures and Algorithms, Java Programming, Python for Data Science
 
 Workshops:
+Competitive Programming Bootcamp
 Java Development Workshop
-Computer Vision and Image Processing Seminar
-Cloud Computing and DevOps Workshop
 
 Achievements:
-Hackathon Participant, Dean's Honor List Recognition, Inter-College Coding Event Participant
+Top 10 Finalist in Regional Hackathon, Hackathon Participant, Dean's Honor List Recognition
 
 Extracurricular Activities:
-Project Expo Volunteer, Robotics Club Associate, Technical Community Member
+Hackathon Participant, Technical Community Member
 
 Career Interests:
-Cloud Systems Architecture, Computer Vision, Software Engineering
+Information Retrieval, Cloud Systems Architecture, Software Engineering, Computer Vision
 
 Career Goal:
 To develop strong expertise in software engineering, algorithms, scalable applications, and intelligent information retrieval systems and to contribute to practical technology solutions.
@@ -121,4 +120,4 @@ Personal Interests:
 Information Retrieval, Competitive Programming, Open Source Software, Problem Solving, Search Systems
 
 Profile Summary:
-Rakesh Verma is a 2-year Electrical and Electronics Engineering student interested in cloud systems architecture, algorithms, and practical software development. The student has academic exposure to Problem Solving, User Research, Image Processing, React, Database Systems and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.
+Suresh Pandey is a 2-year Computer Science and Engineering student interested in information retrieval, algorithms, and practical software development. The student has academic exposure to React, DevOps, Cloud Computing, PyTorch, Natural Language Processing and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.

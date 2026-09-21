@@ -1,20 +1,20 @@
 Student Record ID: SR051
 Roll Number: 2520000051
-Name: Sanjay Bose
+Name: Harini Mishra
 Department: Artificial Intelligence and Data Science
 Program: B.Tech
 Year: 2
-Section: A
+Section: C
 Academic Status: Active
 
 Email: student051@example.edu
-Location: Hyderabad, Telangana
+Location: Pune, Maharashtra
 
-Skills: Natural Language Processing, Problem Solving, Database Systems, Kubernetes, Node.js, Cloud Computing, JavaScript, React
-Programming Languages: Go, C++, C, Java
-Technical Interests: Human Computer Interaction, Cloud Architecture, Computer Vision, Full Stack Engineering, Cyber Defense, High Performance Computing
-Academic Interests: Compiler Design, Distributed Systems, Machine Learning, Data Warehousing, Software Engineering
-Research Interests: Natural Language Understanding, Intelligent Systems, Search Performance Analysis, Pattern Matching
+Skills: TensorFlow, Computer Vision, Algorithms, Database Systems, PyTorch, Deep Learning, Data Structures
+Programming Languages: SQL, Java, JavaScript
+Technical Interests: Artificial Intelligence, High Performance Computing, Cloud Architecture, Computer Vision, Software Development
+Academic Interests: Computer Networks, Data Warehousing, Distributed Systems, Cloud Computing, Theory of Computation
+Research Interests: Search Performance Analysis, Information Extraction, Intelligent Systems, Algorithm Optimization, Natural Language Understanding
 
 Project 1: Automated Exam Proctoring System
 
@@ -95,21 +95,21 @@ demonstration of advanced string-matching concepts and creates a foundation for 
 as fuzzy search, autocomplete, indexing, and ranking.
 
 Certifications:
-Database Design with SQL, Machine Learning Foundations
+Database Design with SQL, Machine Learning Foundations, Git and Version Control, Full Stack Web Development
 
 Workshops:
-Data Structures and Algorithms Workshop
-Java Development Workshop
+Cloud Computing and DevOps Workshop
 Machine Learning Workshop
+Data Structures and Algorithms Workshop
 
 Achievements:
-Dean's Honor List Recognition, Inter-College Coding Event Participant
+Top 10 Finalist in Regional Hackathon, Codeforces Active Contender
 
 Extracurricular Activities:
-Project Expo Volunteer, Coding Club Coordinator, Robotics Club Associate
+Robotics Club Associate, Open Source Club Contributor
 
 Career Interests:
-Backend Development, Software Engineering, Data Platform Engineering, Machine Learning Engineering
+Software Engineering, Cloud Systems Architecture, Information Retrieval
 
 Career Goal:
 To develop strong expertise in software engineering, algorithms, scalable applications, and intelligent information retrieval systems and to contribute to practical technology solutions.
@@ -121,4 +121,4 @@ Personal Interests:
 Information Retrieval, Competitive Programming, Open Source Software, Problem Solving, Search Systems
 
 Profile Summary:
-Sanjay Bose is a 2-year Artificial Intelligence and Data Science student interested in backend development, algorithms, and practical software development. The student has academic exposure to Natural Language Processing, Problem Solving, Database Systems, Kubernetes, Node.js and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.
+Harini Mishra is a 2-year Artificial Intelligence and Data Science student interested in software engineering, algorithms, and practical software development. The student has academic exposure to TensorFlow, Computer Vision, Algorithms, Database Systems, PyTorch and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.

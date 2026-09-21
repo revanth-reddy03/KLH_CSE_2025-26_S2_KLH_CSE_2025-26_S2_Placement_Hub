@@ -1,0 +1,124 @@
+Student Record ID: SR384
+Roll Number: 2520000384
+Name: Varun Das
+Department: Electrical and Electronics Engineering
+Program: B.Tech
+Year: 4
+Section: B
+Academic Status: Active
+
+Email: student384@example.edu
+Location: Hyderabad, Telangana
+
+Skills: DevOps, Kubernetes, Computer Vision, Cyber Security, Microservices, HTML, Natural Language Processing, TensorFlow, Cloud Computing
+Programming Languages: C, Python, TypeScript, Go
+Technical Interests: Human Computer Interaction, Computer Vision, Software Development, Full Stack Engineering, Artificial Intelligence
+Academic Interests: Distributed Systems, Design and Analysis of Algorithms, Theory of Computation, Operating Systems
+Research Interests: Algorithm Optimization, Natural Language Understanding, Deep Neural Networks, Intelligent Systems, Graph Neural Networks
+
+Project 1: Student Portal UX Prototype
+
+Project Description:
+The Student Portal UX Prototype is a related academic prototype focused on human computer interaction. It demonstrates structured record processing, modular implementation, testing, and retrieval of relevant information. The project emphasizes clear data representation and practical problem solving.
+
+Project Objectives:
+The objective of the project is to build an interactive and responsive academic user interface that streamlines student access to courses, notices, grades, and academic advising.
+
+Project Role:
+The student participated in implementation, testing, documentation, debugging, and performance analysis. The work involved organizing project data and developing reliable processing and retrieval logic.
+
+Technologies Used:
+JavaScript, HTML, CSS, React, User Research, Software Engineering
+
+Project Outcome:
+The prototype enhanced usability metrics, demonstrated efficient client-side state caching, and validated responsive interface design principles across multiple viewport dimensions.
+
+Project 2: Distributed Cache & Query Engine
+
+Project Description:
+The Distributed Cache & Query Engine is a high-concurrency storage prototype that partitions key-value entries across nodes using consistent hashing and replication.
+
+Project Role:
+The student developed hash-ring partitioning logic, implemented gossip-based node failure detection, and designed automated failover mechanisms.
+
+Current Project: Intelligent Student Record Search System
+
+Project Description:
+The Intelligent Student Record Search System is a Data Structures and Algorithms project designed to search and retrieve information from a collection of student profile documents. Instead of restricting search to only a roll number or name, the system treats the complete student profile as searchable text. Each document contains academic details, skills, project descriptions, certifications, interests, achievements, and career information. These documents form the student-record corpus used for pattern and string-matching experiments.
+
+Problem Context:
+Educational institutions maintain large collections of student information distributed across academic
+records, skills, projects, certifications, achievements, and interests. As the number of student records
+increases, manually locating relevant information becomes time-consuming. The project demonstrates how
+string-matching algorithms can support efficient text-based retrieval across a student record corpus.
+
+Search Problem:
+Given a search pattern P and a collection of student record documents, the system searches the text of
+each document to determine whether P occurs within the student profile.
+
+Example Search Patterns:
+Java
+Python
+Data Structures
+Machine Learning
+Artificial Intelligence
+Information Retrieval
+Cyber Security
+Cloud Computing
+Software Engineering
+Pattern Matching
+Database Systems
+Project Management
+
+KMP Implementation:
+The Knuth-Morris-Pratt algorithm preprocesses the search pattern using the Longest Proper Prefix which
+is also Suffix (LPS) array. The LPS information allows the search procedure to avoid unnecessary
+comparisons after a mismatch.
+
+Rabin-Karp Implementation:
+The Rabin-Karp algorithm uses a rolling hash to compare the search pattern with windows of text.
+Candidate matches are identified through hash values and can be verified character by character.
+
+Corpus-Based Searching:
+Each TXT document represents one student profile. The corpus contains multiple structured fields and
+descriptive paragraphs so that pattern matching is evaluated on meaningful text rather than a single
+hard-coded string.
+
+Algorithm Comparison:
+The same query can be processed using KMP and Rabin-Karp. The system verifies that both algorithms
+identify the same matching documents and can record execution time and operation counts for comparison.
+
+Expected Outcome:
+The expected outcome is a Java-based search engine capable of scanning the student-record corpus and
+identifying relevant documents for a given search pattern. The implementation provides a practical
+demonstration of advanced string-matching concepts and creates a foundation for future extensions such
+as fuzzy search, autocomplete, indexing, and ranking.
+
+Certifications:
+Git and Version Control, Full Stack Web Development, Data Structures and Algorithms, Python for Data Science
+
+Workshops:
+Cloud Computing and DevOps Workshop
+Data Structures and Algorithms Workshop
+Competitive Programming Bootcamp
+
+Achievements:
+Top 10 Finalist in Regional Hackathon, Inter-College Coding Event Participant
+
+Extracurricular Activities:
+Project Expo Volunteer, Technical Community Member
+
+Career Interests:
+Computer Vision, Data Platform Engineering, Cloud Systems Architecture, Software Engineering
+
+Career Goal:
+To develop strong expertise in software engineering, algorithms, scalable applications, and intelligent information retrieval systems and to contribute to practical technology solutions.
+
+Languages Known:
+English, Hindi, Telugu
+
+Personal Interests:
+Information Retrieval, Competitive Programming, Open Source Software, Problem Solving, Search Systems
+
+Profile Summary:
+Varun Das is a 4-year Electrical and Electronics Engineering student interested in computer vision, algorithms, and practical software development. The student has academic exposure to DevOps, Kubernetes, Computer Vision, Cyber Security, Microservices and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.

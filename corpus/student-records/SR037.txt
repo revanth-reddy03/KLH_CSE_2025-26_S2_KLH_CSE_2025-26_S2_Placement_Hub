@@ -1,45 +1,45 @@
 Student Record ID: SR037
 Roll Number: 2520000037
-Name: Meera Mehta
-Department: Information Technology
+Name: Sakshi Gupta
+Department: Electrical and Electronics Engineering
 Program: B.Tech
 Year: 3
-Section: B
+Section: A
 Academic Status: Active
 
 Email: student037@example.edu
-Location: Visakhapatnam, Andhra Pradesh
+Location: Mumbai, Maharashtra
 
-Skills: React, Problem Solving, HTML, Deep Learning, Computer Vision, Natural Language Processing, Kubernetes, Software Engineering, Git, Microservices
-Programming Languages: R, SQL, Kotlin
-Technical Interests: Computer Vision, High Performance Computing, Artificial Intelligence, Technology Research
-Academic Interests: Machine Learning, Operating Systems, Cloud Computing, Software Engineering
-Research Interests: Natural Language Understanding, Deep Neural Networks, Graph Neural Networks, Pattern Matching, Search Performance Analysis
+Skills: React, Computer Vision, Git, Algorithms, CSS, DevOps, Cloud Computing, Kubernetes, Data Structures, Problem Solving
+Programming Languages: JavaScript, SQL, TypeScript, C, Go
+Technical Interests: Software Development, Artificial Intelligence, Human Computer Interaction, High Performance Computing, Cloud Architecture
+Academic Interests: Database Management Systems, Design and Analysis of Algorithms, Computer Networks, Distributed Systems, Theory of Computation, Compiler Design
+Research Interests: Algorithm Optimization, Intelligent Systems, Information Extraction, Search Performance Analysis, Pattern Matching
 
-Project 1: Campus Placement Hub Portal
-
-Project Description:
-The Campus Placement Hub Portal is a centralized recruitment management platform enabling automated resume screening, eligibility filtering, and interview round management.
-
-Project Objectives:
-To replace paper-based placement tracking with an algorithmic, search-enabled digital platform that scales across thousands of students and hundreds of recruiters.
-
-Project Role:
-The student engineered core matching algorithms, structured profile data models, and built fast substring search endpoints for recruiter queries.
-
-Technologies Used:
-Java, Spring Boot, SQL, Database Systems, Software Engineering, Algorithms
-
-Project Outcome:
-Processed student records seamlessly, reduced recruiter shortlisting turnaround from days to minutes, and provided clear audit logs of all hiring decisions.
-
-Project 2: Automated Exam Proctoring System
+Project 1: Automated Exam Proctoring System
 
 Project Description:
 The Automated Exam Proctoring System is a machine learning prototype that detects face anomalies, gaze direction, and unauthorized electronic devices during remote computer-based tests.
 
+Project Objectives:
+To develop a low-latency non-intrusive monitoring pipeline that maintains examination integrity in hybrid learning settings.
+
 Project Role:
 The student implemented face detection pipelines, integrated OpenCV video capture modules, and formulated threshold detection rules for gaze deflection.
+
+Technologies Used:
+Python, OpenCV, Deep Learning, TensorFlow, Computer Vision, Software Engineering
+
+Project Outcome:
+Demonstrated real-time verification at 30 frames per second with minimal CPU resource utilization and 94% anomaly recall on benchmark datasets.
+
+Project 2: Campus Placement Hub Portal
+
+Project Description:
+The Campus Placement Hub Portal is a centralized recruitment management platform enabling automated resume screening, eligibility filtering, and interview round management.
+
+Project Role:
+The student engineered core matching algorithms, structured profile data models, and built fast substring search endpoints for recruiter queries.
 
 Current Project: Intelligent Student Record Search System
 
@@ -95,21 +95,20 @@ demonstration of advanced string-matching concepts and creates a foundation for 
 as fuzzy search, autocomplete, indexing, and ranking.
 
 Certifications:
-Cloud Computing Associate, Database Design with SQL, Data Structures and Algorithms, Python for Data Science
+Git and Version Control, Data Structures and Algorithms
 
 Workshops:
 Machine Learning Workshop
 Cloud Computing and DevOps Workshop
-Data Structures and Algorithms Workshop
 
 Achievements:
-Coding Contest Participant, Dean's Honor List Recognition
+Coding Contest Participant, Codeforces Active Contender, Inter-College Coding Event Participant
 
 Extracurricular Activities:
-Coding Club Coordinator, Robotics Club Associate, Hackathon Participant
+Hackathon Participant, Robotics Club Associate, Coding Club Coordinator
 
 Career Interests:
-Backend Development, Software Engineering, Cloud Systems Architecture, Data Platform Engineering
+Software Engineering, Computer Vision, Backend Development, Data Platform Engineering, Search Systems
 
 Career Goal:
 To develop strong expertise in software engineering, algorithms, scalable applications, and intelligent information retrieval systems and to contribute to practical technology solutions.
@@ -121,4 +120,4 @@ Personal Interests:
 Information Retrieval, Competitive Programming, Open Source Software, Problem Solving, Search Systems
 
 Profile Summary:
-Meera Mehta is a 3-year Information Technology student interested in backend development, algorithms, and practical software development. The student has academic exposure to React, Problem Solving, HTML, Deep Learning, Computer Vision and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.
+Sakshi Gupta is a 3-year Electrical and Electronics Engineering student interested in software engineering, algorithms, and practical software development. The student has academic exposure to React, Computer Vision, Git, Algorithms, CSS and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.

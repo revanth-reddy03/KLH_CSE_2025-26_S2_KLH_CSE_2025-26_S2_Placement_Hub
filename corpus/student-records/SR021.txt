@@ -1,20 +1,20 @@
 Student Record ID: SR021
 Roll Number: 2520000021
-Name: Sunil Sharma
+Name: Rohan Soni
 Department: Electronics and Communication Engineering
 Program: B.Tech
-Year: 4
-Section: D
+Year: 3
+Section: C
 Academic Status: Active
 
 Email: student021@example.edu
-Location: Visakhapatnam, Andhra Pradesh
+Location: Warangal, Telangana
 
-Skills: Git, Natural Language Processing, User Research, Database Systems, Problem Solving, CSS, Computer Vision, React, Microservices
-Programming Languages: C++, Go, Kotlin, R, Python
-Technical Interests: Information Retrieval, Cyber Defense, Human Computer Interaction, Problem Solving, Technology Research, Cloud Architecture
-Academic Interests: Operating Systems, Cloud Computing, Database Management Systems, Theory of Computation, Software Engineering
-Research Interests: Search Performance Analysis, Deep Neural Networks, Information Extraction
+Skills: React, DevOps, Natural Language Processing, Image Processing, Problem Solving, Data Structures, Docker, Distributed Systems, Git
+Programming Languages: Go, Java, TypeScript, Kotlin, SQL
+Technical Interests: Cloud Architecture, Cyber Defense, Information Retrieval, Software Development
+Academic Interests: Data Warehousing, Database Management Systems, Cloud Computing, Theory of Computation, Operating Systems
+Research Interests: Natural Language Understanding, Intelligent Systems, Pattern Matching, Deep Neural Networks, Graph Neural Networks
 
 Project 1: Campus Placement Hub Portal
 
@@ -33,13 +33,13 @@ Java, Spring Boot, SQL, Database Systems, Software Engineering, Algorithms
 Project Outcome:
 Processed student records seamlessly, reduced recruiter shortlisting turnaround from days to minutes, and provided clear audit logs of all hiring decisions.
 
-Project 2: Student Portal UX Prototype
+Project 2: Distributed Cache & Query Engine
 
 Project Description:
-The Student Portal UX Prototype is a related academic prototype focused on human computer interaction. It demonstrates structured record processing, modular implementation, testing, and retrieval of relevant information. The project emphasizes clear data representation and practical problem solving.
+The Distributed Cache & Query Engine is a high-concurrency storage prototype that partitions key-value entries across nodes using consistent hashing and replication.
 
 Project Role:
-The student participated in implementation, testing, documentation, debugging, and performance analysis. The work involved organizing project data and developing reliable processing and retrieval logic.
+The student developed hash-ring partitioning logic, implemented gossip-based node failure detection, and designed automated failover mechanisms.
 
 Current Project: Intelligent Student Record Search System
 
@@ -95,21 +95,20 @@ demonstration of advanced string-matching concepts and creates a foundation for 
 as fuzzy search, autocomplete, indexing, and ranking.
 
 Certifications:
-Git and Version Control, Data Structures and Algorithms
+Machine Learning Foundations, Python for Data Science, Data Structures and Algorithms
 
 Workshops:
 Computer Vision and Image Processing Seminar
-Java Development Workshop
-Cloud Computing and DevOps Workshop
+Machine Learning Workshop
 
 Achievements:
-Coding Contest Participant, Dean's Honor List Recognition
+Codeforces Active Contender, Hackathon Participant
 
 Extracurricular Activities:
-Coding Club Coordinator, Project Expo Volunteer, Technical Community Member
+Project Expo Volunteer, Coding Club Coordinator
 
 Career Interests:
-Machine Learning Engineering, Cloud Systems Architecture, Software Engineering, Information Retrieval
+Cloud Systems Architecture, Software Engineering, Information Retrieval
 
 Career Goal:
 To develop strong expertise in software engineering, algorithms, scalable applications, and intelligent information retrieval systems and to contribute to practical technology solutions.
@@ -121,4 +120,4 @@ Personal Interests:
 Information Retrieval, Competitive Programming, Open Source Software, Problem Solving, Search Systems
 
 Profile Summary:
-Sunil Sharma is a 4-year Electronics and Communication Engineering student interested in machine learning engineering, algorithms, and practical software development. The student has academic exposure to Git, Natural Language Processing, User Research, Database Systems, Problem Solving and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.
+Rohan Soni is a 3-year Electronics and Communication Engineering student interested in cloud systems architecture, algorithms, and practical software development. The student has academic exposure to React, DevOps, Natural Language Processing, Image Processing, Problem Solving and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.

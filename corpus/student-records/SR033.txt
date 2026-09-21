@@ -1,45 +1,45 @@
 Student Record ID: SR033
 Roll Number: 2520000033
-Name: Sneha Pillai
+Name: Akhil Bhat
 Department: Computer Science and Engineering
 Program: B.Tech
-Year: 4
+Year: 3
 Section: B
 Academic Status: Active
 
 Email: student033@example.edu
-Location: Bengaluru, Karnataka
+Location: Hyderabad, Telangana
 
-Skills: Cyber Security, JavaScript, Database Systems, Docker, CSS, Distributed Systems, Git, Image Processing
-Programming Languages: C++, R, Python, JavaScript, Java
-Technical Interests: Full Stack Engineering, Computer Vision, High Performance Computing, Technology Research, Software Development, Cloud Architecture
-Academic Interests: Design and Analysis of Algorithms, Computer Networks, Database Management Systems, Cloud Computing
-Research Interests: Pattern Matching, Intelligent Systems, Information Extraction, Natural Language Understanding, Algorithm Optimization
+Skills: TensorFlow, PyTorch, Node.js, Software Engineering, User Research, Docker, Natural Language Processing, Kubernetes, Image Processing, Data Structures
+Programming Languages: TypeScript, SQL, R, JavaScript, Python
+Technical Interests: Technology Research, Problem Solving, Software Development, Computer Vision, Cloud Architecture
+Academic Interests: Operating Systems, Database Management Systems, Cloud Computing, Computer Networks
+Research Interests: Information Extraction, Intelligent Systems, Pattern Matching, Algorithm Optimization, Natural Language Understanding
 
-Project 1: Document Image Processing Tool
+Project 1: Automated Exam Proctoring System
+
+Project Description:
+The Automated Exam Proctoring System is a machine learning prototype that detects face anomalies, gaze direction, and unauthorized electronic devices during remote computer-based tests.
+
+Project Objectives:
+To develop a low-latency non-intrusive monitoring pipeline that maintains examination integrity in hybrid learning settings.
+
+Project Role:
+The student implemented face detection pipelines, integrated OpenCV video capture modules, and formulated threshold detection rules for gaze deflection.
+
+Technologies Used:
+Python, OpenCV, Deep Learning, TensorFlow, Computer Vision, Software Engineering
+
+Project Outcome:
+Demonstrated real-time verification at 30 frames per second with minimal CPU resource utilization and 94% anomaly recall on benchmark datasets.
+
+Project 2: Document Image Processing Tool
 
 Project Description:
 The Document Image Processing Tool is an academic prototype focused on computer vision. It organizes relevant information, processes structured records, and provides search or retrieval capabilities for common user queries. The project demonstrates practical application of programming, data structures, algorithms, validation, and modular software design.
 
-Project Objectives:
-The objective of the project is to build a practical academic solution that reduces manual effort, improves information organization, and demonstrates the application of data structures, algorithms, and software engineering concepts to a real information-processing problem.
-
 Project Role:
 The student contributed to data organization, implementation, testing, documentation, and search or retrieval functionality. The project included sample-data testing, validation, debugging, and analysis of different user query scenarios.
-
-Technologies Used:
-Object-Oriented Programming, Deep Learning, Text Processing, Python, Software Engineering, Java, JavaScript
-
-Project Outcome:
-The prototype demonstrated how structured data, appropriate data structures, and algorithmic techniques can be combined to build a practical software solution. The system was evaluated using multiple sample records and different search or retrieval scenarios.
-
-Project 2: Distributed Cache & Query Engine
-
-Project Description:
-The Distributed Cache & Query Engine is a high-concurrency storage prototype that partitions key-value entries across nodes using consistent hashing and replication.
-
-Project Role:
-The student developed hash-ring partitioning logic, implemented gossip-based node failure detection, and designed automated failover mechanisms.
 
 Current Project: Intelligent Student Record Search System
 
@@ -95,21 +95,21 @@ demonstration of advanced string-matching concepts and creates a foundation for 
 as fuzzy search, autocomplete, indexing, and ranking.
 
 Certifications:
-Java Programming, Python for Data Science
+Python for Data Science, Cloud Computing Associate, Java Programming, Git and Version Control
 
 Workshops:
-Competitive Programming Bootcamp
-Java Development Workshop
 Cloud Computing and DevOps Workshop
+Competitive Programming Bootcamp
+Computer Vision and Image Processing Seminar
 
 Achievements:
-Codeforces Active Contender, Coding Contest Participant, Top 10 Finalist in Regional Hackathon
+Coding Contest Participant, Dean's Honor List Recognition, Top 10 Finalist in Regional Hackathon
 
 Extracurricular Activities:
-Robotics Club Associate, Coding Club Coordinator
+Open Source Club Contributor, Project Expo Volunteer, Technical Community Member
 
 Career Interests:
-Machine Learning Engineering, Information Retrieval, Search Systems
+Data Platform Engineering, Search Systems, Computer Vision, Machine Learning Engineering, Information Retrieval
 
 Career Goal:
 To develop strong expertise in software engineering, algorithms, scalable applications, and intelligent information retrieval systems and to contribute to practical technology solutions.
@@ -121,4 +121,4 @@ Personal Interests:
 Information Retrieval, Competitive Programming, Open Source Software, Problem Solving, Search Systems
 
 Profile Summary:
-Sneha Pillai is a 4-year Computer Science and Engineering student interested in machine learning engineering, algorithms, and practical software development. The student has academic exposure to Cyber Security, JavaScript, Database Systems, Docker, CSS and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.
+Akhil Bhat is a 3-year Computer Science and Engineering student interested in data platform engineering, algorithms, and practical software development. The student has academic exposure to TensorFlow, PyTorch, Node.js, Software Engineering, User Research and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.

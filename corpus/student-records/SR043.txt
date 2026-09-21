@@ -1,45 +1,45 @@
 Student Record ID: SR043
 Roll Number: 2520000043
-Name: Bhavya Kulkarni
-Department: Computer Science and Engineering
+Name: Meera Soni
+Department: Electrical and Electronics Engineering
 Program: B.Tech
-Year: 2
-Section: B
+Year: 3
+Section: D
 Academic Status: Active
 
 Email: student043@example.edu
-Location: Mumbai, Maharashtra
+Location: Delhi, NCR
 
-Skills: CSS, JavaScript, HTML, Cloud Computing, Git, Data Structures, Kubernetes, Node.js
-Programming Languages: Kotlin, JavaScript, Java, Python
-Technical Interests: Software Development, Technology Research, Information Retrieval, Cyber Defense, Human Computer Interaction
-Academic Interests: Computer Networks, Theory of Computation, Cloud Computing, Machine Learning
-Research Interests: Deep Neural Networks, Intelligent Systems, Information Extraction, Algorithm Optimization, Graph Neural Networks
+Skills: PyTorch, Natural Language Processing, Kubernetes, DevOps, Deep Learning, CSS, Git, Database Systems, Problem Solving
+Programming Languages: TypeScript, R, Python, JavaScript, Java
+Technical Interests: Technology Research, Full Stack Engineering, High Performance Computing, Software Development
+Academic Interests: Theory of Computation, Distributed Systems, Data Warehousing, Database Management Systems, Computer Networks, Cloud Computing
+Research Interests: Algorithm Optimization, Graph Neural Networks, Information Extraction, Deep Neural Networks
 
-Project 1: Student Portal UX Prototype
+Project 1: Distributed Cache & Query Engine
 
 Project Description:
-The Student Portal UX Prototype is a related academic prototype focused on human computer interaction. It demonstrates structured record processing, modular implementation, testing, and retrieval of relevant information. The project emphasizes clear data representation and practical problem solving.
+The Distributed Cache & Query Engine is a high-concurrency storage prototype that partitions key-value entries across nodes using consistent hashing and replication.
 
 Project Objectives:
-The objective of the project is to build an interactive and responsive academic user interface that streamlines student access to courses, notices, grades, and academic advising.
+To design an elastic in-memory database component capable of handling high-throughput read queries with fault tolerance.
 
 Project Role:
-The student participated in implementation, testing, documentation, debugging, and performance analysis. The work involved organizing project data and developing reliable processing and retrieval logic.
+The student developed hash-ring partitioning logic, implemented gossip-based node failure detection, and designed automated failover mechanisms.
 
 Technologies Used:
-JavaScript, HTML, CSS, React, User Research, Software Engineering
+Java, Distributed Systems, Computer Networks, Data Structures, Multi-Threading
 
 Project Outcome:
-The prototype enhanced usability metrics, demonstrated efficient client-side state caching, and validated responsive interface design principles across multiple viewport dimensions.
+Achieved sub-millisecond retrieval latencies for hot keys and verified zero data loss during simulated cluster partition events.
 
-Project 2: Campus Placement Hub Portal
+Project 2: Document Image Processing Tool
 
 Project Description:
-The Campus Placement Hub Portal is a centralized recruitment management platform enabling automated resume screening, eligibility filtering, and interview round management.
+The Document Image Processing Tool is an academic prototype focused on computer vision. It organizes relevant information, processes structured records, and provides search or retrieval capabilities for common user queries. The project demonstrates practical application of programming, data structures, algorithms, validation, and modular software design.
 
 Project Role:
-The student engineered core matching algorithms, structured profile data models, and built fast substring search endpoints for recruiter queries.
+The student contributed to data organization, implementation, testing, documentation, and search or retrieval functionality. The project included sample-data testing, validation, debugging, and analysis of different user query scenarios.
 
 Current Project: Intelligent Student Record Search System
 
@@ -95,21 +95,21 @@ demonstration of advanced string-matching concepts and creates a foundation for 
 as fuzzy search, autocomplete, indexing, and ranking.
 
 Certifications:
-Database Design with SQL, Python for Data Science
+Database Design with SQL, Java Programming, Machine Learning Foundations, Data Structures and Algorithms
 
 Workshops:
-Competitive Programming Bootcamp
-Computer Vision and Image Processing Seminar
 Cloud Computing and DevOps Workshop
+Computer Vision and Image Processing Seminar
+Data Structures and Algorithms Workshop
 
 Achievements:
-Coding Contest Participant, Top 10 Finalist in Regional Hackathon
+Codeforces Active Contender, Inter-College Coding Event Participant, Hackathon Participant
 
 Extracurricular Activities:
-Open Source Club Contributor, Coding Club Coordinator
+Project Expo Volunteer, Technical Community Member, Hackathon Participant
 
 Career Interests:
-Cloud Systems Architecture, Search Systems, Machine Learning Engineering, Data Platform Engineering, Software Engineering
+Information Retrieval, Search Systems, Computer Vision, Backend Development, Data Platform Engineering
 
 Career Goal:
 To develop strong expertise in software engineering, algorithms, scalable applications, and intelligent information retrieval systems and to contribute to practical technology solutions.
@@ -121,4 +121,4 @@ Personal Interests:
 Information Retrieval, Competitive Programming, Open Source Software, Problem Solving, Search Systems
 
 Profile Summary:
-Bhavya Kulkarni is a 2-year Computer Science and Engineering student interested in cloud systems architecture, algorithms, and practical software development. The student has academic exposure to CSS, JavaScript, HTML, Cloud Computing, Git and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.
+Meera Soni is a 3-year Electrical and Electronics Engineering student interested in information retrieval, algorithms, and practical software development. The student has academic exposure to PyTorch, Natural Language Processing, Kubernetes, DevOps, Deep Learning and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.

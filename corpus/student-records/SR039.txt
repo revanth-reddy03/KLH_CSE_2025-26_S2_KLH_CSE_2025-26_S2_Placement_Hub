@@ -1,37 +1,37 @@
 Student Record ID: SR039
 Roll Number: 2520000039
-Name: Yash Kulkarni
-Department: Electronics and Communication Engineering
+Name: Sandhya Soni
+Department: Information Technology
 Program: B.Tech
-Year: 2
-Section: D
+Year: 4
+Section: B
 Academic Status: Active
 
 Email: student039@example.edu
-Location: Warangal, Telangana
+Location: Visakhapatnam, Andhra Pradesh
 
-Skills: Natural Language Processing, Deep Learning, Docker, Git, React, Problem Solving, Cloud Computing, Machine Learning, Data Structures, PyTorch
-Programming Languages: Kotlin, C++, SQL, JavaScript
-Technical Interests: Artificial Intelligence, Computer Vision, Full Stack Engineering, High Performance Computing, Cloud Architecture
-Academic Interests: Software Engineering, Data Warehousing, Theory of Computation, Computer Networks
-Research Interests: Pattern Matching, Information Extraction, Natural Language Understanding, Algorithm Optimization, Intelligent Systems
+Skills: Node.js, Image Processing, Cloud Computing, Database Systems, TensorFlow, React, Distributed Systems, Git, Machine Learning, PyTorch
+Programming Languages: TypeScript, Java, Kotlin, Go, JavaScript
+Technical Interests: Artificial Intelligence, Information Retrieval, Cloud Architecture, Problem Solving, Full Stack Engineering
+Academic Interests: Design and Analysis of Algorithms, Operating Systems, Compiler Design, Cloud Computing, Database Management Systems, Theory of Computation
+Research Interests: Search Performance Analysis, Graph Neural Networks, Pattern Matching, Deep Neural Networks, Information Extraction
 
-Project 1: Distributed Cache & Query Engine
+Project 1: Student Portal UX Prototype
 
 Project Description:
-The Distributed Cache & Query Engine is a high-concurrency storage prototype that partitions key-value entries across nodes using consistent hashing and replication.
+The Student Portal UX Prototype is a related academic prototype focused on human computer interaction. It demonstrates structured record processing, modular implementation, testing, and retrieval of relevant information. The project emphasizes clear data representation and practical problem solving.
 
 Project Objectives:
-To design an elastic in-memory database component capable of handling high-throughput read queries with fault tolerance.
+The objective of the project is to build an interactive and responsive academic user interface that streamlines student access to courses, notices, grades, and academic advising.
 
 Project Role:
-The student developed hash-ring partitioning logic, implemented gossip-based node failure detection, and designed automated failover mechanisms.
+The student participated in implementation, testing, documentation, debugging, and performance analysis. The work involved organizing project data and developing reliable processing and retrieval logic.
 
 Technologies Used:
-Java, Distributed Systems, Computer Networks, Data Structures, Multi-Threading
+JavaScript, HTML, CSS, React, User Research, Software Engineering
 
 Project Outcome:
-Achieved sub-millisecond retrieval latencies for hot keys and verified zero data loss during simulated cluster partition events.
+The prototype enhanced usability metrics, demonstrated efficient client-side state caching, and validated responsive interface design principles across multiple viewport dimensions.
 
 Project 2: Campus Placement Hub Portal
 
@@ -95,21 +95,20 @@ demonstration of advanced string-matching concepts and creates a foundation for 
 as fuzzy search, autocomplete, indexing, and ranking.
 
 Certifications:
-Full Stack Web Development, Git and Version Control
+Machine Learning Foundations, Java Programming
 
 Workshops:
-Computer Vision and Image Processing Seminar
-Machine Learning Workshop
 Java Development Workshop
+Data Structures and Algorithms Workshop
 
 Achievements:
-Top 10 Finalist in Regional Hackathon, Inter-College Coding Event Participant, Codeforces Active Contender
+Inter-College Coding Event Participant, Dean's Honor List Recognition, Coding Contest Participant
 
 Extracurricular Activities:
-Robotics Club Associate, Open Source Club Contributor, Project Expo Volunteer
+Robotics Club Associate, Hackathon Participant, Coding Club Coordinator
 
 Career Interests:
-Search Systems, Backend Development, Data Platform Engineering, Software Engineering
+Software Engineering, Data Platform Engineering, Cloud Systems Architecture, Search Systems, Information Retrieval
 
 Career Goal:
 To develop strong expertise in software engineering, algorithms, scalable applications, and intelligent information retrieval systems and to contribute to practical technology solutions.
@@ -121,4 +120,4 @@ Personal Interests:
 Information Retrieval, Competitive Programming, Open Source Software, Problem Solving, Search Systems
 
 Profile Summary:
-Yash Kulkarni is a 2-year Electronics and Communication Engineering student interested in search systems, algorithms, and practical software development. The student has academic exposure to Natural Language Processing, Deep Learning, Docker, Git, React and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.
+Sandhya Soni is a 4-year Information Technology student interested in software engineering, algorithms, and practical software development. The student has academic exposure to Node.js, Image Processing, Cloud Computing, Database Systems, TensorFlow and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.

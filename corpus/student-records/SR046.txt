@@ -1,20 +1,20 @@
 Student Record ID: SR046
 Roll Number: 2520000046
-Name: Neha Menon
-Department: Electrical and Electronics Engineering
+Name: Yukta Choudhury
+Department: Electronics and Communication Engineering
 Program: B.Tech
-Year: 4
+Year: 2
 Section: C
 Academic Status: Active
 
 Email: student046@example.edu
-Location: Chennai, Tamil Nadu
+Location: Hyderabad, Telangana
 
-Skills: Software Engineering, DevOps, Machine Learning, CSS, Cyber Security, React, HTML, User Research
-Programming Languages: Kotlin, SQL, Go, Java, C
-Technical Interests: Artificial Intelligence, Cloud Architecture, Full Stack Engineering, Computer Vision
-Academic Interests: Computer Networks, Design and Analysis of Algorithms, Distributed Systems, Cloud Computing, Software Engineering, Machine Learning
-Research Interests: Information Extraction, Algorithm Optimization, Natural Language Understanding, Intelligent Systems, Graph Neural Networks
+Skills: Git, Docker, Problem Solving, Natural Language Processing, TensorFlow, Deep Learning, User Research, HTML, Cloud Computing
+Programming Languages: Kotlin, JavaScript, C++, TypeScript, Java
+Technical Interests: Computer Vision, Full Stack Engineering, Software Development, Cyber Defense, Information Retrieval, Human Computer Interaction
+Academic Interests: Operating Systems, Software Engineering, Data Warehousing, Machine Learning, Database Management Systems
+Research Interests: Search Performance Analysis, Graph Neural Networks, Deep Neural Networks, Algorithm Optimization
 
 Project 1: Distributed Cache & Query Engine
 
@@ -33,13 +33,13 @@ Java, Distributed Systems, Computer Networks, Data Structures, Multi-Threading
 Project Outcome:
 Achieved sub-millisecond retrieval latencies for hot keys and verified zero data loss during simulated cluster partition events.
 
-Project 2: Document Image Processing Tool
+Project 2: Student Portal UX Prototype
 
 Project Description:
-The Document Image Processing Tool is an academic prototype focused on computer vision. It organizes relevant information, processes structured records, and provides search or retrieval capabilities for common user queries. The project demonstrates practical application of programming, data structures, algorithms, validation, and modular software design.
+The Student Portal UX Prototype is a related academic prototype focused on human computer interaction. It demonstrates structured record processing, modular implementation, testing, and retrieval of relevant information. The project emphasizes clear data representation and practical problem solving.
 
 Project Role:
-The student contributed to data organization, implementation, testing, documentation, and search or retrieval functionality. The project included sample-data testing, validation, debugging, and analysis of different user query scenarios.
+The student participated in implementation, testing, documentation, debugging, and performance analysis. The work involved organizing project data and developing reliable processing and retrieval logic.
 
 Current Project: Intelligent Student Record Search System
 
@@ -95,20 +95,21 @@ demonstration of advanced string-matching concepts and creates a foundation for 
 as fuzzy search, autocomplete, indexing, and ranking.
 
 Certifications:
-Cyber Security Essentials, Full Stack Web Development, Cloud Computing Associate, Database Design with SQL
+Python for Data Science, Cloud Computing Associate, Machine Learning Foundations, Cyber Security Essentials
 
 Workshops:
-Cloud Computing and DevOps Workshop
-Java Development Workshop
+Machine Learning Workshop
+Competitive Programming Bootcamp
+Computer Vision and Image Processing Seminar
 
 Achievements:
-Coding Contest Participant, Inter-College Coding Event Participant, Hackathon Participant
+Dean's Honor List Recognition, Hackathon Participant, Codeforces Active Contender
 
 Extracurricular Activities:
-Project Expo Volunteer, Technical Community Member, Hackathon Participant
+Hackathon Participant, Project Expo Volunteer, Open Source Club Contributor
 
 Career Interests:
-Machine Learning Engineering, Computer Vision, Cloud Systems Architecture
+Search Systems, Machine Learning Engineering, Information Retrieval, Cloud Systems Architecture
 
 Career Goal:
 To develop strong expertise in software engineering, algorithms, scalable applications, and intelligent information retrieval systems and to contribute to practical technology solutions.
@@ -120,4 +121,4 @@ Personal Interests:
 Information Retrieval, Competitive Programming, Open Source Software, Problem Solving, Search Systems
 
 Profile Summary:
-Neha Menon is a 4-year Electrical and Electronics Engineering student interested in machine learning engineering, algorithms, and practical software development. The student has academic exposure to Software Engineering, DevOps, Machine Learning, CSS, Cyber Security and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.
+Yukta Choudhury is a 2-year Electronics and Communication Engineering student interested in search systems, algorithms, and practical software development. The student has academic exposure to Git, Docker, Problem Solving, Natural Language Processing, TensorFlow and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.

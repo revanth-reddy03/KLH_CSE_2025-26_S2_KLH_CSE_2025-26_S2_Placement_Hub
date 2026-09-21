@@ -1,45 +1,45 @@
 Student Record ID: SR022
 Roll Number: 2520000022
-Name: Arjun Das
+Name: Harsh Menon
 Department: Electronics and Communication Engineering
 Program: B.Tech
 Year: 4
-Section: C
+Section: D
 Academic Status: Active
 
 Email: student022@example.edu
-Location: Vijayawada, Andhra Pradesh
+Location: Bengaluru, Karnataka
 
-Skills: Data Structures, React, Deep Learning, Cloud Computing, Algorithms, Python, CSS, PyTorch
-Programming Languages: Python, Java, R, JavaScript, Kotlin
-Technical Interests: Problem Solving, Technology Research, High Performance Computing, Cyber Defense, Cloud Architecture
-Academic Interests: Software Engineering, Data Warehousing, Database Management Systems, Design and Analysis of Algorithms, Theory of Computation
-Research Interests: Deep Neural Networks, Graph Neural Networks, Natural Language Understanding
+Skills: Software Engineering, Kubernetes, Natural Language Processing, Docker, Machine Learning, TensorFlow, HTML
+Programming Languages: Java, TypeScript, Kotlin
+Technical Interests: Artificial Intelligence, Information Retrieval, Cyber Defense, High Performance Computing, Full Stack Engineering, Cloud Architecture
+Academic Interests: Design and Analysis of Algorithms, Computer Networks, Theory of Computation, Database Management Systems, Operating Systems, Software Engineering
+Research Interests: Deep Neural Networks, Information Extraction, Pattern Matching
 
-Project 1: Student Portal UX Prototype
+Project 1: Distributed Cache & Query Engine
 
 Project Description:
-The Student Portal UX Prototype is a related academic prototype focused on human computer interaction. It demonstrates structured record processing, modular implementation, testing, and retrieval of relevant information. The project emphasizes clear data representation and practical problem solving.
+The Distributed Cache & Query Engine is a high-concurrency storage prototype that partitions key-value entries across nodes using consistent hashing and replication.
 
 Project Objectives:
-The objective of the project is to build an interactive and responsive academic user interface that streamlines student access to courses, notices, grades, and academic advising.
+To design an elastic in-memory database component capable of handling high-throughput read queries with fault tolerance.
 
 Project Role:
-The student participated in implementation, testing, documentation, debugging, and performance analysis. The work involved organizing project data and developing reliable processing and retrieval logic.
+The student developed hash-ring partitioning logic, implemented gossip-based node failure detection, and designed automated failover mechanisms.
 
 Technologies Used:
-JavaScript, HTML, CSS, React, User Research, Software Engineering
+Java, Distributed Systems, Computer Networks, Data Structures, Multi-Threading
 
 Project Outcome:
-The prototype enhanced usability metrics, demonstrated efficient client-side state caching, and validated responsive interface design principles across multiple viewport dimensions.
+Achieved sub-millisecond retrieval latencies for hot keys and verified zero data loss during simulated cluster partition events.
 
-Project 2: Document Image Processing Tool
+Project 2: Automated Exam Proctoring System
 
 Project Description:
-The Document Image Processing Tool is an academic prototype focused on computer vision. It organizes relevant information, processes structured records, and provides search or retrieval capabilities for common user queries. The project demonstrates practical application of programming, data structures, algorithms, validation, and modular software design.
+The Automated Exam Proctoring System is a machine learning prototype that detects face anomalies, gaze direction, and unauthorized electronic devices during remote computer-based tests.
 
 Project Role:
-The student contributed to data organization, implementation, testing, documentation, and search or retrieval functionality. The project included sample-data testing, validation, debugging, and analysis of different user query scenarios.
+The student implemented face detection pipelines, integrated OpenCV video capture modules, and formulated threshold detection rules for gaze deflection.
 
 Current Project: Intelligent Student Record Search System
 
@@ -95,20 +95,21 @@ demonstration of advanced string-matching concepts and creates a foundation for 
 as fuzzy search, autocomplete, indexing, and ranking.
 
 Certifications:
-Java Programming, Cloud Computing Associate, Cyber Security Essentials, Machine Learning Foundations
+Cloud Computing Associate, Cyber Security Essentials, Database Design with SQL, Python for Data Science
 
 Workshops:
-Computer Vision and Image Processing Seminar
-Machine Learning Workshop
+Data Structures and Algorithms Workshop
+Java Development Workshop
+Cloud Computing and DevOps Workshop
 
 Achievements:
-Hackathon Participant, Inter-College Coding Event Participant
+Top 10 Finalist in Regional Hackathon, Codeforces Active Contender
 
 Extracurricular Activities:
-Robotics Club Associate, Coding Club Coordinator, Hackathon Participant
+Open Source Club Contributor, Hackathon Participant, Technical Community Member
 
 Career Interests:
-Backend Development, Data Platform Engineering, Machine Learning Engineering
+Software Engineering, Cloud Systems Architecture, Backend Development, Computer Vision, Search Systems
 
 Career Goal:
 To develop strong expertise in software engineering, algorithms, scalable applications, and intelligent information retrieval systems and to contribute to practical technology solutions.
@@ -120,4 +121,4 @@ Personal Interests:
 Information Retrieval, Competitive Programming, Open Source Software, Problem Solving, Search Systems
 
 Profile Summary:
-Arjun Das is a 4-year Electronics and Communication Engineering student interested in backend development, algorithms, and practical software development. The student has academic exposure to Data Structures, React, Deep Learning, Cloud Computing, Algorithms and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.
+Harsh Menon is a 4-year Electronics and Communication Engineering student interested in software engineering, algorithms, and practical software development. The student has academic exposure to Software Engineering, Kubernetes, Natural Language Processing, Docker, Machine Learning and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.

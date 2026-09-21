@@ -1,45 +1,45 @@
 Student Record ID: SR042
 Roll Number: 2520000042
-Name: Rohit Pandey
-Department: Information Technology
+Name: Neha Soni
+Department: Electronics and Communication Engineering
 Program: B.Tech
-Year: 3
-Section: C
+Year: 4
+Section: B
 Academic Status: Active
 
 Email: student042@example.edu
-Location: Pune, Maharashtra
+Location: Warangal, Telangana
 
-Skills: PyTorch, Problem Solving, Computer Vision, Distributed Systems, CSS, Natural Language Processing
-Programming Languages: JavaScript, SQL, Go, TypeScript, C++
-Technical Interests: Cloud Architecture, Cyber Defense, Human Computer Interaction, Problem Solving
-Academic Interests: Operating Systems, Cloud Computing, Machine Learning, Database Management Systems
-Research Interests: Information Extraction, Graph Neural Networks, Deep Neural Networks, Natural Language Understanding
+Skills: Kubernetes, React, Distributed Systems, DevOps, Deep Learning, Image Processing, Database Systems, Computer Vision
+Programming Languages: Go, R, Python, JavaScript
+Technical Interests: Computer Vision, Information Retrieval, Human Computer Interaction, Full Stack Engineering, Software Development
+Academic Interests: Software Engineering, Operating Systems, Cloud Computing, Computer Networks, Machine Learning
+Research Interests: Deep Neural Networks, Intelligent Systems, Natural Language Understanding, Information Extraction
 
-Project 1: Distributed Cache & Query Engine
+Project 1: Campus Placement Hub Portal
 
 Project Description:
-The Distributed Cache & Query Engine is a high-concurrency storage prototype that partitions key-value entries across nodes using consistent hashing and replication.
+The Campus Placement Hub Portal is a centralized recruitment management platform enabling automated resume screening, eligibility filtering, and interview round management.
 
 Project Objectives:
-To design an elastic in-memory database component capable of handling high-throughput read queries with fault tolerance.
+To replace paper-based placement tracking with an algorithmic, search-enabled digital platform that scales across thousands of students and hundreds of recruiters.
 
 Project Role:
-The student developed hash-ring partitioning logic, implemented gossip-based node failure detection, and designed automated failover mechanisms.
+The student engineered core matching algorithms, structured profile data models, and built fast substring search endpoints for recruiter queries.
 
 Technologies Used:
-Java, Distributed Systems, Computer Networks, Data Structures, Multi-Threading
+Java, Spring Boot, SQL, Database Systems, Software Engineering, Algorithms
 
 Project Outcome:
-Achieved sub-millisecond retrieval latencies for hot keys and verified zero data loss during simulated cluster partition events.
+Processed student records seamlessly, reduced recruiter shortlisting turnaround from days to minutes, and provided clear audit logs of all hiring decisions.
 
-Project 2: Student Portal UX Prototype
+Project 2: Document Image Processing Tool
 
 Project Description:
-The Student Portal UX Prototype is a related academic prototype focused on human computer interaction. It demonstrates structured record processing, modular implementation, testing, and retrieval of relevant information. The project emphasizes clear data representation and practical problem solving.
+The Document Image Processing Tool is an academic prototype focused on computer vision. It organizes relevant information, processes structured records, and provides search or retrieval capabilities for common user queries. The project demonstrates practical application of programming, data structures, algorithms, validation, and modular software design.
 
 Project Role:
-The student participated in implementation, testing, documentation, debugging, and performance analysis. The work involved organizing project data and developing reliable processing and retrieval logic.
+The student contributed to data organization, implementation, testing, documentation, and search or retrieval functionality. The project included sample-data testing, validation, debugging, and analysis of different user query scenarios.
 
 Current Project: Intelligent Student Record Search System
 
@@ -95,21 +95,20 @@ demonstration of advanced string-matching concepts and creates a foundation for 
 as fuzzy search, autocomplete, indexing, and ranking.
 
 Certifications:
-Database Design with SQL, Cloud Computing Associate, Data Structures and Algorithms, Java Programming
+Python for Data Science, Machine Learning Foundations, Java Programming
 
 Workshops:
-Java Development Workshop
 Cloud Computing and DevOps Workshop
 Machine Learning Workshop
 
 Achievements:
-Hackathon Participant, Inter-College Coding Event Participant
+Dean's Honor List Recognition, Top 10 Finalist in Regional Hackathon
 
 Extracurricular Activities:
-Open Source Club Contributor, Hackathon Participant, Robotics Club Associate
+Robotics Club Associate, Technical Community Member, Project Expo Volunteer
 
 Career Interests:
-Data Platform Engineering, Software Engineering, Computer Vision, Machine Learning Engineering, Backend Development
+Computer Vision, Information Retrieval, Data Platform Engineering, Software Engineering
 
 Career Goal:
 To develop strong expertise in software engineering, algorithms, scalable applications, and intelligent information retrieval systems and to contribute to practical technology solutions.
@@ -121,4 +120,4 @@ Personal Interests:
 Information Retrieval, Competitive Programming, Open Source Software, Problem Solving, Search Systems
 
 Profile Summary:
-Rohit Pandey is a 3-year Information Technology student interested in data platform engineering, algorithms, and practical software development. The student has academic exposure to PyTorch, Problem Solving, Computer Vision, Distributed Systems, CSS and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.
+Neha Soni is a 4-year Electronics and Communication Engineering student interested in computer vision, algorithms, and practical software development. The student has academic exposure to Kubernetes, React, Distributed Systems, DevOps, Deep Learning and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.

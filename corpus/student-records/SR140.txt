@@ -1,0 +1,124 @@
+Student Record ID: SR140
+Roll Number: 2520000140
+Name: Venkatesh Verma
+Department: Electrical and Electronics Engineering
+Program: B.Tech
+Year: 2
+Section: C
+Academic Status: Active
+
+Email: student140@example.edu
+Location: Mumbai, Maharashtra
+
+Skills: CSS, Software Engineering, TensorFlow, DevOps, React, Cyber Security, Microservices
+Programming Languages: C++, C, Go, SQL
+Technical Interests: Computer Vision, Human Computer Interaction, Problem Solving, Software Development, Cyber Defense
+Academic Interests: Machine Learning, Distributed Systems, Software Engineering, Operating Systems
+Research Interests: Deep Neural Networks, Search Performance Analysis, Natural Language Understanding
+
+Project 1: Campus Placement Hub Portal
+
+Project Description:
+The Campus Placement Hub Portal is a centralized recruitment management platform enabling automated resume screening, eligibility filtering, and interview round management.
+
+Project Objectives:
+To replace paper-based placement tracking with an algorithmic, search-enabled digital platform that scales across thousands of students and hundreds of recruiters.
+
+Project Role:
+The student engineered core matching algorithms, structured profile data models, and built fast substring search endpoints for recruiter queries.
+
+Technologies Used:
+Java, Spring Boot, SQL, Database Systems, Software Engineering, Algorithms
+
+Project Outcome:
+Processed student records seamlessly, reduced recruiter shortlisting turnaround from days to minutes, and provided clear audit logs of all hiring decisions.
+
+Project 2: Distributed Cache & Query Engine
+
+Project Description:
+The Distributed Cache & Query Engine is a high-concurrency storage prototype that partitions key-value entries across nodes using consistent hashing and replication.
+
+Project Role:
+The student developed hash-ring partitioning logic, implemented gossip-based node failure detection, and designed automated failover mechanisms.
+
+Current Project: Intelligent Student Record Search System
+
+Project Description:
+The Intelligent Student Record Search System is a Data Structures and Algorithms project designed to search and retrieve information from a collection of student profile documents. Instead of restricting search to only a roll number or name, the system treats the complete student profile as searchable text. Each document contains academic details, skills, project descriptions, certifications, interests, achievements, and career information. These documents form the student-record corpus used for pattern and string-matching experiments.
+
+Problem Context:
+Educational institutions maintain large collections of student information distributed across academic
+records, skills, projects, certifications, achievements, and interests. As the number of student records
+increases, manually locating relevant information becomes time-consuming. The project demonstrates how
+string-matching algorithms can support efficient text-based retrieval across a student record corpus.
+
+Search Problem:
+Given a search pattern P and a collection of student record documents, the system searches the text of
+each document to determine whether P occurs within the student profile.
+
+Example Search Patterns:
+Java
+Python
+Data Structures
+Machine Learning
+Artificial Intelligence
+Information Retrieval
+Cyber Security
+Cloud Computing
+Software Engineering
+Pattern Matching
+Database Systems
+Project Management
+
+KMP Implementation:
+The Knuth-Morris-Pratt algorithm preprocesses the search pattern using the Longest Proper Prefix which
+is also Suffix (LPS) array. The LPS information allows the search procedure to avoid unnecessary
+comparisons after a mismatch.
+
+Rabin-Karp Implementation:
+The Rabin-Karp algorithm uses a rolling hash to compare the search pattern with windows of text.
+Candidate matches are identified through hash values and can be verified character by character.
+
+Corpus-Based Searching:
+Each TXT document represents one student profile. The corpus contains multiple structured fields and
+descriptive paragraphs so that pattern matching is evaluated on meaningful text rather than a single
+hard-coded string.
+
+Algorithm Comparison:
+The same query can be processed using KMP and Rabin-Karp. The system verifies that both algorithms
+identify the same matching documents and can record execution time and operation counts for comparison.
+
+Expected Outcome:
+The expected outcome is a Java-based search engine capable of scanning the student-record corpus and
+identifying relevant documents for a given search pattern. The implementation provides a practical
+demonstration of advanced string-matching concepts and creates a foundation for future extensions such
+as fuzzy search, autocomplete, indexing, and ranking.
+
+Certifications:
+Java Programming, Machine Learning Foundations, Data Structures and Algorithms
+
+Workshops:
+Java Development Workshop
+Data Structures and Algorithms Workshop
+Machine Learning Workshop
+
+Achievements:
+Codeforces Active Contender, Top 10 Finalist in Regional Hackathon, Coding Contest Participant
+
+Extracurricular Activities:
+Robotics Club Associate, Coding Club Coordinator
+
+Career Interests:
+Search Systems, Data Platform Engineering, Software Engineering
+
+Career Goal:
+To develop strong expertise in software engineering, algorithms, scalable applications, and intelligent information retrieval systems and to contribute to practical technology solutions.
+
+Languages Known:
+English, Hindi, Telugu
+
+Personal Interests:
+Information Retrieval, Competitive Programming, Open Source Software, Problem Solving, Search Systems
+
+Profile Summary:
+Venkatesh Verma is a 2-year Electrical and Electronics Engineering student interested in search systems, algorithms, and practical software development. The student has academic exposure to CSS, Software Engineering, TensorFlow, DevOps, React and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.

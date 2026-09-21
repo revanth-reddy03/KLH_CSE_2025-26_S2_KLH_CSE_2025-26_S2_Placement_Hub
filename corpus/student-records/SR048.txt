@@ -1,45 +1,45 @@
 Student Record ID: SR048
 Roll Number: 2520000048
-Name: Ruchika Pillai
-Department: Electronics and Communication Engineering
+Name: Sanjay Menon
+Department: Computer Science and Engineering
 Program: B.Tech
-Year: 3
+Year: 4
 Section: D
 Academic Status: Active
 
 Email: student048@example.edu
-Location: Mumbai, Maharashtra
+Location: Bengaluru, Karnataka
 
-Skills: Image Processing, TensorFlow, Kubernetes, Docker, Git, Software Engineering, Natural Language Processing, Algorithms, Linux
-Programming Languages: JavaScript, R, Kotlin, Go, TypeScript
-Technical Interests: Technology Research, Computer Vision, Cloud Architecture, Human Computer Interaction, Full Stack Engineering, Artificial Intelligence
-Academic Interests: Machine Learning, Distributed Systems, Operating Systems, Software Engineering
-Research Interests: Information Extraction, Intelligent Systems, Pattern Matching, Deep Neural Networks, Search Performance Analysis
+Skills: Python, Machine Learning, Software Engineering, CSS, Deep Learning, Database Systems
+Programming Languages: Java, Python, Kotlin, Go, C
+Technical Interests: Artificial Intelligence, Cloud Architecture, Cyber Defense, Software Development
+Academic Interests: Software Engineering, Cloud Computing, Machine Learning, Operating Systems, Compiler Design, Design and Analysis of Algorithms
+Research Interests: Natural Language Understanding, Deep Neural Networks, Search Performance Analysis, Pattern Matching
 
-Project 1: Distributed Cache & Query Engine
-
-Project Description:
-The Distributed Cache & Query Engine is a high-concurrency storage prototype that partitions key-value entries across nodes using consistent hashing and replication.
-
-Project Objectives:
-To design an elastic in-memory database component capable of handling high-throughput read queries with fault tolerance.
-
-Project Role:
-The student developed hash-ring partitioning logic, implemented gossip-based node failure detection, and designed automated failover mechanisms.
-
-Technologies Used:
-Java, Distributed Systems, Computer Networks, Data Structures, Multi-Threading
-
-Project Outcome:
-Achieved sub-millisecond retrieval latencies for hot keys and verified zero data loss during simulated cluster partition events.
-
-Project 2: Document Image Processing Tool
+Project 1: Document Image Processing Tool
 
 Project Description:
 The Document Image Processing Tool is an academic prototype focused on computer vision. It organizes relevant information, processes structured records, and provides search or retrieval capabilities for common user queries. The project demonstrates practical application of programming, data structures, algorithms, validation, and modular software design.
 
+Project Objectives:
+The objective of the project is to build a practical academic solution that reduces manual effort, improves information organization, and demonstrates the application of data structures, algorithms, and software engineering concepts to a real information-processing problem.
+
 Project Role:
 The student contributed to data organization, implementation, testing, documentation, and search or retrieval functionality. The project included sample-data testing, validation, debugging, and analysis of different user query scenarios.
+
+Technologies Used:
+Object-Oriented Programming, Deep Learning, Text Processing, Python, Software Engineering, Java, JavaScript
+
+Project Outcome:
+The prototype demonstrated how structured data, appropriate data structures, and algorithmic techniques can be combined to build a practical software solution. The system was evaluated using multiple sample records and different search or retrieval scenarios.
+
+Project 2: Automated Exam Proctoring System
+
+Project Description:
+The Automated Exam Proctoring System is a machine learning prototype that detects face anomalies, gaze direction, and unauthorized electronic devices during remote computer-based tests.
+
+Project Role:
+The student implemented face detection pipelines, integrated OpenCV video capture modules, and formulated threshold detection rules for gaze deflection.
 
 Current Project: Intelligent Student Record Search System
 
@@ -95,20 +95,21 @@ demonstration of advanced string-matching concepts and creates a foundation for 
 as fuzzy search, autocomplete, indexing, and ranking.
 
 Certifications:
-Full Stack Web Development, Cyber Security Essentials
+Database Design with SQL, Cyber Security Essentials
 
 Workshops:
-Data Structures and Algorithms Workshop
 Computer Vision and Image Processing Seminar
+Data Structures and Algorithms Workshop
+Competitive Programming Bootcamp
 
 Achievements:
-Top 10 Finalist in Regional Hackathon, Inter-College Coding Event Participant, Hackathon Participant
+Coding Contest Participant, Top 10 Finalist in Regional Hackathon
 
 Extracurricular Activities:
-Hackathon Participant, Technical Community Member, Open Source Club Contributor
+Project Expo Volunteer, Technical Community Member, Open Source Club Contributor
 
 Career Interests:
-Backend Development, Information Retrieval, Data Platform Engineering, Machine Learning Engineering, Software Engineering
+Machine Learning Engineering, Software Engineering, Data Platform Engineering, Search Systems, Information Retrieval
 
 Career Goal:
 To develop strong expertise in software engineering, algorithms, scalable applications, and intelligent information retrieval systems and to contribute to practical technology solutions.
@@ -120,4 +121,4 @@ Personal Interests:
 Information Retrieval, Competitive Programming, Open Source Software, Problem Solving, Search Systems
 
 Profile Summary:
-Ruchika Pillai is a 3-year Electronics and Communication Engineering student interested in backend development, algorithms, and practical software development. The student has academic exposure to Image Processing, TensorFlow, Kubernetes, Docker, Git and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.
+Sanjay Menon is a 4-year Computer Science and Engineering student interested in machine learning engineering, algorithms, and practical software development. The student has academic exposure to Python, Machine Learning, Software Engineering, CSS, Deep Learning and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.

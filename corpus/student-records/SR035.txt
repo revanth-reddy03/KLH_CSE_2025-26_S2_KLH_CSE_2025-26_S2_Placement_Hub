@@ -1,45 +1,45 @@
 Student Record ID: SR035
 Roll Number: 2520000035
-Name: Arjun Agarwal
-Department: Artificial Intelligence and Data Science
+Name: Pooja Mukherjee
+Department: Electrical and Electronics Engineering
 Program: B.Tech
 Year: 3
-Section: B
+Section: A
 Academic Status: Active
 
 Email: student035@example.edu
-Location: Warangal, Telangana
+Location: Pune, Maharashtra
 
-Skills: Git, Database Systems, DevOps, Data Structures, User Research, Software Engineering, Problem Solving
-Programming Languages: Python, Kotlin, Go
-Technical Interests: Technology Research, High Performance Computing, Human Computer Interaction, Cyber Defense, Full Stack Engineering, Cloud Architecture
-Academic Interests: Machine Learning, Data Warehousing, Distributed Systems, Database Management Systems, Software Engineering
-Research Interests: Deep Neural Networks, Algorithm Optimization, Pattern Matching, Graph Neural Networks
+Skills: Microservices, Data Structures, Deep Learning, Database Systems, React, Git, Algorithms, Kubernetes
+Programming Languages: SQL, C++, TypeScript
+Technical Interests: Cyber Defense, Information Retrieval, Artificial Intelligence, Full Stack Engineering
+Academic Interests: Machine Learning, Theory of Computation, Data Warehousing, Cloud Computing, Distributed Systems, Design and Analysis of Algorithms
+Research Interests: Intelligent Systems, Natural Language Understanding, Information Extraction, Deep Neural Networks, Algorithm Optimization
 
-Project 1: Student Portal UX Prototype
+Project 1: Document Image Processing Tool
 
 Project Description:
-The Student Portal UX Prototype is a related academic prototype focused on human computer interaction. It demonstrates structured record processing, modular implementation, testing, and retrieval of relevant information. The project emphasizes clear data representation and practical problem solving.
+The Document Image Processing Tool is an academic prototype focused on computer vision. It organizes relevant information, processes structured records, and provides search or retrieval capabilities for common user queries. The project demonstrates practical application of programming, data structures, algorithms, validation, and modular software design.
 
 Project Objectives:
-The objective of the project is to build an interactive and responsive academic user interface that streamlines student access to courses, notices, grades, and academic advising.
+The objective of the project is to build a practical academic solution that reduces manual effort, improves information organization, and demonstrates the application of data structures, algorithms, and software engineering concepts to a real information-processing problem.
 
 Project Role:
-The student participated in implementation, testing, documentation, debugging, and performance analysis. The work involved organizing project data and developing reliable processing and retrieval logic.
+The student contributed to data organization, implementation, testing, documentation, and search or retrieval functionality. The project included sample-data testing, validation, debugging, and analysis of different user query scenarios.
 
 Technologies Used:
-JavaScript, HTML, CSS, React, User Research, Software Engineering
+Object-Oriented Programming, Deep Learning, Text Processing, Python, Software Engineering, Java, JavaScript
 
 Project Outcome:
-The prototype enhanced usability metrics, demonstrated efficient client-side state caching, and validated responsive interface design principles across multiple viewport dimensions.
+The prototype demonstrated how structured data, appropriate data structures, and algorithmic techniques can be combined to build a practical software solution. The system was evaluated using multiple sample records and different search or retrieval scenarios.
 
-Project 2: Campus Placement Hub Portal
+Project 2: Automated Exam Proctoring System
 
 Project Description:
-The Campus Placement Hub Portal is a centralized recruitment management platform enabling automated resume screening, eligibility filtering, and interview round management.
+The Automated Exam Proctoring System is a machine learning prototype that detects face anomalies, gaze direction, and unauthorized electronic devices during remote computer-based tests.
 
 Project Role:
-The student engineered core matching algorithms, structured profile data models, and built fast substring search endpoints for recruiter queries.
+The student implemented face detection pipelines, integrated OpenCV video capture modules, and formulated threshold detection rules for gaze deflection.
 
 Current Project: Intelligent Student Record Search System
 
@@ -95,21 +95,20 @@ demonstration of advanced string-matching concepts and creates a foundation for 
 as fuzzy search, autocomplete, indexing, and ranking.
 
 Certifications:
-Cyber Security Essentials, Data Structures and Algorithms, Git and Version Control, Full Stack Web Development
+Machine Learning Foundations, Database Design with SQL
 
 Workshops:
-Java Development Workshop
-Computer Vision and Image Processing Seminar
 Machine Learning Workshop
+Computer Vision and Image Processing Seminar
 
 Achievements:
-Coding Contest Participant, Hackathon Participant, Codeforces Active Contender
+Dean's Honor List Recognition, Top 10 Finalist in Regional Hackathon, Coding Contest Participant
 
 Extracurricular Activities:
-Coding Club Coordinator, Hackathon Participant
+Technical Community Member, Project Expo Volunteer
 
 Career Interests:
-Software Engineering, Search Systems, Cloud Systems Architecture, Backend Development, Machine Learning Engineering
+Software Engineering, Machine Learning Engineering, Computer Vision, Cloud Systems Architecture
 
 Career Goal:
 To develop strong expertise in software engineering, algorithms, scalable applications, and intelligent information retrieval systems and to contribute to practical technology solutions.
@@ -121,4 +120,4 @@ Personal Interests:
 Information Retrieval, Competitive Programming, Open Source Software, Problem Solving, Search Systems
 
 Profile Summary:
-Arjun Agarwal is a 3-year Artificial Intelligence and Data Science student interested in software engineering, algorithms, and practical software development. The student has academic exposure to Git, Database Systems, DevOps, Data Structures, User Research and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.
+Pooja Mukherjee is a 3-year Electrical and Electronics Engineering student interested in software engineering, algorithms, and practical software development. The student has academic exposure to Microservices, Data Structures, Deep Learning, Database Systems, React and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.

@@ -1,45 +1,45 @@
 Student Record ID: SR040
 Roll Number: 2520000040
-Name: Rahul Menon
-Department: Electronics and Communication Engineering
+Name: Rahul Pandey
+Department: Artificial Intelligence and Data Science
 Program: B.Tech
 Year: 4
-Section: A
+Section: D
 Academic Status: Active
 
 Email: student040@example.edu
-Location: Mumbai, Maharashtra
+Location: Visakhapatnam, Andhra Pradesh
 
-Skills: Computer Vision, Kubernetes, PyTorch, Distributed Systems, Linux, CSS, User Research, TensorFlow
-Programming Languages: SQL, R, Go, C++
-Technical Interests: Software Development, Technology Research, Information Retrieval, Computer Vision, High Performance Computing, Cyber Defense
-Academic Interests: Computer Networks, Distributed Systems, Design and Analysis of Algorithms, Software Engineering, Compiler Design
-Research Interests: Information Extraction, Natural Language Understanding, Graph Neural Networks, Pattern Matching, Algorithm Optimization
+Skills: Data Structures, Natural Language Processing, Node.js, Linux, Docker, DevOps, Microservices
+Programming Languages: Java, TypeScript, C, C++, SQL
+Technical Interests: Problem Solving, Software Development, Computer Vision, Full Stack Engineering, Artificial Intelligence, Information Retrieval
+Academic Interests: Compiler Design, Database Management Systems, Design and Analysis of Algorithms, Data Warehousing, Cloud Computing, Theory of Computation
+Research Interests: Deep Neural Networks, Pattern Matching, Information Extraction, Graph Neural Networks
 
-Project 1: Campus Placement Hub Portal
+Project 1: Distributed Cache & Query Engine
+
+Project Description:
+The Distributed Cache & Query Engine is a high-concurrency storage prototype that partitions key-value entries across nodes using consistent hashing and replication.
+
+Project Objectives:
+To design an elastic in-memory database component capable of handling high-throughput read queries with fault tolerance.
+
+Project Role:
+The student developed hash-ring partitioning logic, implemented gossip-based node failure detection, and designed automated failover mechanisms.
+
+Technologies Used:
+Java, Distributed Systems, Computer Networks, Data Structures, Multi-Threading
+
+Project Outcome:
+Achieved sub-millisecond retrieval latencies for hot keys and verified zero data loss during simulated cluster partition events.
+
+Project 2: Campus Placement Hub Portal
 
 Project Description:
 The Campus Placement Hub Portal is a centralized recruitment management platform enabling automated resume screening, eligibility filtering, and interview round management.
 
-Project Objectives:
-To replace paper-based placement tracking with an algorithmic, search-enabled digital platform that scales across thousands of students and hundreds of recruiters.
-
 Project Role:
 The student engineered core matching algorithms, structured profile data models, and built fast substring search endpoints for recruiter queries.
-
-Technologies Used:
-Java, Spring Boot, SQL, Database Systems, Software Engineering, Algorithms
-
-Project Outcome:
-Processed student records seamlessly, reduced recruiter shortlisting turnaround from days to minutes, and provided clear audit logs of all hiring decisions.
-
-Project 2: Student Portal UX Prototype
-
-Project Description:
-The Student Portal UX Prototype is a related academic prototype focused on human computer interaction. It demonstrates structured record processing, modular implementation, testing, and retrieval of relevant information. The project emphasizes clear data representation and practical problem solving.
-
-Project Role:
-The student participated in implementation, testing, documentation, debugging, and performance analysis. The work involved organizing project data and developing reliable processing and retrieval logic.
 
 Current Project: Intelligent Student Record Search System
 
@@ -95,21 +95,21 @@ demonstration of advanced string-matching concepts and creates a foundation for 
 as fuzzy search, autocomplete, indexing, and ranking.
 
 Certifications:
-Python for Data Science, Database Design with SQL, Cloud Computing Associate, Machine Learning Foundations
+Git and Version Control, Cloud Computing Associate, Java Programming
 
 Workshops:
-Java Development Workshop
-Cloud Computing and DevOps Workshop
+Competitive Programming Bootcamp
+Data Structures and Algorithms Workshop
 Machine Learning Workshop
 
 Achievements:
 Codeforces Active Contender, Inter-College Coding Event Participant, Dean's Honor List Recognition
 
 Extracurricular Activities:
-Hackathon Participant, Project Expo Volunteer
+Hackathon Participant, Open Source Club Contributor
 
 Career Interests:
-Machine Learning Engineering, Information Retrieval, Backend Development, Cloud Systems Architecture, Data Platform Engineering
+Machine Learning Engineering, Information Retrieval, Search Systems, Software Engineering
 
 Career Goal:
 To develop strong expertise in software engineering, algorithms, scalable applications, and intelligent information retrieval systems and to contribute to practical technology solutions.
@@ -121,4 +121,4 @@ Personal Interests:
 Information Retrieval, Competitive Programming, Open Source Software, Problem Solving, Search Systems
 
 Profile Summary:
-Rahul Menon is a 4-year Electronics and Communication Engineering student interested in machine learning engineering, algorithms, and practical software development. The student has academic exposure to Computer Vision, Kubernetes, PyTorch, Distributed Systems, Linux and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.
+Rahul Pandey is a 4-year Artificial Intelligence and Data Science student interested in machine learning engineering, algorithms, and practical software development. The student has academic exposure to Data Structures, Natural Language Processing, Node.js, Linux, Docker and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.

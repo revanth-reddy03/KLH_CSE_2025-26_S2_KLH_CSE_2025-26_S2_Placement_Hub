@@ -1,45 +1,45 @@
 Student Record ID: SR027
 Roll Number: 2520000027
-Name: Nikhil Joshi
-Department: Computer Science and Engineering
+Name: Aniket Tripathi
+Department: Electronics and Communication Engineering
 Program: B.Tech
 Year: 2
-Section: B
+Section: A
 Academic Status: Active
 
 Email: student027@example.edu
-Location: Vijayawada, Andhra Pradesh
+Location: Visakhapatnam, Andhra Pradesh
 
-Skills: Software Engineering, TensorFlow, Computer Vision, JavaScript, Problem Solving, Machine Learning
-Programming Languages: Go, Kotlin, TypeScript
-Technical Interests: Human Computer Interaction, Artificial Intelligence, Problem Solving, High Performance Computing, Cloud Architecture
-Academic Interests: Data Warehousing, Machine Learning, Operating Systems, Distributed Systems, Design and Analysis of Algorithms, Cloud Computing
-Research Interests: Algorithm Optimization, Intelligent Systems, Search Performance Analysis
+Skills: Python, React, DevOps, Kubernetes, Distributed Systems, Algorithms, Machine Learning, Linux, User Research
+Programming Languages: Go, JavaScript, R
+Technical Interests: Problem Solving, Software Development, Human Computer Interaction, Computer Vision
+Academic Interests: Database Management Systems, Machine Learning, Operating Systems, Compiler Design, Design and Analysis of Algorithms
+Research Interests: Intelligent Systems, Algorithm Optimization, Search Performance Analysis, Deep Neural Networks
 
-Project 1: Distributed Cache & Query Engine
+Project 1: Student Portal UX Prototype
+
+Project Description:
+The Student Portal UX Prototype is a related academic prototype focused on human computer interaction. It demonstrates structured record processing, modular implementation, testing, and retrieval of relevant information. The project emphasizes clear data representation and practical problem solving.
+
+Project Objectives:
+The objective of the project is to build an interactive and responsive academic user interface that streamlines student access to courses, notices, grades, and academic advising.
+
+Project Role:
+The student participated in implementation, testing, documentation, debugging, and performance analysis. The work involved organizing project data and developing reliable processing and retrieval logic.
+
+Technologies Used:
+JavaScript, HTML, CSS, React, User Research, Software Engineering
+
+Project Outcome:
+The prototype enhanced usability metrics, demonstrated efficient client-side state caching, and validated responsive interface design principles across multiple viewport dimensions.
+
+Project 2: Distributed Cache & Query Engine
 
 Project Description:
 The Distributed Cache & Query Engine is a high-concurrency storage prototype that partitions key-value entries across nodes using consistent hashing and replication.
 
-Project Objectives:
-To design an elastic in-memory database component capable of handling high-throughput read queries with fault tolerance.
-
 Project Role:
 The student developed hash-ring partitioning logic, implemented gossip-based node failure detection, and designed automated failover mechanisms.
-
-Technologies Used:
-Java, Distributed Systems, Computer Networks, Data Structures, Multi-Threading
-
-Project Outcome:
-Achieved sub-millisecond retrieval latencies for hot keys and verified zero data loss during simulated cluster partition events.
-
-Project 2: Campus Placement Hub Portal
-
-Project Description:
-The Campus Placement Hub Portal is a centralized recruitment management platform enabling automated resume screening, eligibility filtering, and interview round management.
-
-Project Role:
-The student engineered core matching algorithms, structured profile data models, and built fast substring search endpoints for recruiter queries.
 
 Current Project: Intelligent Student Record Search System
 
@@ -95,20 +95,21 @@ demonstration of advanced string-matching concepts and creates a foundation for 
 as fuzzy search, autocomplete, indexing, and ranking.
 
 Certifications:
-Database Design with SQL, Cyber Security Essentials, Git and Version Control, Data Structures and Algorithms
+Cyber Security Essentials, Java Programming
 
 Workshops:
-Machine Learning Workshop
+Data Structures and Algorithms Workshop
 Cloud Computing and DevOps Workshop
+Competitive Programming Bootcamp
 
 Achievements:
-Inter-College Coding Event Participant, Top 10 Finalist in Regional Hackathon
+Top 10 Finalist in Regional Hackathon, Dean's Honor List Recognition, Codeforces Active Contender
 
 Extracurricular Activities:
-Open Source Club Contributor, Project Expo Volunteer, Technical Community Member
+Project Expo Volunteer, Technical Community Member, Coding Club Coordinator
 
 Career Interests:
-Data Platform Engineering, Machine Learning Engineering, Search Systems
+Cloud Systems Architecture, Information Retrieval, Machine Learning Engineering
 
 Career Goal:
 To develop strong expertise in software engineering, algorithms, scalable applications, and intelligent information retrieval systems and to contribute to practical technology solutions.
@@ -120,4 +121,4 @@ Personal Interests:
 Information Retrieval, Competitive Programming, Open Source Software, Problem Solving, Search Systems
 
 Profile Summary:
-Nikhil Joshi is a 2-year Computer Science and Engineering student interested in data platform engineering, algorithms, and practical software development. The student has academic exposure to Software Engineering, TensorFlow, Computer Vision, JavaScript, Problem Solving and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.
+Aniket Tripathi is a 2-year Electronics and Communication Engineering student interested in cloud systems architecture, algorithms, and practical software development. The student has academic exposure to Python, React, DevOps, Kubernetes, Distributed Systems and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.

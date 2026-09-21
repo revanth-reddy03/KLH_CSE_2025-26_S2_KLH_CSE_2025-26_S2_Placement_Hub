@@ -1,0 +1,123 @@
+Student Record ID: SR229
+Roll Number: 2520000229
+Name: Pranav Sharma
+Department: Computer Science and Engineering
+Program: B.Tech
+Year: 2
+Section: B
+Academic Status: Active
+
+Email: student229@example.edu
+Location: Kolkata, West Bengal
+
+Skills: Git, CSS, DevOps, Deep Learning, HTML, Algorithms, Software Engineering, Microservices, Image Processing
+Programming Languages: TypeScript, Java, SQL, C++, Python
+Technical Interests: Full Stack Engineering, Software Development, Technology Research, Cloud Architecture
+Academic Interests: Compiler Design, Theory of Computation, Software Engineering, Distributed Systems
+Research Interests: Natural Language Understanding, Graph Neural Networks, Intelligent Systems
+
+Project 1: Campus Placement Hub Portal
+
+Project Description:
+The Campus Placement Hub Portal is a centralized recruitment management platform enabling automated resume screening, eligibility filtering, and interview round management.
+
+Project Objectives:
+To replace paper-based placement tracking with an algorithmic, search-enabled digital platform that scales across thousands of students and hundreds of recruiters.
+
+Project Role:
+The student engineered core matching algorithms, structured profile data models, and built fast substring search endpoints for recruiter queries.
+
+Technologies Used:
+Java, Spring Boot, SQL, Database Systems, Software Engineering, Algorithms
+
+Project Outcome:
+Processed student records seamlessly, reduced recruiter shortlisting turnaround from days to minutes, and provided clear audit logs of all hiring decisions.
+
+Project 2: Distributed Cache & Query Engine
+
+Project Description:
+The Distributed Cache & Query Engine is a high-concurrency storage prototype that partitions key-value entries across nodes using consistent hashing and replication.
+
+Project Role:
+The student developed hash-ring partitioning logic, implemented gossip-based node failure detection, and designed automated failover mechanisms.
+
+Current Project: Intelligent Student Record Search System
+
+Project Description:
+The Intelligent Student Record Search System is a Data Structures and Algorithms project designed to search and retrieve information from a collection of student profile documents. Instead of restricting search to only a roll number or name, the system treats the complete student profile as searchable text. Each document contains academic details, skills, project descriptions, certifications, interests, achievements, and career information. These documents form the student-record corpus used for pattern and string-matching experiments.
+
+Problem Context:
+Educational institutions maintain large collections of student information distributed across academic
+records, skills, projects, certifications, achievements, and interests. As the number of student records
+increases, manually locating relevant information becomes time-consuming. The project demonstrates how
+string-matching algorithms can support efficient text-based retrieval across a student record corpus.
+
+Search Problem:
+Given a search pattern P and a collection of student record documents, the system searches the text of
+each document to determine whether P occurs within the student profile.
+
+Example Search Patterns:
+Java
+Python
+Data Structures
+Machine Learning
+Artificial Intelligence
+Information Retrieval
+Cyber Security
+Cloud Computing
+Software Engineering
+Pattern Matching
+Database Systems
+Project Management
+
+KMP Implementation:
+The Knuth-Morris-Pratt algorithm preprocesses the search pattern using the Longest Proper Prefix which
+is also Suffix (LPS) array. The LPS information allows the search procedure to avoid unnecessary
+comparisons after a mismatch.
+
+Rabin-Karp Implementation:
+The Rabin-Karp algorithm uses a rolling hash to compare the search pattern with windows of text.
+Candidate matches are identified through hash values and can be verified character by character.
+
+Corpus-Based Searching:
+Each TXT document represents one student profile. The corpus contains multiple structured fields and
+descriptive paragraphs so that pattern matching is evaluated on meaningful text rather than a single
+hard-coded string.
+
+Algorithm Comparison:
+The same query can be processed using KMP and Rabin-Karp. The system verifies that both algorithms
+identify the same matching documents and can record execution time and operation counts for comparison.
+
+Expected Outcome:
+The expected outcome is a Java-based search engine capable of scanning the student-record corpus and
+identifying relevant documents for a given search pattern. The implementation provides a practical
+demonstration of advanced string-matching concepts and creates a foundation for future extensions such
+as fuzzy search, autocomplete, indexing, and ranking.
+
+Certifications:
+Machine Learning Foundations, Python for Data Science, Full Stack Web Development, Cloud Computing Associate
+
+Workshops:
+Machine Learning Workshop
+Java Development Workshop
+
+Achievements:
+Codeforces Active Contender, Dean's Honor List Recognition, Top 10 Finalist in Regional Hackathon
+
+Extracurricular Activities:
+Open Source Club Contributor, Project Expo Volunteer, Coding Club Coordinator
+
+Career Interests:
+Information Retrieval, Software Engineering, Search Systems, Backend Development
+
+Career Goal:
+To develop strong expertise in software engineering, algorithms, scalable applications, and intelligent information retrieval systems and to contribute to practical technology solutions.
+
+Languages Known:
+English, Hindi, Telugu
+
+Personal Interests:
+Information Retrieval, Competitive Programming, Open Source Software, Problem Solving, Search Systems
+
+Profile Summary:
+Pranav Sharma is a 2-year Computer Science and Engineering student interested in information retrieval, algorithms, and practical software development. The student has academic exposure to Git, CSS, DevOps, Deep Learning, HTML and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.

@@ -1,17 +1,17 @@
 Student Record ID: SR001
 Roll Number: 2520000001
-Name: Sourav Verma
-Department: Computer Science and Engineering
+Name: Kavya Reddy
+Department: Electronics and Communication Engineering
 Program: B.Tech
-Year: 4
-Section: C
+Year: 2
+Section: B
 Academic Status: Active
 
 Email: student001@example.edu
-Location: Chennai, Tamil Nadu
+Location: Bengaluru, Karnataka
 
-Skills: Software Engineering, TensorFlow, Python, DevOps, Linux, Natural Language Processing, Problem Solving
-Programming Languages: Go, JavaScript, R, TypeScript, C++
+Skills: DevOps, TensorFlow, Natural Language Processing, Problem Solving, Distributed Systems, Cyber Security
+Programming Languages: JavaScript, C++, C
 Technical Interests: Full Stack Engineering, High Performance Computing, Technology Research, Software Development
 Academic Interests: Design and Analysis of Algorithms, Theory of Computation, Computer Networks, Software Engineering, Compiler Design, Cloud Computing
 Research Interests: Pattern Matching, Natural Language Understanding, Algorithm Optimization, Search Performance Analysis
@@ -120,4 +120,4 @@ Personal Interests:
 Information Retrieval, Competitive Programming, Open Source Software, Problem Solving, Search Systems
 
 Profile Summary:
-Sourav Verma is a 4-year Computer Science and Engineering student interested in information retrieval, algorithms, and practical software development. The student has academic exposure to Software Engineering, TensorFlow, Python, DevOps, Linux and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.
+Kavya Reddy is a 2-year Electronics and Communication Engineering student interested in information retrieval, algorithms, and practical software development. The student has academic exposure to DevOps, TensorFlow, Natural Language Processing, Problem Solving, Distributed Systems and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.

@@ -1,45 +1,45 @@
 Student Record ID: SR052
 Roll Number: 2520000052
-Name: Tarun Singh
-Department: Artificial Intelligence and Data Science
+Name: Aniket Menon
+Department: Computer Science and Engineering
 Program: B.Tech
 Year: 3
-Section: B
+Section: D
 Academic Status: Active
 
 Email: student052@example.edu
-Location: Vijayawada, Andhra Pradesh
+Location: Bengaluru, Karnataka
 
-Skills: React, TensorFlow, Microservices, Computer Vision, Algorithms, Distributed Systems, CSS, Node.js
-Programming Languages: Java, Go, Python, JavaScript
-Technical Interests: Software Development, High Performance Computing, Full Stack Engineering, Human Computer Interaction, Artificial Intelligence, Problem Solving
-Academic Interests: Compiler Design, Software Engineering, Design and Analysis of Algorithms, Cloud Computing
-Research Interests: Algorithm Optimization, Natural Language Understanding, Search Performance Analysis, Graph Neural Networks, Information Extraction
+Skills: CSS, HTML, DevOps, Software Engineering, Microservices, Cyber Security, Cloud Computing, Problem Solving
+Programming Languages: Kotlin, TypeScript, Go, Java
+Technical Interests: Cloud Architecture, Full Stack Engineering, Technology Research, Artificial Intelligence, Cyber Defense, Problem Solving
+Academic Interests: Design and Analysis of Algorithms, Machine Learning, Data Warehousing, Software Engineering, Database Management Systems, Computer Networks
+Research Interests: Intelligent Systems, Graph Neural Networks, Deep Neural Networks, Pattern Matching
 
-Project 1: Automated Exam Proctoring System
+Project 1: Campus Placement Hub Portal
 
 Project Description:
-The Automated Exam Proctoring System is a machine learning prototype that detects face anomalies, gaze direction, and unauthorized electronic devices during remote computer-based tests.
+The Campus Placement Hub Portal is a centralized recruitment management platform enabling automated resume screening, eligibility filtering, and interview round management.
 
 Project Objectives:
-To develop a low-latency non-intrusive monitoring pipeline that maintains examination integrity in hybrid learning settings.
+To replace paper-based placement tracking with an algorithmic, search-enabled digital platform that scales across thousands of students and hundreds of recruiters.
 
 Project Role:
-The student implemented face detection pipelines, integrated OpenCV video capture modules, and formulated threshold detection rules for gaze deflection.
+The student engineered core matching algorithms, structured profile data models, and built fast substring search endpoints for recruiter queries.
 
 Technologies Used:
-Python, OpenCV, Deep Learning, TensorFlow, Computer Vision, Software Engineering
+Java, Spring Boot, SQL, Database Systems, Software Engineering, Algorithms
 
 Project Outcome:
-Demonstrated real-time verification at 30 frames per second with minimal CPU resource utilization and 94% anomaly recall on benchmark datasets.
+Processed student records seamlessly, reduced recruiter shortlisting turnaround from days to minutes, and provided clear audit logs of all hiring decisions.
 
-Project 2: Student Portal UX Prototype
+Project 2: Distributed Cache & Query Engine
 
 Project Description:
-The Student Portal UX Prototype is a related academic prototype focused on human computer interaction. It demonstrates structured record processing, modular implementation, testing, and retrieval of relevant information. The project emphasizes clear data representation and practical problem solving.
+The Distributed Cache & Query Engine is a high-concurrency storage prototype that partitions key-value entries across nodes using consistent hashing and replication.
 
 Project Role:
-The student participated in implementation, testing, documentation, debugging, and performance analysis. The work involved organizing project data and developing reliable processing and retrieval logic.
+The student developed hash-ring partitioning logic, implemented gossip-based node failure detection, and designed automated failover mechanisms.
 
 Current Project: Intelligent Student Record Search System
 
@@ -95,21 +95,20 @@ demonstration of advanced string-matching concepts and creates a foundation for 
 as fuzzy search, autocomplete, indexing, and ranking.
 
 Certifications:
-Git and Version Control, Cyber Security Essentials, Database Design with SQL
+Cyber Security Essentials, Data Structures and Algorithms, Java Programming
 
 Workshops:
-Data Structures and Algorithms Workshop
-Cloud Computing and DevOps Workshop
-Computer Vision and Image Processing Seminar
+Machine Learning Workshop
+Java Development Workshop
 
 Achievements:
-Top 10 Finalist in Regional Hackathon, Codeforces Active Contender, Dean's Honor List Recognition
+Dean's Honor List Recognition, Inter-College Coding Event Participant
 
 Extracurricular Activities:
-Project Expo Volunteer, Open Source Club Contributor
+Coding Club Coordinator, Open Source Club Contributor, Hackathon Participant
 
 Career Interests:
-Information Retrieval, Search Systems, Software Engineering, Backend Development, Cloud Systems Architecture
+Search Systems, Computer Vision, Software Engineering, Backend Development
 
 Career Goal:
 To develop strong expertise in software engineering, algorithms, scalable applications, and intelligent information retrieval systems and to contribute to practical technology solutions.
@@ -121,4 +120,4 @@ Personal Interests:
 Information Retrieval, Competitive Programming, Open Source Software, Problem Solving, Search Systems
 
 Profile Summary:
-Tarun Singh is a 3-year Artificial Intelligence and Data Science student interested in information retrieval, algorithms, and practical software development. The student has academic exposure to React, TensorFlow, Microservices, Computer Vision, Algorithms and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.
+Aniket Menon is a 3-year Computer Science and Engineering student interested in search systems, algorithms, and practical software development. The student has academic exposure to CSS, HTML, DevOps, Software Engineering, Microservices and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.

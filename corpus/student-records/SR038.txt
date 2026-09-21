@@ -1,20 +1,20 @@
 Student Record ID: SR038
 Roll Number: 2520000038
-Name: Vikas Joshi
-Department: Artificial Intelligence and Data Science
+Name: Harsh Chauhan
+Department: Electrical and Electronics Engineering
 Program: B.Tech
-Year: 2
-Section: C
+Year: 3
+Section: B
 Academic Status: Active
 
 Email: student038@example.edu
-Location: Delhi, NCR
+Location: Chennai, Tamil Nadu
 
-Skills: Python, Node.js, CSS, Data Structures, Git, HTML, PyTorch, Kubernetes, Software Engineering, TensorFlow
-Programming Languages: Java, Go, R
-Technical Interests: Human Computer Interaction, Artificial Intelligence, High Performance Computing, Software Development
-Academic Interests: Compiler Design, Theory of Computation, Design and Analysis of Algorithms, Data Warehousing
-Research Interests: Information Extraction, Pattern Matching, Natural Language Understanding, Search Performance Analysis
+Skills: Docker, User Research, Linux, React, Algorithms, Database Systems, Computer Vision, TensorFlow, PyTorch, Natural Language Processing
+Programming Languages: C++, Go, SQL
+Technical Interests: Artificial Intelligence, Cloud Architecture, Computer Vision, Technology Research, Software Development
+Academic Interests: Data Warehousing, Theory of Computation, Software Engineering, Database Management Systems
+Research Interests: Deep Neural Networks, Pattern Matching, Search Performance Analysis, Information Extraction, Graph Neural Networks
 
 Project 1: Campus Placement Hub Portal
 
@@ -33,13 +33,13 @@ Java, Spring Boot, SQL, Database Systems, Software Engineering, Algorithms
 Project Outcome:
 Processed student records seamlessly, reduced recruiter shortlisting turnaround from days to minutes, and provided clear audit logs of all hiring decisions.
 
-Project 2: Distributed Cache & Query Engine
+Project 2: Automated Exam Proctoring System
 
 Project Description:
-The Distributed Cache & Query Engine is a high-concurrency storage prototype that partitions key-value entries across nodes using consistent hashing and replication.
+The Automated Exam Proctoring System is a machine learning prototype that detects face anomalies, gaze direction, and unauthorized electronic devices during remote computer-based tests.
 
 Project Role:
-The student developed hash-ring partitioning logic, implemented gossip-based node failure detection, and designed automated failover mechanisms.
+The student implemented face detection pipelines, integrated OpenCV video capture modules, and formulated threshold detection rules for gaze deflection.
 
 Current Project: Intelligent Student Record Search System
 
@@ -95,20 +95,21 @@ demonstration of advanced string-matching concepts and creates a foundation for 
 as fuzzy search, autocomplete, indexing, and ranking.
 
 Certifications:
-Machine Learning Foundations, Python for Data Science
+Data Structures and Algorithms, Git and Version Control, Java Programming, Machine Learning Foundations
 
 Workshops:
-Data Structures and Algorithms Workshop
 Machine Learning Workshop
+Computer Vision and Image Processing Seminar
+Competitive Programming Bootcamp
 
 Achievements:
-Top 10 Finalist in Regional Hackathon, Dean's Honor List Recognition, Inter-College Coding Event Participant
+Coding Contest Participant, Top 10 Finalist in Regional Hackathon
 
 Extracurricular Activities:
-Technical Community Member, Coding Club Coordinator
+Open Source Club Contributor, Technical Community Member, Robotics Club Associate
 
 Career Interests:
-Machine Learning Engineering, Cloud Systems Architecture, Backend Development
+Backend Development, Cloud Systems Architecture, Software Engineering
 
 Career Goal:
 To develop strong expertise in software engineering, algorithms, scalable applications, and intelligent information retrieval systems and to contribute to practical technology solutions.
@@ -120,4 +121,4 @@ Personal Interests:
 Information Retrieval, Competitive Programming, Open Source Software, Problem Solving, Search Systems
 
 Profile Summary:
-Vikas Joshi is a 2-year Artificial Intelligence and Data Science student interested in machine learning engineering, algorithms, and practical software development. The student has academic exposure to Python, Node.js, CSS, Data Structures, Git and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.
+Harsh Chauhan is a 3-year Electrical and Electronics Engineering student interested in backend development, algorithms, and practical software development. The student has academic exposure to Docker, User Research, Linux, React, Algorithms and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.

@@ -1,18 +1,18 @@
 Student Record ID: SR006
 Roll Number: 2520000006
-Name: Shreya Choudhury
-Department: Information Technology
+Name: Sandhya Choudhury
+Department: Artificial Intelligence and Data Science
 Program: B.Tech
 Year: 3
-Section: D
+Section: B
 Academic Status: Active
 
 Email: student006@example.edu
-Location: Chennai, Tamil Nadu
+Location: Hyderabad, Telangana
 
-Skills: Python, DevOps, Cyber Security, Docker, Kubernetes, TensorFlow
-Programming Languages: JavaScript, C++, Kotlin, C
-Technical Interests: Artificial Intelligence, Information Retrieval, Software Development, Full Stack Engineering, High Performance Computing, Problem Solving
+Skills: DevOps, Cyber Security, Docker, Linux, PyTorch, Data Structures
+Programming Languages: JavaScript, C++, Kotlin, C, Python
+Technical Interests: Information Retrieval, Software Development, High Performance Computing, Full Stack Engineering, Problem Solving
 Academic Interests: Distributed Systems, Computer Networks, Design and Analysis of Algorithms, Cloud Computing, Software Engineering
 Research Interests: Algorithm Optimization, Search Performance Analysis, Deep Neural Networks
 
@@ -120,4 +120,4 @@ Personal Interests:
 Information Retrieval, Competitive Programming, Open Source Software, Problem Solving, Search Systems
 
 Profile Summary:
-Shreya Choudhury is a 3-year Information Technology student interested in machine learning engineering, algorithms, and practical software development. The student has academic exposure to Python, DevOps, Cyber Security, Docker, Kubernetes and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.
+Sandhya Choudhury is a 3-year Artificial Intelligence and Data Science student interested in machine learning engineering, algorithms, and practical software development. The student has academic exposure to DevOps, Cyber Security, Docker, Linux, PyTorch and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.

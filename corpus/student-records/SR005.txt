@@ -1,6 +1,6 @@
 Student Record ID: SR005
 Roll Number: 2520000005
-Name: Karan Reddy
+Name: Rohit Verma
 Department: Information Technology
 Program: B.Tech
 Year: 4
@@ -120,4 +120,4 @@ Personal Interests:
 Information Retrieval, Competitive Programming, Open Source Software, Problem Solving, Search Systems
 
 Profile Summary:
-Karan Reddy is a 4-year Information Technology student interested in backend development, algorithms, and practical software development. The student has academic exposure to Linux, Problem Solving, PyTorch, Natural Language Processing, Software Engineering and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.
+Rohit Verma is a 4-year Information Technology student interested in backend development, algorithms, and practical software development. The student has academic exposure to Linux, Problem Solving, PyTorch, Natural Language Processing, Software Engineering and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.

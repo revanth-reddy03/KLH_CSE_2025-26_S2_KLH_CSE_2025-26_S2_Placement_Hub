@@ -1,45 +1,45 @@
 Student Record ID: SR008
 Roll Number: 2520000008
-Name: Rohan Mishra
-Department: Electrical and Electronics Engineering
+Name: Kiran Bhat
+Department: Computer Science and Engineering
 Program: B.Tech
 Year: 2
-Section: A
+Section: C
 Academic Status: Active
 
 Email: student008@example.edu
-Location: Delhi, NCR
+Location: Pune, Maharashtra
 
-Skills: Machine Learning, HTML, Software Engineering, Docker, Problem Solving, CSS, PyTorch
-Programming Languages: SQL, TypeScript, Java, R
-Technical Interests: Full Stack Engineering, Technology Research, Computer Vision, Problem Solving, Artificial Intelligence, High Performance Computing
-Academic Interests: Cloud Computing, Machine Learning, Data Warehousing, Distributed Systems
-Research Interests: Deep Neural Networks, Information Extraction, Algorithm Optimization, Intelligent Systems
+Skills: Data Structures, Linux, Natural Language Processing, Microservices, React, Database Systems, Computer Vision
+Programming Languages: JavaScript, R, Java, Python, Kotlin
+Technical Interests: Problem Solving, Information Retrieval, High Performance Computing, Human Computer Interaction
+Academic Interests: Cloud Computing, Data Warehousing, Software Engineering, Database Management Systems, Machine Learning
+Research Interests: Deep Neural Networks, Information Extraction, Search Performance Analysis, Intelligent Systems, Pattern Matching
 
-Project 1: Student Portal UX Prototype
+Project 1: Document Image Processing Tool
 
 Project Description:
-The Student Portal UX Prototype is a related academic prototype focused on human computer interaction. It demonstrates structured record processing, modular implementation, testing, and retrieval of relevant information. The project emphasizes clear data representation and practical problem solving.
+The Document Image Processing Tool is an academic prototype focused on computer vision. It organizes relevant information, processes structured records, and provides search or retrieval capabilities for common user queries. The project demonstrates practical application of programming, data structures, algorithms, validation, and modular software design.
 
 Project Objectives:
-The objective of the project is to build an interactive and responsive academic user interface that streamlines student access to courses, notices, grades, and academic advising.
+The objective of the project is to build a practical academic solution that reduces manual effort, improves information organization, and demonstrates the application of data structures, algorithms, and software engineering concepts to a real information-processing problem.
 
 Project Role:
-The student participated in implementation, testing, documentation, debugging, and performance analysis. The work involved organizing project data and developing reliable processing and retrieval logic.
+The student contributed to data organization, implementation, testing, documentation, and search or retrieval functionality. The project included sample-data testing, validation, debugging, and analysis of different user query scenarios.
 
 Technologies Used:
-JavaScript, HTML, CSS, React, User Research, Software Engineering
+Object-Oriented Programming, Deep Learning, Text Processing, Python, Software Engineering, Java, JavaScript
 
 Project Outcome:
-The prototype enhanced usability metrics, demonstrated efficient client-side state caching, and validated responsive interface design principles across multiple viewport dimensions.
+The prototype demonstrated how structured data, appropriate data structures, and algorithmic techniques can be combined to build a practical software solution. The system was evaluated using multiple sample records and different search or retrieval scenarios.
 
-Project 2: Distributed Cache & Query Engine
+Project 2: Campus Placement Hub Portal
 
 Project Description:
-The Distributed Cache & Query Engine is a high-concurrency storage prototype that partitions key-value entries across nodes using consistent hashing and replication.
+The Campus Placement Hub Portal is a centralized recruitment management platform enabling automated resume screening, eligibility filtering, and interview round management.
 
 Project Role:
-The student developed hash-ring partitioning logic, implemented gossip-based node failure detection, and designed automated failover mechanisms.
+The student engineered core matching algorithms, structured profile data models, and built fast substring search endpoints for recruiter queries.
 
 Current Project: Intelligent Student Record Search System
 
@@ -95,20 +95,20 @@ demonstration of advanced string-matching concepts and creates a foundation for 
 as fuzzy search, autocomplete, indexing, and ranking.
 
 Certifications:
-Database Design with SQL, Cloud Computing Associate, Cyber Security Essentials, Java Programming
+Java Programming, Full Stack Web Development, Git and Version Control
 
 Workshops:
 Competitive Programming Bootcamp
-Cloud Computing and DevOps Workshop
+Machine Learning Workshop
 
 Achievements:
-Hackathon Participant, Codeforces Active Contender, Inter-College Coding Event Participant
+Codeforces Active Contender, Dean's Honor List Recognition
 
 Extracurricular Activities:
-Robotics Club Associate, Project Expo Volunteer
+Open Source Club Contributor, Technical Community Member, Robotics Club Associate
 
 Career Interests:
-Software Engineering, Machine Learning Engineering, Cloud Systems Architecture
+Backend Development, Machine Learning Engineering, Search Systems
 
 Career Goal:
 To develop strong expertise in software engineering, algorithms, scalable applications, and intelligent information retrieval systems and to contribute to practical technology solutions.
@@ -120,4 +120,4 @@ Personal Interests:
 Information Retrieval, Competitive Programming, Open Source Software, Problem Solving, Search Systems
 
 Profile Summary:
-Rohan Mishra is a 2-year Electrical and Electronics Engineering student interested in software engineering, algorithms, and practical software development. The student has academic exposure to Machine Learning, HTML, Software Engineering, Docker, Problem Solving and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.
+Kiran Bhat is a 2-year Computer Science and Engineering student interested in backend development, algorithms, and practical software development. The student has academic exposure to Data Structures, Linux, Natural Language Processing, Microservices, React and has worked on projects involving structured data, text processing, search, and information retrieval. This profile is synthetic sample data created for testing the Intelligent Student Record Search System and its pattern-matching algorithms.
