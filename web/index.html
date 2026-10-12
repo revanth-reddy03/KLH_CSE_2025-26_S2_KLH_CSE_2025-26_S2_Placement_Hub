@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Placement Hub | Intelligent Student Record Search & Allocation Engine</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!-- Inter Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col font-sans selection:bg-blue-600 selection:text-white">
+
+  <!-- TOP HEADER & NAVBAR -->
+  <header class="border-b border-slate-800/80 bg-slate-900/60 backdrop-blur-md sticky top-0 z-40">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 to-indigo-600 flex items-center justify-center font-extrabold text-white text-lg shadow-lg shadow-blue-500/20">
+          PH
+        </div>
+        <div>
+          <div class="font-extrabold tracking-tight text-base sm:text-lg flex items-center gap-2">
+            Placement Hub <span class="text-[10px] uppercase font-mono px-2 py-0.5 rounded bg-blue-500/10 text-blue-400 border border-blue-500/20 hidden sm:inline-block">Java DSA 3</span>
+          </div>
+          <p class="text-[11px] text-slate-400">Intelligent Student Record Search & Allocation Engine • KLH University</p>
+        </div>
+      </div>
+
+      <!-- Navigation Tabs -->
+      <nav class="hidden md:flex items-center gap-1">
+        <button id="btn-overview" onclick="showTab('overview')" class="nav-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-blue-600 text-white transition-all">Overview</button>
+        <button id="btn-corpus" onclick="showTab('corpus')" class="nav-btn px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-300 hover:bg-slate-800 transition-all">500 Corpus</button>
+        <button id="btn-search" onclick="showTab('search')" class="nav-btn px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-300 hover:bg-slate-800 transition-all">String Search</button>
+        <button id="btn-screener" onclick="showTab('screener')" class="nav-btn px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-300 hover:bg-slate-800 transition-all">Aho-Corasick</button>
+        <button id="btn-fuzzy" onclick="showTab('fuzzy')" class="nav-btn px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-300 hover:bg-slate-800 transition-all">Edit Distance</button>
+        <button id="btn-allocation" onclick="showTab('allocation')" class="nav-btn px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-300 hover:bg-slate-800 transition-all">Flow Matching</button>
+        <button id="btn-benchmark" onclick="showTab('benchmark')" class="nav-btn px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-300 hover:bg-slate-800 transition-all">Benchmark</button>
+        <button id="btn-team" onclick="showTab('team')" class="nav-btn px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-300 hover:bg-slate-800 transition-all">Team</button>
+      </nav>
+
+      <div class="flex items-center gap-2">
+        <a href="https://github.com/revanth-reddy03/KLH_CSE_2025-26_S2_KLH_CSE_2025-26_S2_Placement_Hub" target="_blank" class="p-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white transition-all text-xs font-semibold flex items-center gap-1.5">
+          <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          <span class="hidden sm:inline">GitHub</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN VIEWPORT -->
+  <main class="flex-1 max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-6">
+
+    <!-- ===================================================================== -->
+    <!-- TAB 1: OVERVIEW -->
+    <!-- ===================================================================== -->
+    <div id="tab-overview" class="tab-content space-y-6">
+      
+      <!-- HERO BANNER -->
+      <div class="relative overflow-hidden rounded-2xl p-8 bg-gradient-to-br from-blue-900/30 via-slate-900 to-indigo-950/40 border border-slate-800">
+        <div class="relative z-10 max-w-3xl">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-semibold mb-4">
+            <span>✨</span> Department of Computer Science & Engineering • 2026-27
+          </div>
+          <h1 class="text-3xl sm:text-5xl font-extrabold tracking-tight text-white mb-4 leading-tight">
+            Campus Placement Hub <br>
+            <span class="bg-gradient-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent">Algorithmic Search & Flow Engine</span>
+          </h1>
+          <p class="text-sm sm:text-base text-slate-300 mb-6 leading-relaxed">
+            A high-performance Java DSA architecture processing <strong>500 student records</strong> with linear-time string search (KMP, Z-Algorithm, Suffix Array), dictionary-based multi-skill screening (Aho-Corasick), typo-tolerant fuzzy indexing (Edit Distance), and capacity-constrained corporate allocation via <strong>Dinic's Max Flow</strong> and <strong>Bipartite Matching</strong>.
+          </p>
+          <div class="flex flex-wrap gap-3">
+            <button onclick="showTab('corpus')" class="px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold text-sm transition-all shadow-lg shadow-blue-600/30">
+              Explore 500 Profiles &rarr;
+            </button>
+            <button onclick="showTab('search')" class="px-5 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 font-semibold text-sm border border-slate-700 transition-all">
+              Test String Algorithms
+            </button>
+            <button onclick="showTab('allocation')" class="px-5 py-2.5 rounded-xl bg-emerald-600/20 hover:bg-emerald-600/30 text-emerald-400 font-semibold text-sm border border-emerald-500/30 transition-all">
+              Simulate Max Flow
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- KEY METRICS STATS GRID -->
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+        <div class="glass-panel p-5 rounded-xl border border-slate-800">
+          <div class="text-xs text-slate-400 uppercase tracking-wider mb-1">Corpus Size</div>
+          <div id="hero-students-count" class="text-3xl font-extrabold text-blue-400">500</div>
+          <div class="text-xs text-slate-500 mt-1">Rich TXT Profiles (SR001-SR500)</div>
+        </div>
+        <div class="glass-panel p-5 rounded-xl border border-slate-800">
+          <div class="text-xs text-slate-400 uppercase tracking-wider mb-1">DSA Algorithms</div>
+          <div class="text-3xl font-extrabold text-indigo-400">9</div>
+          <div class="text-xs text-slate-500 mt-1">KMP, Z, Aho-Corasick, Dinic...</div>
+        </div>
+        <div class="glass-panel p-5 rounded-xl border border-slate-800">
+          <div class="text-xs text-slate-400 uppercase tracking-wider mb-1">Search Latency</div>
+          <div class="text-3xl font-extrabold text-emerald-400">&lt; 15 ms</div>
+          <div class="text-xs text-slate-500 mt-1">Linear O(N+M) scanning</div>
+        </div>
+        <div class="glass-panel p-5 rounded-xl border border-slate-800">
+          <div class="text-xs text-slate-400 uppercase tracking-wider mb-1">Flow Saturation</div>
+          <div class="text-3xl font-extrabold text-yellow-400">100%</div>
+          <div class="text-xs text-slate-500 mt-1">Optimal Quota Allocation</div>
+        </div>
+      </div>
+
+      <!-- ALGORITHMIC PIPELINE ARCHITECTURE -->
+      <div class="glass-panel p-6 rounded-2xl border border-slate-800">
+        <h3 class="text-base font-bold text-slate-100 mb-4 flex items-center gap-2">
+          <span>🧠</span> Algorithmic Subsystems Architecture
+        </h3>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div class="space-y-3">
+            <h4 class="text-xs font-bold text-blue-400 uppercase tracking-wider">Subsystem 1: Information Retrieval & Text Search</h4>
+            <div class="p-3.5 rounded-xl bg-slate-900/60 border border-slate-800 text-xs space-y-1.5">
+              <div class="font-bold text-slate-200">Knuth-Morris-Pratt (KMP) & Z-Algorithm</div>
+              <p class="text-slate-400">Precomputes LPS / Z-boxes to skip redundant comparisons, executing linear-time O(N+M) keyword queries.</p>
+            </div>
+            <div class="p-3.5 rounded-xl bg-slate-900/60 border border-slate-800 text-xs space-y-1.5">
+              <div class="font-bold text-slate-200">Aho-Corasick Multi-Pattern Screener</div>
+              <p class="text-slate-400">Trie automaton with failure links scanning entire resumes for 10+ required skills simultaneously in O(N+Matches) time.</p>
+            </div>
+            <div class="p-3.5 rounded-xl bg-slate-900/60 border border-slate-800 text-xs space-y-1.5">
+              <div class="font-bold text-slate-200">Suffix Array & Edit Distance</div>
+              <p class="text-slate-400">Lexicographical suffix binary search for substring index queries, alongside Levenshtein DP typo tolerance.</p>
+            </div>
+          </div>
+
+          <div class="space-y-3">
+            <h4 class="text-xs font-bold text-emerald-400 uppercase tracking-wider">Subsystem 2: Network Flow & Placement Allocation</h4>
+            <div class="p-3.5 rounded-xl bg-slate-900/60 border border-slate-800 text-xs space-y-1.5">
+              <div class="font-bold text-slate-200">Maximum Bipartite Matching (Kuhn's Algorithm)</div>
+              <p class="text-slate-400">Augmenting paths assign eligible candidates to distinct job roles to maximize cardinality.</p>
+            </div>
+            <div class="p-3.5 rounded-xl bg-slate-900/60 border border-slate-800 text-xs space-y-1.5">
+              <div class="font-bold text-slate-200">Dinic's Algorithm & Edmonds-Karp</div>
+              <p class="text-slate-400">Constructs Level Graphs (BFS) and pushes Blocking Flows (DFS) to saturate corporate hiring quotas in O(E·√V) time.</p>
+            </div>
+            <div class="p-3.5 rounded-xl bg-slate-900/60 border border-slate-800 text-xs space-y-1.5">
+              <div class="font-bold text-slate-200">Search History & Analytics Engine</div>
+              <p class="text-slate-400">Synchronized MRU Deque cache maintaining recent recruiter searches alongside HashMap query popularity metrics.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SEARCH HISTORY & FREQUENCY BAR -->
+      <div class="glass-panel p-6 rounded-2xl border border-slate-800">
+        <div class="flex items-center justify-between mb-3">
+          <h3 class="text-sm font-bold text-slate-200 flex items-center gap-2">
+            <span>🕒</span> Recruiter Search History & Recent Queries
+          </h3>
+          <span class="text-xs text-slate-400">Click to run instant search</span>
+        </div>
+        <div id="search-history-chips" class="flex flex-wrap gap-2 mb-4">
+          <!-- Populated dynamically -->
+        </div>
+        <div class="h-44 w-full">
+          <canvas id="historyChart"></canvas>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ===================================================================== -->
+    <!-- TAB 2: CORPUS EXPLORER (500 PROFILES) -->
+    <!-- ===================================================================== -->
+    <div id="tab-corpus" class="tab-content hidden space-y-6">
+      <div class="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-4">
+        <div>
+          <h2 class="text-2xl font-bold text-white">Student Records Corpus</h2>
+          <p class="text-xs text-slate-400">Search, filter, and inspect all 500 standardized candidate profile documents</p>
+        </div>
+
+        <div class="flex items-center gap-2">
+          <input type="text" id="corpus-search-input" oninput="filterCorpus()" placeholder="Search name, roll, skills..." class="bg-slate-900 border border-slate-800 rounded-xl px-3 py-2 text-xs text-slate-200 focus:outline-none focus:border-blue-500 w-64">
+          <select id="corpus-dept-filter" onchange="filterCorpus()" class="bg-slate-900 border border-slate-800 rounded-xl px-3 py-2 text-xs text-slate-200 focus:outline-none focus:border-blue-500">
+            <option value="">All Departments</option>
+            <option value="Computer Science and Engineering">CSE</option>
+            <option value="Information Technology">IT</option>
+            <option value="Electronics and Communication Engineering">ECE</option>
+            <option value="Artificial Intelligence and Data Science">AI&DS</option>
+            <option value="Electrical and Electronics Engineering">EEE</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- CARDS GRID -->
+      <div id="corpus-cards-container" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <!-- Rendered by app.js -->
+      </div>
+
+      <!-- PAGINATION CONTROLS -->
+      <div class="flex items-center justify-between pt-4 border-t border-slate-800 text-xs">
+        <span id="corpus-page-info" class="text-slate-400">Page 1 of 42</span>
+        <div class="flex items-center gap-2">
+          <button id="prev-page-btn" onclick="prevPage()" class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 disabled:opacity-40 transition-all">Previous</button>
+          <button id="next-page-btn" onclick="nextPage()" class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 disabled:opacity-40 transition-all">Next</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===================================================================== -->
+    <!-- TAB 3: STRING SEARCH SUITE -->
+    <!-- ===================================================================== -->
+    <div id="tab-search" class="tab-content hidden space-y-6">
+      <div>
+        <h2 class="text-2xl font-bold text-white">String Pattern Search Suite</h2>
+        <p class="text-xs text-slate-400">Execute deterministic linear-time text searches across all 500 candidate documents</p>
+      </div>
+
+      <!-- SEARCH BAR -->
+      <div class="glass-panel p-5 rounded-2xl border border-slate-800 space-y-4">
+        <div class="flex flex-col sm:flex-row gap-3">
+          <div class="flex-1 relative">
+            <input type="text" id="search-query-input" value="Distributed Systems" placeholder="Enter keyword (e.g. Machine Learning, Distributed Systems, Python)..." class="w-full bg-slate-900/90 border border-slate-700 rounded-xl px-4 py-2.5 text-sm text-slate-100 focus:outline-none focus:border-blue-500 font-mono">
+          </div>
+          <select id="search-algo-select" class="bg-slate-900 border border-slate-700 rounded-xl px-4 py-2.5 text-xs text-slate-200 font-semibold focus:outline-none focus:border-blue-500">
+            <option value="kmp">Knuth-Morris-Pratt (KMP)</option>
+            <option value="z">Z-Algorithm (Linear)</option>
+            <option value="suffix">Suffix Array (Binary Search)</option>
+          </select>
+          <button onclick="runStringSearch()" class="px-6 py-2.5 bg-blue-600 hover:bg-blue-500 text-white font-bold text-sm rounded-xl transition-all shadow-lg shadow-blue-600/30">
+            Execute Search
+          </button>
+        </div>
+
+        <!-- QUICK SAMPLE QUERIES -->
+        <div class="flex flex-wrap items-center gap-1.5 text-xs">
+          <span class="text-slate-500">Sample Queries:</span>
+          <button onclick="quickSearch('Distributed Systems')" class="px-2 py-0.5 rounded bg-slate-800 text-slate-300 hover:bg-slate-700">Distributed Systems</button>
+          <button onclick="quickSearch('Machine Learning')" class="px-2 py-0.5 rounded bg-slate-800 text-slate-300 hover:bg-slate-700">Machine Learning</button>
+          <button onclick="quickSearch('Computer Vision')" class="px-2 py-0.5 rounded bg-slate-800 text-slate-300 hover:bg-slate-700">Computer Vision</button>
+          <button onclick="quickSearch('Information Retrieval')" class="px-2 py-0.5 rounded bg-slate-800 text-slate-300 hover:bg-slate-700">Information Retrieval</button>
+          <button onclick="quickSearch('KMP Implementation')" class="px-2 py-0.5 rounded bg-slate-800 text-slate-300 hover:bg-slate-700">KMP Implementation</button>
+        </div>
+      </div>
+
+      <!-- DYNAMIC STATS & VISUALIZER -->
+      <div id="search-results-stats"></div>
+      <div id="search-algo-viz"></div>
+
+      <!-- RESULTS LIST -->
+      <div id="search-results-list" class="space-y-3">
+        <!-- Rendered by app.js -->
+      </div>
+    </div>
+
+    <!-- ===================================================================== -->
+    <!-- TAB 4: AHO-CORASICK MULTI-PATTERN SCREENER -->
+    <!-- ===================================================================== -->
+    <div id="tab-screener" class="tab-content hidden space-y-6">
+      <div>
+        <h2 class="text-2xl font-bold text-white">Aho-Corasick Multi-Pattern Resume Screener</h2>
+        <p class="text-xs text-slate-400">Scan 500 resumes for multiple corporate tech-stack requirements simultaneously in a single linear pass</p>
+      </div>
+
+      <div class="glass-panel p-5 rounded-2xl border border-slate-800 space-y-4">
+        <div>
+          <label class="text-xs text-slate-400 font-semibold mb-1 block">Target Tech Stack Keywords (Comma Separated)</label>
+          <div class="flex gap-3">
+            <input type="text" id="aho-keywords-input" value="java, docker, kubernetes, aws, python, microservices" class="flex-1 bg-slate-900 border border-slate-700 rounded-xl px-4 py-2.5 text-sm text-slate-100 font-mono focus:outline-none focus:border-blue-500">
+            <button onclick="runAhoCorasickScreening()" class="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-sm rounded-xl transition-all shadow-lg shadow-indigo-600/30">
+              Screen Resumes
+            </button>
+          </div>
+        </div>
+
+        <div id="aho-stats"></div>
+      </div>
+
+      <div id="aho-results-container" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <!-- Screened candidate cards -->
+      </div>
+    </div>
+
+    <!-- ===================================================================== -->
+    <!-- TAB 5: EDIT DISTANCE (FUZZY SEARCH & DP GRID) -->
+    <!-- ===================================================================== -->
+    <div id="tab-fuzzy" class="tab-content hidden space-y-6">
+      <div>
+        <h2 class="text-2xl font-bold text-white">Levenshtein Edit Distance (Fuzzy Search & Typo Resolver)</h2>
+        <p class="text-xs text-slate-400">Dynamic programming matrix calculating minimum edit distance with query autocorrect suggestions</p>
+      </div>
+
+      <div class="glass-panel p-5 rounded-2xl border border-slate-800 space-y-4">
+        <div class="flex gap-3">
+          <input type="text" id="fuzzy-query-input" value="Kubernets" placeholder="Type a misspelled skill (e.g. Kubernets, Pythn, JavScript)..." class="flex-1 bg-slate-900 border border-slate-700 rounded-xl px-4 py-2.5 text-sm text-slate-100 font-mono focus:outline-none focus:border-blue-500">
+          <button onclick="runEditDistanceVisualizer()" class="px-6 py-2.5 bg-blue-600 hover:bg-blue-500 text-white font-bold text-sm rounded-xl transition-all">
+            Calculate DP Matrix
+          </button>
+        </div>
+
+        <div id="fuzzy-suggestions-list"></div>
+      </div>
+
+      <!-- DP MATRIX VISUALIZER -->
+      <div class="glass-panel p-5 rounded-2xl border border-slate-800 space-y-3">
+        <div class="flex items-center justify-between">
+          <h3 class="text-sm font-bold text-slate-200">2D Dynamic Programming Cost Matrix</h3>
+          <span id="dp-calc-summary" class="text-xs text-emerald-400 font-bold"></span>
+        </div>
+        <div id="dp-matrix-container" class="overflow-x-auto p-2 bg-slate-950/60 rounded-xl border border-slate-800">
+          <!-- Rendered table -->
+        </div>
+      </div>
+    </div>
+
+    <!-- ===================================================================== -->
+    <!-- TAB 6: PLACEMENT ALLOCATION (BIPARTITE & DINIC MAX FLOW) -->
+    <!-- ===================================================================== -->
+    <div id="tab-allocation" class="tab-content hidden space-y-6">
+      <div class="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-4">
+        <div>
+          <h2 class="text-2xl font-bold text-white">Placement Allocation & Network Flow Simulator</h2>
+          <p class="text-xs text-slate-400">Match candidates to corporate roles using Kuhn's Bipartite Matching or Dinic's Multi-Capacity Max Flow</p>
+        </div>
+        <div class="flex items-center gap-3">
+          <select id="allocation-algo-select" onchange="runPlacementAllocation()" class="bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-xs font-bold text-slate-200 focus:outline-none focus:border-blue-500">
+            <option value="dinic">Dinic's Algorithm (Max Flow Multi-Capacity)</option>
+            <option value="bipartite">Maximum Bipartite Matching (Kuhn's)</option>
+          </select>
+          <div id="allocation-stats-badge"></div>
+        </div>
+      </div>
+
+      <div class="grid lg:grid-cols-3 gap-6">
+        <!-- ROLE QUOTAS CONFIG -->
+        <div class="glass-panel p-5 rounded-2xl border border-slate-800 space-y-3">
+          <h3 class="text-xs font-bold text-blue-400 uppercase tracking-wider mb-2">Corporate Roles & Intake Quotas</h3>
+          <div id="allocation-roles-config" class="space-y-2">
+            <!-- Dynamic input rows -->
+          </div>
+        </div>
+
+        <!-- MATCHED ALLOCATIONS -->
+        <div class="lg:col-span-2 glass-panel p-5 rounded-2xl border border-slate-800 space-y-3">
+          <h3 class="text-xs font-bold text-emerald-400 uppercase tracking-wider mb-2">Candidate Allocations (Source &rarr; Candidate &rarr; Role &rarr; Sink)</h3>
+          <div id="allocation-results-list" class="space-y-2 max-h-[420px] overflow-y-auto pr-2">
+            <!-- Dynamic list -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===================================================================== -->
+    <!-- TAB 7: BENCHMARK SUITE -->
+    <!-- ===================================================================== -->
+    <div id="tab-benchmark" class="tab-content hidden space-y-6">
+      <div>
+        <h2 class="text-2xl font-bold text-white">Algorithmic Benchmarking Suite</h2>
+        <p class="text-xs text-slate-400">Empirically compare execution time and comparisons count across all 500 documents</p>
+      </div>
+
+      <div class="glass-panel p-5 rounded-2xl border border-slate-800 space-y-4">
+        <div class="flex gap-3">
+          <input type="text" id="benchmark-query-input" value="Distributed Systems" placeholder="Enter benchmark query..." class="flex-1 bg-slate-900 border border-slate-700 rounded-xl px-4 py-2.5 text-sm text-slate-100 font-mono focus:outline-none focus:border-blue-500">
+          <button onclick="runAlgorithmBenchmark()" class="px-6 py-2.5 bg-blue-600 hover:bg-blue-500 text-white font-bold text-sm rounded-xl transition-all shadow-lg shadow-blue-600/30">
+            Run Benchmark
+          </button>
+        </div>
+
+        <div id="benchmark-stats-panel"></div>
+      </div>
+
+      <div class="glass-panel p-6 rounded-2xl border border-slate-800">
+        <h3 class="text-sm font-bold text-slate-200 mb-4">Execution Latency Comparison (500 Records)</h3>
+        <div class="h-64 w-full">
+          <canvas id="benchmarkChart"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===================================================================== -->
+    <!-- TAB 8: TEAM & DOCUMENTATION -->
+    <!-- ===================================================================== -->
+    <div id="tab-team" class="tab-content hidden space-y-6">
+      <div>
+        <h2 class="text-2xl font-bold text-white">Project Information & Team</h2>
+        <p class="text-xs text-slate-400">Department of Computer Science & Engineering • Academic Year 2026-27</p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="glass-panel p-6 rounded-2xl border border-slate-800 text-center">
+          <div class="w-16 h-16 rounded-full bg-blue-600/20 text-blue-400 border border-blue-500/30 mx-auto flex items-center justify-center font-bold text-xl mb-3">
+            S
+          </div>
+          <h3 class="text-lg font-bold text-white">Subhash</h3>
+          <p class="text-xs text-blue-400 font-mono mb-2">2520030391</p>
+          <p class="text-xs text-slate-400">B.Tech Computer Science & Engineering<br>KLH University</p>
+        </div>
+
+        <div class="glass-panel p-6 rounded-2xl border border-slate-800 text-center">
+          <div class="w-16 h-16 rounded-full bg-indigo-600/20 text-indigo-400 border border-indigo-500/30 mx-auto flex items-center justify-center font-bold text-xl mb-3">
+            AK
+          </div>
+          <h3 class="text-lg font-bold text-white">Akhil Kumar</h3>
+          <p class="text-xs text-indigo-400 font-mono mb-2">2520030423</p>
+          <p class="text-xs text-slate-400">B.Tech Computer Science & Engineering<br>KLH University</p>
+        </div>
+
+        <div class="glass-panel p-6 rounded-2xl border border-slate-800 text-center">
+          <div class="w-16 h-16 rounded-full bg-emerald-600/20 text-emerald-400 border border-emerald-500/30 mx-auto flex items-center justify-center font-bold text-xl mb-3">
+            RR
+          </div>
+          <h3 class="text-lg font-bold text-white">Revanth Reddy</h3>
+          <p class="text-xs text-emerald-400 font-mono mb-2">2520030424</p>
+          <p class="text-xs text-slate-400">B.Tech Computer Science & Engineering<br>KLH University</p>
+        </div>
+      </div>
+
+      <!-- ACADEMIC SUPERVISION & DOWNLOADS -->
+      <div class="glass-panel p-6 rounded-2xl border border-slate-800 space-y-4">
+        <div class="grid sm:grid-cols-2 gap-4">
+          <div>
+            <h4 class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">Project Guide</h4>
+            <div class="text-base font-bold text-slate-100">Dr. S. Vinay Kumar</div>
+            <div class="text-xs text-slate-400">Associate Professor, Department of CSE</div>
+          </div>
+          <div>
+            <h4 class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">Head of Department</h4>
+            <div class="text-base font-bold text-slate-100">Dr. P. Venkateshwara Rao</div>
+            <div class="text-xs text-slate-400">Associate Professor, HOD CSE</div>
+          </div>
+        </div>
+
+        <div class="pt-4 border-t border-slate-800 flex flex-wrap gap-4">
+          <a href="../Placement_Hub_Project_Report.docx" download class="px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-bold border border-slate-700 flex items-center gap-2 transition-all">
+            <span>📄</span> Download Project Report (.docx)
+          </a>
+          <a href="../Placement_Hub_Project.pptx" download class="px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-bold border border-slate-700 flex items-center gap-2 transition-all">
+            <span>📊</span> Download Project Presentation (.pptx)
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+  <!-- STUDENT PROFILE MODAL -->
+  <div id="student-modal" class="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+    <div class="bg-slate-900 border border-slate-800 rounded-2xl max-w-3xl w-full max-h-[85vh] flex flex-col shadow-2xl">
+      <div class="p-4 border-b border-slate-800 flex items-center justify-between">
+        <div>
+          <h3 id="modal-student-name" class="text-lg font-bold text-white">Student Name</h3>
+          <p id="modal-student-id" class="text-xs text-slate-400 font-mono">SR001</p>
+        </div>
+        <button onclick="closeStudentModal()" class="w-8 h-8 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 flex items-center justify-center font-bold">
+          &times;
+        </button>
+      </div>
+      <div class="p-4 overflow-y-auto flex-1 font-mono text-xs text-slate-300 whitespace-pre-wrap bg-slate-950/80 m-4 rounded-xl border border-slate-800/80" id="modal-student-raw">
+      </div>
+      <div class="p-4 border-t border-slate-800 flex justify-end">
+        <button onclick="closeStudentModal()" class="px-4 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-xl text-xs font-bold transition-all">
+          Close Window
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-slate-800/60 bg-slate-950 py-6 text-center text-xs text-slate-500">
+    <div class="max-w-7xl mx-auto px-4">
+      Campus Placement Hub • Data Structures & Algorithms - 3 (25CS2103E) • Koneru Lakshmaiah Education Foundation (KLH)
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

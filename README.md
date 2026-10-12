@@ -25,31 +25,35 @@ KLH_CSE_2025-26_S2_KLH_CSE_2025-26_S2_Placement_Hub/
 │       ├── SR002.txt               # Manish Sinha profile record
 │       ├── ...
 │       └── SR500.txt
-└── src/
-    └── algorithms/                 # Core algorithms & test suite
-        ├── .gitkeep
-        ├── AhoCorasick
-        ├── AhoCorasick.java        # Multi-pattern string searching automaton
-        ├── AhoCorasickTest.java    # Unit tests for Aho-Corasick
-        ├── BipartiteMatching.java  # Maximum Bipartite Matching (Kuhn's Augmenting Path)
-        ├── BipartiteMatchingTest.java
-        ├── CorpusLoader.java       # Parser & loader for student records corpus
-        ├── Dinic.java              # Dinic's blocking flow max-flow algorithm
-        ├── DinicTest.java
-        ├── EditDistance.java       # Levenshtein distance for fuzzy search & typo tolerance
-        ├── EditDistanceTest.java
-        ├── EdmondsKarp.java        # Edmonds-Karp BFS max-flow algorithm
-        ├── EdmondsKarpTest.java
-        ├── FordFulkerson.java      # Ford-Fulkerson DFS max-flow algorithm
-        ├── FordFulkersonTest.java
-        ├── KMP.java                # Knuth-Morris-Pratt pattern searching
-        ├── KMPTest.java
-        ├── Main.java               # End-to-end integration demo & runner
-        ├── SearchHistory.java      # Recruiter recent & popular query manager
-        ├── SuffixArray.java        # Substring search & indexing
-        ├── SuffixArrayTest.java
-        ├── ZAlgorithm.java         # Linear-time pattern matching (Z-array)
-        └── ZAlgorithmTest.java
+├── src/
+│   └── algorithms/                 # Core algorithms & test suite
+│       ├── AhoCorasick.java        # Multi-pattern string searching automaton
+│       ├── AhoCorasickTest.java    # Unit tests for Aho-Corasick
+│       ├── BipartiteMatching.java  # Maximum Bipartite Matching (Kuhn's Augmenting Path)
+│       ├── BipartiteMatchingTest.java
+│       ├── CorpusLoader.java       # Parser & loader for student records corpus
+│       ├── Dinic.java              # Dinic's blocking flow max-flow algorithm
+│       ├── DinicTest.java
+│       ├── EditDistance.java       # Levenshtein distance for fuzzy search & typo tolerance
+│       ├── EditDistanceTest.java
+│       ├── EdmondsKarp.java        # Edmonds-Karp BFS max-flow algorithm
+│       ├── EdmondsKarpTest.java
+│       ├── FordFulkerson.java      # Ford-Fulkerson DFS max-flow algorithm
+│       ├── FordFulkersonTest.java
+│       ├── KMP.java                # Knuth-Morris-Pratt pattern searching
+│       ├── KMPTest.java
+│       ├── Main.java               # End-to-end integration demo & runner
+│       ├── SearchHistory.java      # Recruiter recent & popular query manager
+│       ├── SuffixArray.java        # Substring search & indexing
+│       ├── SuffixArrayTest.java
+│       ├── WebServer.java          # Embedded zero-dependency HTTP server & REST API
+│       ├── ZAlgorithm.java         # Linear-time pattern matching (Z-array)
+│       └── ZAlgorithmTest.java
+└── web/                            # Interactive Web Dashboard & DSA Playground
+    ├── index.html                  # Responsive 8-tab SPA interface
+    ├── styles.css                  # Dark-theme glassmorphic UI styles
+    ├── app.js                      # Client-side DSA visualizer & API client
+    └── students_data.json          # 500-student structured corpus dataset
 ```
 
 ---
@@ -101,3 +105,21 @@ java -ea -cp bin algorithms.KMPTest
 java -ea -cp bin algorithms.SuffixArrayTest
 java -ea -cp bin algorithms.ZAlgorithmTest
 ```
+
+---
+
+## 🌐 Interactive Web Dashboard
+
+The project includes a web application for recruiters and faculty to interact with the 500-student corpus, test string algorithms with live visualizers, run fuzzy search with dynamic programming matrices, allocate students to roles via Dinic Max Flow, and monitor query analytics.
+
+### Option 1: Embedded Java Web Server (Recommended)
+Compile and launch the zero-dependency Java HTTP server:
+```powershell
+javac -d bin src/algorithms/*.java
+java -cp bin algorithms.WebServer
+```
+Then navigate to: **`http://localhost:8080/`**
+
+### Option 2: Direct Browser Launch
+Open `web/index.html` directly in any web browser (Chrome, Edge, Firefox, Safari). The client-side DSA engine will load `web/students_data.json` directly with full offline functionality!
+
